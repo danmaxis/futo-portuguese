@@ -1,0 +1,2007 @@
+[
+  {
+    "scenario": "friends_casual",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "E aí, vc tá livre no fim de semana? Queria marcar um café."
+      },
+      {
+        "speaker": "B",
+        "text": "Tô sim! Que dia mesmo? Qual horário?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sábado à tarde, tipo umas 3 horas? Aquele lugar lá do centro é bom."
+      },
+      {
+        "speaker": "B",
+        "text": "Ótimo, vou confirmar depois. Vc chama a galera também?"
+      },
+      {
+        "speaker": "A",
+        "text": "Vou chamar o pessoal sim, quanto mais gente melhor né."
+      },
+      {
+        "speaker": "B",
+        "text": "Fechado então, tá combinado! Até lá."
+      }
+    ]
+  },
+  {
+    "scenario": "friends_casual",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc tá livre no fim de semana pra gente se ver?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tô sim, quer combinar um café lá no bairro?"
+      },
+      {
+        "speaker": "A",
+        "text": "Boa ideia, sábado à tarde tá bom pra vc?"
+      },
+      {
+        "speaker": "B",
+        "text": "Perfeito, qual hora vc prefere?"
+      },
+      {
+        "speaker": "A",
+        "text": "Que tal três da tarde na cafeteria perto de casa?"
+      },
+      {
+        "speaker": "B",
+        "text": "Combinado, nos vemos lá, não falto não"
+      }
+    ]
+  },
+  {
+    "scenario": "friends_casual",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "E aí, vc tá com tempo pra tomar um café?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tô sim! Quando tá bom pra você?"
+      },
+      {
+        "speaker": "A",
+        "text": "Quinta à noite? Naquele lugar lá que vc gosta."
+      },
+      {
+        "speaker": "B",
+        "text": "Boa demais! Que horas a gente se encontra?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sete e meia? Tomamos um café, conversa um pouco."
+      },
+      {
+        "speaker": "B",
+        "text": "Combinado! Aviso se algo mudar no meu dia."
+      },
+      {
+        "speaker": "A",
+        "text": "Valeu! Manda pra mim a localização depois, tá?"
+      }
+    ]
+  },
+  {
+    "scenario": "friends_casual",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Opa, vc tá livre amanhã pra tomar um café?"
+      },
+      {
+        "speaker": "B",
+        "text": "Opa demais! Que horário vc tá pensando?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tipo umas duas da tarde? Naquele lugar perto da estação?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ó, esse lugar é show, tá bom! Levo umas amigas."
+      },
+      {
+        "speaker": "A",
+        "text": "Ó! Vem sim, quanto mais gente melhor, sabe?"
+      },
+      {
+        "speaker": "B",
+        "text": "Pode ser! Combinado então, dois da tarde lá?"
+      }
+    ]
+  },
+  {
+    "scenario": "friends_casual",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Opa, vc tá livre amanhã pra tomar um café?"
+      },
+      {
+        "speaker": "B",
+        "text": "Deixa eu ver aqui... acho que tá bom sim, que horas?"
+      },
+      {
+        "speaker": "A",
+        "text": "Que tal umas duas da tarde no lugar de sempre?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ótimo, vou levar a galera também se tiver espaço, tá bom?"
+      },
+      {
+        "speaker": "A",
+        "text": "Claro, quanto mais gente melhor, né! Vem confirmar pro grupo."
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk já tô indo confirmar lá, até amanhã!"
+      }
+    ]
+  },
+  {
+    "scenario": "family_logistics",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc vai no mercado hoje ou eu vou?"
+      },
+      {
+        "speaker": "B",
+        "text": "Eu vou, mas precisa pagar aquela conta do banco."
+      },
+      {
+        "speaker": "A",
+        "text": "Blz, pra hoje mesmo? Tô sem grana no banco."
+      },
+      {
+        "speaker": "B",
+        "text": "Vc busca a Maria na escola de novo? Tô ocupado."
+      },
+      {
+        "speaker": "A",
+        "text": "Tá bom, passo lá umas três da tarde."
+      },
+      {
+        "speaker": "B",
+        "text": "Ótimo. Compra leite, pão e frango no mercado, tá?"
+      },
+      {
+        "speaker": "A",
+        "text": "Combinado, qualquer coisa te aviso por msg."
+      }
+    ]
+  },
+  {
+    "scenario": "family_logistics",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ó, vc vai no mercado hoje? Precisamos de várias coisas."
+      },
+      {
+        "speaker": "B",
+        "text": "Vou sim, mas depois preciso buscar a Maria na escola, tá?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tá bom, passa pelo banco também pra pagar a conta?"
+      },
+      {
+        "speaker": "B",
+        "text": "Lógico, deixa eu fazer uma lista pra não esquecer nada né."
+      },
+      {
+        "speaker": "A",
+        "text": "Boa, anota aí: leite, pão, ovos e fruta pra semana."
+      },
+      {
+        "speaker": "B",
+        "text": "Pronto, consegui passar em tudo e agora vou buscar a Maria rapidinho."
+      }
+    ]
+  },
+  {
+    "scenario": "family_logistics",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc vai no mercado hoje ou eu vou?"
+      },
+      {
+        "speaker": "B",
+        "text": "Posso ir, mas tá muito corrido no trabalho..."
+      },
+      {
+        "speaker": "A",
+        "text": "Tá bom, eu vou então. Vc paga aquela conta do gás?"
+      },
+      {
+        "speaker": "B",
+        "text": "Claro, deixa comigo, sem problema nenhum."
+      },
+      {
+        "speaker": "A",
+        "text": "Ótimo! Depois eu busco a Mina na escola lá pelas 3."
+      },
+      {
+        "speaker": "B",
+        "text": "Perfeito, aí a gente se vê em casa então, tá?"
+      }
+    ]
+  },
+  {
+    "scenario": "family_logistics",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Oi babe, a gente vai no mercado hoje?"
+      },
+      {
+        "speaker": "B",
+        "text": "Vou, mas preciso passar no banco antes, tá? Pra pagar a conta de água."
+      },
+      {
+        "speaker": "A",
+        "text": "Ah é verdade, e a Luiza sai da escola às 5 horas, lembra?"
+      },
+      {
+        "speaker": "B",
+        "text": "Fica tranquilo, eu pego ela depois. Tu vai no mercado, eu vou no banco."
+      },
+      {
+        "speaker": "A",
+        "text": "Beleza, pode ser. Faz a lista do que tá faltando, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk já tá pronta aqui, manda pra ti no WhatsApp agora."
+      }
+    ]
+  },
+  {
+    "scenario": "workmates",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ó, tá vendo o deadline do projeto? Tá apertado demais, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "Cara, é braba mesmo. Tenho que terminar meu módulo até quinta."
+      },
+      {
+        "speaker": "A",
+        "text": "Quinta? Mas a reunião de review é na quarta, ó!"
+      },
+      {
+        "speaker": "B",
+        "text": "Ah é verdade, vou tentar adiantar então. Vc tá com tudo pronto?"
+      },
+      {
+        "speaker": "A",
+        "text": "Quase lá. Só falta revisar os testes e fazer a documentação."
+      },
+      {
+        "speaker": "B",
+        "text": "Beleza, deixa eu revisar seu código depois. A gente consegue, ó!"
+      }
+    ]
+  },
+  {
+    "scenario": "workmates",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "E aí, como tá o projeto? Tá pegando fogo?"
+      },
+      {
+        "speaker": "B",
+        "text": "Demais, cara! A gente tem que entregar até quinta."
+      },
+      {
+        "speaker": "A",
+        "text": "Que isso? Quinta? Vc tem certeza? Que loucura."
+      },
+      {
+        "speaker": "B",
+        "text": "Pois é, e faltam tantas tarefas ainda, né?"
+      },
+      {
+        "speaker": "A",
+        "text": "Quem fica com o relatório? Tá marcado com alguém?"
+      },
+      {
+        "speaker": "B",
+        "text": "Deixa comigo. Vc cuida da apresentação, tá bem?"
+      },
+      {
+        "speaker": "A",
+        "text": "Beleza, é isso mesmo. Vamo nessa!"
+      }
+    ]
+  },
+  {
+    "scenario": "family_logistics",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc pode ir no mercado hoje ou só amanhã? Tô sem leite, pão, essas coisas."
+      },
+      {
+        "speaker": "B",
+        "text": "Ó, só consigo depois das cinco. Vc não consegue ir mais cedo?"
+      },
+      {
+        "speaker": "A",
+        "text": "Aí complica, preciso buscar a criança na escola às 4 e meia ainda."
+      },
+      {
+        "speaker": "B",
+        "text": "Então a gente vai junto depois? Passa no mercado e paga a conta da água."
+      },
+      {
+        "speaker": "A",
+        "text": "Tá bom, mas vê aí se tem grana na conta, heim? Tô preocupado."
+      },
+      {
+        "speaker": "B",
+        "text": "Relaxa que tem sim, kkk. A gente resolve tudo rápido."
+      }
+    ]
+  },
+  {
+    "scenario": "workmates",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ó, vc viu o email do chefe sobre o deadline do projeto?"
+      },
+      {
+        "speaker": "B",
+        "text": "Vi sim, é semana que vem né? Tá complicado demais."
+      },
+      {
+        "speaker": "A",
+        "text": "Semana que vem? Cara, era pra ser segunda! Tá atrasado já."
+      },
+      {
+        "speaker": "B",
+        "text": "Putz, verdade. A gente precisa acelerar esses testes então."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, vc quer dividir as tarefas? Eu faço a API."
+      },
+      {
+        "speaker": "B",
+        "text": "Boa, eu cuido do front-end então. Quanto tempo cê acha?"
+      },
+      {
+        "speaker": "A",
+        "text": "Se a gente focar bem, tá pronto terça, acredita?"
+      }
+    ]
+  },
+  {
+    "scenario": "workmates",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Opa, e aí? Quanto tempo pra entregar o projeto?"
+      },
+      {
+        "speaker": "B",
+        "text": "Vc tá brincando? Faltam só cinco dias, cara!"
+      },
+      {
+        "speaker": "A",
+        "text": "Caramba, tá apertado mesmo. Qual tá sendo a tarefa mais difícil?"
+      },
+      {
+        "speaker": "B",
+        "text": "A integração com a API tá dando um trabalhão, sabe?"
+      },
+      {
+        "speaker": "A",
+        "text": "Vc quer ajuda? Posso olhar quando terminar aqui."
+      },
+      {
+        "speaker": "B",
+        "text": "Sério? Valeu, tá bom. Manda mensagem depois, tá?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tranquilo, pera só mais um pouco então, kkk"
+      }
+    ]
+  },
+  {
+    "scenario": "workmates",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ó, vc terminou aquele documento do projeto?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ainda não, tá complicado mesmo. E aí, qual é o prazo?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sexta que vem, mas o chefe quer antes se possível."
+      },
+      {
+        "speaker": "B",
+        "text": "Caramba, sexta? Vc pode me ajudar então, né?"
+      },
+      {
+        "speaker": "A",
+        "text": "Claro, amanhã tenho tempo livre pra trabalhar junto."
+      },
+      {
+        "speaker": "B",
+        "text": "Boa! Vou separar os arquivos e a gente trabalha."
+      },
+      {
+        "speaker": "A",
+        "text": "Valeu mesmo, sem vc esse projeto não sai."
+      }
+    ]
+  },
+  {
+    "scenario": "parenting",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu a nota do João? Tirou D em matemática..."
+      },
+      {
+        "speaker": "B",
+        "text": "Que isso, né? Ele não tá estudando mesmo, não."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, tá complicado. E ainda tá com essa tosse."
+      },
+      {
+        "speaker": "B",
+        "text": "Leva ele no médico então, pode ser alergia."
+      },
+      {
+        "speaker": "A",
+        "text": "Já levei, falou pra fazer inalação. Achei meio caro."
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk saúde não tem preço, mãe. Faz ele estudar mais!"
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, vou cobrar o dever de casa direitinho agora."
+      }
+    ]
+  },
+  {
+    "scenario": "parenting",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Oi! O Lucas chegou da escola triste hoje. Não sei o quê."
+      },
+      {
+        "speaker": "B",
+        "text": "Que estranho. O meu tá se recusando a fazer dever."
+      },
+      {
+        "speaker": "A",
+        "text": "É mesmo? Meu filho tá com essa mania também, né."
+      },
+      {
+        "speaker": "B",
+        "text": "E ainda vem essa tosse que não passa. Preocupa."
+      },
+      {
+        "speaker": "A",
+        "text": "Levei meu filho no médico, tomou remédio e melhorou."
+      },
+      {
+        "speaker": "B",
+        "text": "Que bom! O pediatra dele é bom mesmo, né."
+      }
+    ]
+  },
+  {
+    "scenario": "parenting",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "E aí, o seu tá indo bem na escola? O meu anda reclamando"
+      },
+      {
+        "speaker": "B",
+        "text": "Também! Dever de casa é todo dia, meu filho fica bravo com tudo"
+      },
+      {
+        "speaker": "A",
+        "text": "Que maçada! E a saúde? O meu teve resfriado a semana passada"
+      },
+      {
+        "speaker": "B",
+        "text": "Aaah, a minha tá bem, graças a Deus. Mas o comportamento não tá fácil"
+      },
+      {
+        "speaker": "A",
+        "text": "Kkk, normal! Criança é assim mesmo. Mas vai passar, relaxa que tá certo"
+      },
+      {
+        "speaker": "B",
+        "text": "Tomara! A gente tá nessa junto, isso é importante. Força aí!"
+      }
+    ]
+  },
+  {
+    "scenario": "parenting",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc tá achando como tá indo o Felipe na escola? Tá com muita lição."
+      },
+      {
+        "speaker": "B",
+        "text": "Ué, a minha tá indo bem, mas tá reclamando demais de matemática né."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, o Felipe quer ficar jogando o tempo todo, dever de casa fica pro lado kkk"
+      },
+      {
+        "speaker": "B",
+        "text": "Meu Deus, a minha também! Passei no pediatra semana passada, tá tudo bem lá."
+      },
+      {
+        "speaker": "A",
+        "text": "Que bom! A gente tá achando o Felipe meio agitado sabe, tá preocupando."
+      },
+      {
+        "speaker": "B",
+        "text": "Leva no pediatra então, vale muito a pena. Vc quer o contato do meu?"
+      }
+    ]
+  },
+  {
+    "scenario": "parenting",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu a nota de inglês do João? Tá ruim demais."
+      },
+      {
+        "speaker": "B",
+        "text": "Ah é? O meu tá cansado na escola mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, ele não tá fazendo o dever certo não."
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk verdade, a minha filha também tá assim né."
+      },
+      {
+        "speaker": "A",
+        "text": "E a saúde? Tá tudo bem com os seus?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tá sim, graças a Deus, as vacinas tão em dia."
+      },
+      {
+        "speaker": "A",
+        "text": "Que bom! Aqui em casa o comportamento anda difícil."
+      }
+    ]
+  },
+  {
+    "scenario": "gig_planning",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ó, tá bom vamo naquele show de trap quarta?"
+      },
+      {
+        "speaker": "B",
+        "text": "Opa, topa sim! Qual é o local mesmo?"
+      },
+      {
+        "speaker": "A",
+        "text": "Lá no Circo Voador, acho que é tipo oito da noite"
+      },
+      {
+        "speaker": "B",
+        "text": "Blz, e você sabe quem tá no line?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tem Emicida, Filipe Ret e uns bagulhos mais"
+      },
+      {
+        "speaker": "B",
+        "text": "Boa demais! Como você vai? Tá caro o Uber?"
+      },
+      {
+        "speaker": "A",
+        "text": "Vamo de metrô, fica perto né, sai mais barato"
+      }
+    ]
+  },
+  {
+    "scenario": "gig_planning",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu que tem um show massa esse fim de semana?"
+      },
+      {
+        "speaker": "B",
+        "text": "Qual é? Onde? Que horário?"
+      },
+      {
+        "speaker": "A",
+        "text": "No Espaço das Américas, sábado às 22h, vem uns DJ tops."
+      },
+      {
+        "speaker": "B",
+        "text": "Tá bom, mas como a gente vai? Fica longe demais."
+      },
+      {
+        "speaker": "A",
+        "text": "Podemos ir de carro compartilhado, vc tá dentro?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tá certo, com que horário vc quer sair?"
+      },
+      {
+        "speaker": "A",
+        "text": "Que tal dez da noite? Tempo de sobra pra curtir."
+      }
+    ]
+  },
+  {
+    "scenario": "gig_planning",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Opa, achei legal aquele show no Espaço X, tá afim de ir?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tô dentro! Que dia é mesmo? Preciso avisar meu trampo."
+      },
+      {
+        "speaker": "A",
+        "text": "Próximo sábado, 8 da noite. Qual é o valor da entrada?"
+      },
+      {
+        "speaker": "B",
+        "text": "Caro demais, né? Vamo ver como fica nosso grana."
+      },
+      {
+        "speaker": "A",
+        "text": "Dá uns 60 pila, mas a banda principal tá top demais."
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade, valeu. Como a gente vai? Dirigir ou Uber?"
+      },
+      {
+        "speaker": "A",
+        "text": "Meu carro tá na oficina, ó. Vamo de Uber mesmo."
+      }
+    ]
+  },
+  {
+    "scenario": "gig_planning",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc quer ir naquele show do Pabllo na sexta?"
+      },
+      {
+        "speaker": "B",
+        "text": "Quero demais! Que horário começa? Onde é?"
+      },
+      {
+        "speaker": "A",
+        "text": "Começa às dez e meia lá no Espaço das Américas."
+      },
+      {
+        "speaker": "B",
+        "text": "Beleza, como vamos? Dirigir ou pegar uber junto?"
+      },
+      {
+        "speaker": "A",
+        "text": "Vou de carro, posso pegar vc e a Marina."
+      },
+      {
+        "speaker": "B",
+        "text": "Ótimo! E a lineup? Já vi quem tá lá?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tem o Pabllo, MC Zaac e uns artistas locais!"
+      }
+    ]
+  },
+  {
+    "scenario": "gig_planning",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ó, vamo marcar aquele show do Jão no sábado?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sim! Mas quer dizer, qual é o local mesmo?"
+      },
+      {
+        "speaker": "A",
+        "text": "É lá no Circo Voador, começa às 20h, fechou?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tá bom. Vc consegue caronas? Meu carro tá quebrado."
+      },
+      {
+        "speaker": "A",
+        "text": "Sim, passo aqui em casa umas 19h. Tá?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ótimo! Vou chamar mais gente. Será que vai rodar tudo?"
+      },
+      {
+        "speaker": "A",
+        "text": "Com certeza! Vai ser brabo demais, tá ligado?"
+      }
+    ]
+  },
+  {
+    "scenario": "breakfast",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "E aí, vc já comeu? Tô morrendo de fome aqui."
+      },
+      {
+        "speaker": "B",
+        "text": "Tá, vou fazer um café da manhã caprichado agora. Vc quer?"
+      },
+      {
+        "speaker": "A",
+        "text": "Quero sim! Mas não quero nada muito pesado, tá?"
+      },
+      {
+        "speaker": "B",
+        "text": "Relaxa, vou fazer pão com manteiga, uns ovos mexidos e fruta."
+      },
+      {
+        "speaker": "A",
+        "text": "Ótimo! Deixa eu ajudar. Faz um café coado também, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "Claro, com leite quentinho. Isso sim é café da manhã bom!"
+      }
+    ]
+  },
+  {
+    "scenario": "breakfast",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc tá com fome? Que tal uns ovos no café?"
+      },
+      {
+        "speaker": "B",
+        "text": "Opa, ovos com pão tá ótimo mesmo, viu?"
+      },
+      {
+        "speaker": "A",
+        "text": "Vc quer café ou leite pra acompanhar?"
+      },
+      {
+        "speaker": "B",
+        "text": "Café com leite é perfeito, e uma fruta?"
+      },
+      {
+        "speaker": "A",
+        "text": "Claro! Uma maçã ou banana, vc prefere?"
+      },
+      {
+        "speaker": "B",
+        "text": "Banana é top, mas maçã também tá bom demais."
+      }
+    ]
+  },
+  {
+    "scenario": "breakfast",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ei, e aí? Que tal uns ovos com pão quentinho pra comer?"
+      },
+      {
+        "speaker": "B",
+        "text": "Boa! Eu tomo café com leite, vc toma preto né?"
+      },
+      {
+        "speaker": "A",
+        "text": "Nah, café com leite é meu estilo. E fruta, vc come?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sempre! Banana ou maçã eu como com tudo, fica bom demais."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, fica top mesmo. Vamo comer isso assim então!"
+      },
+      {
+        "speaker": "B",
+        "text": "Bora sim, tô faminto demais, vc não tá com fome?"
+      }
+    ]
+  },
+  {
+    "scenario": "breakfast",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc já pensou no que vamos comer amanhã de café?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tal fazer uns ovos com pão? É rápido e gostoso demais"
+      },
+      {
+        "speaker": "A",
+        "text": "Ovos é bom, mas e fruta? Preciso comer algo mais saudável"
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade! Tal uma maçã ou banana com o café? Combina bem"
+      },
+      {
+        "speaker": "A",
+        "text": "E leite no café? Eu gosto com um pouco, vc bebe como?"
+      },
+      {
+        "speaker": "B",
+        "text": "Também gosto, fica mais suave. Vamos arrumar tudo então?"
+      }
+    ]
+  },
+  {
+    "scenario": "breakfast",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "E aí, vc já comeu algo? Tô com fome demais."
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk, tá, vou fazer café com pão na chapa."
+      },
+      {
+        "speaker": "A",
+        "text": "Pão na chapa é bom demais, mas quero um ovo também."
+      },
+      {
+        "speaker": "B",
+        "text": "Ovo com pão, fruta de lado. Tá perfeito né?"
+      },
+      {
+        "speaker": "A",
+        "text": "Vdd, e um café quente com leite pra acompanhar."
+      },
+      {
+        "speaker": "B",
+        "text": "Demais, essa é a comida clássica mesmo, tá certo."
+      }
+    ]
+  },
+  {
+    "scenario": "lunch",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "E aí, você já comeu? Tô com uma fome danada."
+      },
+      {
+        "speaker": "B",
+        "text": "Tô também! Tava pensando em pedir uma marmita mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "Marmita é bom, mas que tal ir naquele restaurante novo?"
+      },
+      {
+        "speaker": "B",
+        "text": "Qual? Aquele perto de casa? Vc sabe se tem coisa boa lá?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sim! Dizem que a comida é ótima e tem sobremesa caseira."
+      },
+      {
+        "speaker": "B",
+        "text": "Que show! Vamo lá então. Já tô imaginando um pudim delicioso."
+      }
+    ]
+  },
+  {
+    "scenario": "lunch",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc já comeu? Tô morrendo de fome aqui, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ainda não, mas tô pensando em ir ali naquele restaurante novo"
+      },
+      {
+        "speaker": "A",
+        "text": "Qual? O que faz aquele prato de risoto que todo mundo elogia?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sim! Mas tava pensando em pedir marmita pra levar pro trabalho, vc quer?"
+      },
+      {
+        "speaker": "A",
+        "text": "Quero sim! E lembra que tem sobremesa de chocolate lá? Vamo comer kkk"
+      },
+      {
+        "speaker": "B",
+        "text": "Claro, tá bom! Vamo indo então, tô com uma fome pra lá de chata"
+      }
+    ]
+  },
+  {
+    "scenario": "lunch",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc já decidiu onde vamos almoçar hoje?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tô pensando em ir num restaurante novo que abriu aqui perto."
+      },
+      {
+        "speaker": "A",
+        "text": "Que tipo de comida eles fazem lá, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "É italiano, mas faz uns pratos bem criativos. Fico entre restaurante ou marmita."
+      },
+      {
+        "speaker": "A",
+        "text": "Qual é a sobremesa deles? Isso importa bastante pra mim."
+      },
+      {
+        "speaker": "B",
+        "text": "Tiramisu e pavê de chocolate que são top demais, kkk. Vamo indo?"
+      },
+      {
+        "speaker": "A",
+        "text": "Beleza, já era. Tô com fome mesmo, vamo embora!"
+      }
+    ]
+  },
+  {
+    "scenario": "lunch",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc já sabe onde vai almoçar hoje?"
+      },
+      {
+        "speaker": "B",
+        "text": "Não, tô sem criatividade. Que tal aquele restaurante italiano?"
+      },
+      {
+        "speaker": "A",
+        "text": "Meh, prefiro um prato mais leve. Tá ruim meu estômago."
+      },
+      {
+        "speaker": "B",
+        "text": "Entendi, que tal pedir uma marmita de frango com arroz?"
+      },
+      {
+        "speaker": "A",
+        "text": "Boa ideia! E ainda sobra pra levar pro trabalho amanhã."
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade. E não esqueça de um doce depois, ué!"
+      },
+      {
+        "speaker": "A",
+        "text": "Claro, pode deixar! Cheesecake vai ser perfeito."
+      }
+    ]
+  },
+  {
+    "scenario": "lunch",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ó, vc tá com fome? Que tal a gente almoçar?"
+      },
+      {
+        "speaker": "B",
+        "text": "Vc quer ir em algum restaurante ou prefere marmita?"
+      },
+      {
+        "speaker": "A",
+        "text": "Hm, to com preguiça de sair. E se fosse marmita mesmo?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tá bom! Qual sabor vc quer? Tenho frango com arroz."
+      },
+      {
+        "speaker": "A",
+        "text": "Frango combina! Depois a gente pega um sorvete de sobremesa?"
+      },
+      {
+        "speaker": "B",
+        "text": "Boa ideia! Vamos pedir agora então, to morrendo de fome."
+      }
+    ]
+  },
+  {
+    "scenario": "dinner",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc tá a fim de comer pizza hoje?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tá meio cansado de pizza. Que tal aquele restaurante italiano?"
+      },
+      {
+        "speaker": "A",
+        "text": "Ah, mas lá é caro demais. Posso fazer uma massa em casa?"
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade, verdade. Faz um carbonara então? Adoro aquele."
+      },
+      {
+        "speaker": "A",
+        "text": "Claro, só preciso pegar ovo, bacon e queijo no mercado."
+      },
+      {
+        "speaker": "B",
+        "text": "Ótimo! Eu levo vinho e salada pra não ficar pesado."
+      },
+      {
+        "speaker": "A",
+        "text": "Perfeito! Tá marcado pra às 7 então, tá bom?"
+      }
+    ]
+  },
+  {
+    "scenario": "dinner",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc tá pensando em fazer algo pra comer hoje?"
+      },
+      {
+        "speaker": "B",
+        "text": "Pois é, tava pensando em fazer um bife com batata. Você vem?"
+      },
+      {
+        "speaker": "A",
+        "text": "Quer que eu compre alguma coisa? Tempero, alho?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ótimo! Compra alho, cebola e uns tomates bem vermelhos"
+      },
+      {
+        "speaker": "A",
+        "text": "Certo, encontra a gente em casa depois? Que horas combina?"
+      },
+      {
+        "speaker": "B",
+        "text": "Marca umas sete horas? Ou prefere mais cedo?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sete tá bom! Levo um vinho também pra acompanhar"
+      }
+    ]
+  },
+  {
+    "scenario": "dinner",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc quer fazer pasta em casa ou come fora?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ah, tá com preguiça de cozinhar. Pede um sushi?"
+      },
+      {
+        "speaker": "A",
+        "text": "Sushi tá caro demais. Que tal aquela pizzaria?"
+      },
+      {
+        "speaker": "B",
+        "text": "Boa ideia! Qual pizza vc quer mesmo?"
+      },
+      {
+        "speaker": "A",
+        "text": "Margarita com borda recheada, tá bom pra vc?"
+      },
+      {
+        "speaker": "B",
+        "text": "Demais! Pede aí logo que tô morrendo de fome."
+      }
+    ]
+  },
+  {
+    "scenario": "dinner",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Faz ideia o que a gente come hoje?"
+      },
+      {
+        "speaker": "B",
+        "text": "Tava pensando em pedir comida mesmo, tô sem criatividade."
+      },
+      {
+        "speaker": "A",
+        "text": "Que tal aquele italiano perto de casa?"
+      },
+      {
+        "speaker": "B",
+        "text": "Boa! Eu peço uma pasta, vc quer o quê?"
+      },
+      {
+        "speaker": "A",
+        "text": "Manda uma salada, vc sabe que eu sou chato mesmo."
+      },
+      {
+        "speaker": "B",
+        "text": "Haha sim, sem queijo, sem isso, sem aquilo né?"
+      }
+    ]
+  },
+  {
+    "scenario": "dinner",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ei, vc tá a fim de jantar lá em casa hoje?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sim, que legal! Que vc tá pensando em cozinhar?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tava pensando em fazer um frango com batata, sabe?"
+      },
+      {
+        "speaker": "B",
+        "text": "Boa! Mas a gente tem todos os ingredientes em casa?"
+      },
+      {
+        "speaker": "A",
+        "text": "Acho que não... vou precisar ir no mercado."
+      },
+      {
+        "speaker": "B",
+        "text": "Qual ingrediente tá faltando? Eu passo lá pra pegar."
+      },
+      {
+        "speaker": "A",
+        "text": "Falta azeite e uns temperos. Mas se quiser, pede delivery né!"
+      }
+    ]
+  },
+  {
+    "scenario": "op_movies",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu aquele filme novo do Scorsese? Tá sendo umas críticas incríveis, né"
+      },
+      {
+        "speaker": "B",
+        "text": "Que legal! Tá com vontade de assistir, mas prefiro mais ficção científica mesmo"
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, mas esse é bem diferente, tipo um drama bem sensível, tá top"
+      },
+      {
+        "speaker": "B",
+        "text": "Entendi. E esse ator principal, tem uns atores novos ali também né"
+      },
+      {
+        "speaker": "A",
+        "text": "Tem sim, uns talentos bravos mesmo, a química entre eles é muito boa"
+      },
+      {
+        "speaker": "B",
+        "text": "Ótimo, vou colocar na minha lista então. Qual gênero você gosta mais"
+      },
+      {
+        "speaker": "A",
+        "text": "Eu gosto de tudo, mas drama e suspense me deixam bem envolvido mesmo kkk"
+      }
+    ]
+  },
+  {
+    "scenario": "op_movies",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc assistiu aquele filme novo do Nolan? Que obra de arte, cara!"
+      },
+      {
+        "speaker": "B",
+        "text": "Ainda não, mas ouvi falar que tá muito bom mesmo. Qual é a história?"
+      },
+      {
+        "speaker": "A",
+        "text": "É tipo ficção científica, super tripla! O final deixa sua cabeça a mil."
+      },
+      {
+        "speaker": "B",
+        "text": "Que legal! Eu tô afim de assistir drama, sabe? Tá tendo algo bom?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tem um filme português lançado semana passada que tá arrebentando, de verdade."
+      },
+      {
+        "speaker": "B",
+        "text": "Sério mesmo? Qual é o nome? Vou procurar na plataforma agora, kkk."
+      }
+    ]
+  },
+  {
+    "scenario": "op_movies",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu o filme que tá bombando no cinema agora?"
+      },
+      {
+        "speaker": "B",
+        "text": "Qual? Tem tanta coisa saindo todo mês, né."
+      },
+      {
+        "speaker": "A",
+        "text": "Aquele do diretor francês, super aclamado pela crítica."
+      },
+      {
+        "speaker": "B",
+        "text": "Ah, vi! Achei meio lento, mas o ator principal tá show demais."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, ele tá em tudo agora. Qual gênero vc curte mais?"
+      },
+      {
+        "speaker": "B",
+        "text": "Gosto demais de terror e ficção científica, kkk. Vc?"
+      },
+      {
+        "speaker": "A",
+        "text": "Mais romance e drama mesmo, mas esse aí me surpreendeu bastante."
+      }
+    ]
+  },
+  {
+    "scenario": "op_movies",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu aquele filme novo do tipo ficção científica?"
+      },
+      {
+        "speaker": "B",
+        "text": "Qual, cara? Tem tanta coisa saindo agora né"
+      },
+      {
+        "speaker": "A",
+        "text": "O do diretor francês, sabe? Tá muito bom mesmo"
+      },
+      {
+        "speaker": "B",
+        "text": "Ah, vi sim! Que ator top, muito bom mesmo"
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, ele arrasou demais naquele papel"
+      },
+      {
+        "speaker": "B",
+        "text": "Pois é, melhor que o anterior dele, com certeza"
+      }
+    ]
+  },
+  {
+    "scenario": "op_social_media",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc tá sempre no TikTok, né? Que vício cara."
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk verdade, mas o algoritmo daquilo é viciante demais."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, tipo, sabe quando tá ali rolando e não para?"
+      },
+      {
+        "speaker": "B",
+        "text": "E o Instagram também, cheio de influencer vendendo curso fake agora."
+      },
+      {
+        "speaker": "A",
+        "text": "Twitter eu usei mais antes, agora virou um caos mesmo."
+      },
+      {
+        "speaker": "B",
+        "text": "Concordo, melhor ignorar rede social mesmo, mexe com a cabeça."
+      }
+    ]
+  },
+  {
+    "scenario": "op_movies",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu o filme novo do Scorsese? Tá show demais!"
+      },
+      {
+        "speaker": "B",
+        "text": "Não, mas ouvi falar que é bom demais, né."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, e o ator principal foi excelente mesmo."
+      },
+      {
+        "speaker": "B",
+        "text": "Que ator? Qual é o gênero? Drama ou ação?"
+      },
+      {
+        "speaker": "A",
+        "text": "Crime, psicológico. Recomendo demais, vc vai amar."
+      },
+      {
+        "speaker": "B",
+        "text": "Blz, vou assistir quando tiver tempo aí, valeu dica!"
+      }
+    ]
+  },
+  {
+    "scenario": "op_social_media",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc fica o dia todo no TikTok, né? É vício demais."
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk verdade, mas é que o algoritmo é tipo um vício mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, Instagram e Twitter a gente não fica nem cinco minutos."
+      },
+      {
+        "speaker": "B",
+        "text": "Influencer no feed é só fake, não aguento mais essa coisa."
+      },
+      {
+        "speaker": "A",
+        "text": "Exato, tá difícil saber o que é real ou não, cara."
+      },
+      {
+        "speaker": "B",
+        "text": "Por isso desci do TikTok, tô tentando parar com isso tudo."
+      }
+    ]
+  },
+  {
+    "scenario": "op_social_media",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc anda muito no TikTok? Aquela plataforma é viciante demais, né."
+      },
+      {
+        "speaker": "B",
+        "text": "Cara, demais! O algoritmo daquilo sabe exatamente o que vc quer ver."
+      },
+      {
+        "speaker": "A",
+        "text": "É verdade. Instagram também virou só influencer fazendo publicidade de tudo."
+      },
+      {
+        "speaker": "B",
+        "text": "Pois é, o Twitter virou uma bagunça mesmo. Cheio de gente discutindo besteira."
+      },
+      {
+        "speaker": "A",
+        "text": "Mas Twitter ainda tem conteúdo legal se vc souber filtrar bem."
+      },
+      {
+        "speaker": "B",
+        "text": "Concordo. No fim, tudo depende de como a gente usa, tá ligado?"
+      }
+    ]
+  },
+  {
+    "scenario": "op_social_media",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Cara, tá difícil ficar longe do TikTok agora, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "Pois é, o algoritmo vicia mesmo. Fico rolando horas."
+      },
+      {
+        "speaker": "A",
+        "text": "Instagram era chill, mas agora virou tudo sobre influencer."
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade. E Twitter? Virou puro ódio e briga mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "Esses influencers ganham grana demais, viu? Tá estranho."
+      },
+      {
+        "speaker": "B",
+        "text": "Fato. Mas tipo, o algoritmo coloca mesmo quem vende bem."
+      },
+      {
+        "speaker": "A",
+        "text": "Sério mesmo, vc acredita no que vê no feed?"
+      }
+    ]
+  },
+  {
+    "scenario": "op_social_media",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Cara, Instagram tá cada vez mais fake com essas influencers e tal, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "Vc acredita mesmo? TikTok é pior, o algoritmo vicia demais."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, mas acho Twitter pior ainda de tóxico, sabe?"
+      },
+      {
+        "speaker": "B",
+        "text": "Mano, mas uns influencers legítimos existem, não é tudo ruim não."
+      },
+      {
+        "speaker": "A",
+        "text": "É, tem uns sinceros mesmo, mas maioria tá ali pelo dinheiro só."
+      },
+      {
+        "speaker": "B",
+        "text": "Pior é o algoritmo que só recomenda coisa que piora tua saúde mental."
+      },
+      {
+        "speaker": "A",
+        "text": "Real, eles lucram com a gente deprimido. Que cilada, né kkk."
+      }
+    ]
+  },
+  {
+    "scenario": "op_celebrities",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu aquela briga da Anitta com o produtor? Tá doido..."
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade, que drama desnecessário. Carreira dela é forte demais pra isso."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, mas sabe como é... gente famosa adora criar polêmica, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade mesmo. Esses influenciadores gringos fazem a mesma coisa o tempo todo."
+      },
+      {
+        "speaker": "A",
+        "text": "Tipo a Kim Kardashian? Vc acha que ela ainda é relevante?"
+      },
+      {
+        "speaker": "B",
+        "text": "Nah, tá meio queimada já. Mas a Beyoncé continua matando, viu?"
+      }
+    ]
+  },
+  {
+    "scenario": "op_celebrities",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu o que aconteceu com a Bruna Marquezine? Tá rolando boato aí."
+      },
+      {
+        "speaker": "B",
+        "text": "Não, qual é? Fala aí o que você ouviu de bom."
+      },
+      {
+        "speaker": "A",
+        "text": "Dizem que ela tá namorando um ator gringo, né não. Carreira dela tá bombando!"
+      },
+      {
+        "speaker": "B",
+        "text": "Sério? Que legal! Mas e aquele ator nacional que namorava ela antes?"
+      },
+      {
+        "speaker": "A",
+        "text": "Aquele lá? Sumiu da mídia, tá focando na carreira de diretor agora."
+      },
+      {
+        "speaker": "B",
+        "text": "Entendi. E tá funcionando? Tipo, ele tá tendo visibilidade com isso?"
+      },
+      {
+        "speaker": "A",
+        "text": "Mais ou menos, né. Mas pelo menos tá fora da fofoca agora."
+      }
+    ]
+  },
+  {
+    "scenario": "op_celebrities",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu que a Anitta tá namorando de novo? Só fofoca mesmo, né."
+      },
+      {
+        "speaker": "B",
+        "text": "Vi sim, vc sabe que ela nunca fica quieta. Tá sempre no drama."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, mas a Zendaya com o Timothée é meio básico comparado, cara."
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk verdade, eles são tipo casal perfeito do Instagram. Meio chato demais."
+      },
+      {
+        "speaker": "A",
+        "text": "E aquela fofoca que a Taylor Swift tá buscando novo hitmaker pra carreira?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ela nunca tira folga. A mulher é máquina de trabalhar, de verdade."
+      }
+    ]
+  },
+  {
+    "scenario": "op_celebrities",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu que a Anitta tá namorando aquele ator internacional agora?"
+      },
+      {
+        "speaker": "B",
+        "text": "Sério? Que ator? Achei que ela tava focada só na carreira mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "Aquele tal de Hollywood né, todo gato. Mas combinam demais juntos kkk"
+      },
+      {
+        "speaker": "B",
+        "text": "É verdade, eles tão lindos juntos. Acho que a carreira dela só cresce."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, mas senti que ela tava melhor focada no trabalho mesmo né."
+      },
+      {
+        "speaker": "B",
+        "text": "Relaxa, mulher nenhuma precisa escolher entre amor e carreira em dois mil vinte e seis."
+      }
+    ]
+  },
+  {
+    "scenario": "op_celebrities",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu que a Bruna Marquezine tá com um novo namorado?"
+      },
+      {
+        "speaker": "B",
+        "text": "Vi, mas tá cansada dessa mulher, né? Muda todo mês."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade! Agora tá falando que tá focando na carreira mesmo."
+      },
+      {
+        "speaker": "B",
+        "text": "Claro, sempre falam isso quando termina um relacionamento kkk"
+      },
+      {
+        "speaker": "A",
+        "text": "Pior que dessa vez ela tá fazendo filme de verdade."
+      },
+      {
+        "speaker": "B",
+        "text": "Que bom então! Espero que dê certo pra ela mesmo."
+      }
+    ]
+  },
+  {
+    "scenario": "op_news",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu as notícias hoje? Tá uma loucura a economia."
+      },
+      {
+        "speaker": "B",
+        "text": "Tá, tá ruim mesmo. Os juros não caem, tá foda né."
+      },
+      {
+        "speaker": "A",
+        "text": "E os preços tão subindo tudo, tá impossível."
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade, meu salário não tá acompanhando não."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, tá difícil pra todo mundo mesmo."
+      },
+      {
+        "speaker": "B",
+        "text": "Vc acha que melhora esse ano ainda?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tomara, mas tô com pouca esperança viu."
+      }
+    ]
+  },
+  {
+    "scenario": "op_news",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Cara, viu a notícia sobre inflação? Tá ficando insano né."
+      },
+      {
+        "speaker": "B",
+        "text": "Vc tá falando da cesta básica? Tá absurdo mesmo, caro demais."
+      },
+      {
+        "speaker": "A",
+        "text": "Isso, pão, leite, tudo subiu. Gente tá gastando mais do que ganha."
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade, e o governo não faz nada, vc vê? É frustrante demais."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, na eleição só prometem coisa, depois nada de concreto."
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk verdade, sempre mesma história, né. Que mundo complicado mesmo."
+      }
+    ]
+  },
+  {
+    "scenario": "op_news",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu as notícias sobre a economia hoje? Tá uma loucura."
+      },
+      {
+        "speaker": "B",
+        "text": "Vi sim, o dólar subiu de novo né, é foda mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, meu salário fica cada vez menor, tá ruim demais."
+      },
+      {
+        "speaker": "B",
+        "text": "Mas relaxa, as eleições vão mudar as coisas, vc verá."
+      },
+      {
+        "speaker": "A",
+        "text": "Ah, vc é otimista demais, político é tudo igual mesmo."
+      },
+      {
+        "speaker": "B",
+        "text": "Sei lá, mas e o Brasil jogando bem? Que legal!"
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, ontem a vitória foi incrível, que jogo emocionante."
+      }
+    ]
+  },
+  {
+    "scenario": "op_news",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc viu a notícia sobre a eleição no mês que vem?"
+      },
+      {
+        "speaker": "B",
+        "text": "Vi sim, tá meio confuso tudo isso, né?"
+      },
+      {
+        "speaker": "A",
+        "text": "Pois é, economia tá complicada mesmo, bolsa caindo demais."
+      },
+      {
+        "speaker": "B",
+        "text": "É verdade, tá fogo. E o futebol, viu o jogo ontem?"
+      },
+      {
+        "speaker": "A",
+        "text": "Vi não, quem ganhou? Meu time tá numa fase ruim."
+      },
+      {
+        "speaker": "B",
+        "text": "Meu também kkk tá tudo ruim mesmo, política, economia, esporte."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, só falta chover aqui em casa também kkk"
+      }
+    ]
+  },
+  {
+    "scenario": "op_news",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Cara, viu as notícias sobre a economia? Tá meio desanimador, né?"
+      },
+      {
+        "speaker": "B",
+        "text": "Vc fala da taxa de juros? Tá ficando cada vez mais chato."
+      },
+      {
+        "speaker": "A",
+        "text": "É isso mesmo. Tá difícil pra caramba ficar com dinheiro guardado."
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade, tá tudo caro. Nem comida da pra levar sem prejuízo."
+      },
+      {
+        "speaker": "A",
+        "text": "Gastei uma fortuna no mercado semana passada, vc acredita? Absurdo!"
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk, tá difícil mesmo. Só quero que melhore logo, viu?"
+      }
+    ]
+  },
+  {
+    "scenario": "op_philosophy",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc acha que a vida tem mesmo um sentido?"
+      },
+      {
+        "speaker": "B",
+        "text": "Cara, acho que sentido a gente que constrói mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "Mas se a gente escolhe tudo, cadê o significado?"
+      },
+      {
+        "speaker": "B",
+        "text": "Aí que tá, a liberdade pode ser bastante pesada."
+      },
+      {
+        "speaker": "A",
+        "text": "E aí, ser feliz fica mais fácil com tudo isso?"
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk, felicidade tá ali pertinho, a gente que não vê."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade mesmo, talvez a gente tá procurando longe demais né."
+      }
+    ]
+  },
+  {
+    "scenario": "op_philosophy",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc acha que a vida tem um sentido definido, ou a gente que cria?"
+      },
+      {
+        "speaker": "B",
+        "text": "Boa pergunta, tá. Acho que a gente mesmo que constrói, né?"
+      },
+      {
+        "speaker": "A",
+        "text": "É, faz sentido. Mas aí será que somos livres de verdade?"
+      },
+      {
+        "speaker": "B",
+        "text": "Livre arbítrio é meio complicado kkk. A gente é preso a muita coisa."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, mas será que a felicidade depende disso tudo?"
+      },
+      {
+        "speaker": "B",
+        "text": "Acho que sim, viu. Felicidade é mais sobre aceitar o que a gente é."
+      }
+    ]
+  },
+  {
+    "scenario": "op_philosophy",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Ei, vc já parou pra pensar no sentido da vida?"
+      },
+      {
+        "speaker": "B",
+        "text": "Kkk, de repente. Acho que é ser feliz, né?"
+      },
+      {
+        "speaker": "A",
+        "text": "Mas será que a gente escolhe isso ou é tudo predestinado?"
+      },
+      {
+        "speaker": "B",
+        "text": "Cara, acho que a gente tem liberdade sim, tá ligado?"
+      },
+      {
+        "speaker": "A",
+        "text": "Tipo, mas daí vem a responsabilidade, né? Sobre nossas ações..."
+      },
+      {
+        "speaker": "B",
+        "text": "Verdade, mas acho melhor assim do que tudo já definido."
+      },
+      {
+        "speaker": "A",
+        "text": "Faz sentido mesmo. A felicidade tá em aproveitar essa liberdade."
+      }
+    ]
+  },
+  {
+    "scenario": "op_philosophy",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc acha que a gente tem livre-arbítrio mesmo ou é tudo predestinado?"
+      },
+      {
+        "speaker": "B",
+        "text": "Boa pergunta, cara. Acho que a gente faz escolhas, né, mas dentro de limites."
+      },
+      {
+        "speaker": "A",
+        "text": "Tipo, qual é o sentido da vida então? Só ficar feliz?"
+      },
+      {
+        "speaker": "B",
+        "text": "Ah, felicidade é legal, mas acho que é mais sobre ter propósito mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "Faz sentido. E sobre ética? Como saber o que é certo ou errado?"
+      },
+      {
+        "speaker": "B",
+        "text": "Caramba, vc tá me perguntando as questões da vida agora kkk é o coração, mano."
+      },
+      {
+        "speaker": "A",
+        "text": "Kkk verdade. Mas aí cada um vê diferente, né? Tá td bem assim?"
+      }
+    ]
+  },
+  {
+    "scenario": "op_philosophy",
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "Vc acha que a gente tem liberdade de verdade ou tudo é predestinado?"
+      },
+      {
+        "speaker": "B",
+        "text": "Meu, acho que a gente escolhe sim, mas meio limitado pelo contexto né."
+      },
+      {
+        "speaker": "A",
+        "text": "Verdade, mas aí surge a questão: será que livre-arbítrio existe mesmo?"
+      },
+      {
+        "speaker": "B",
+        "text": "Cara, se não existe, a gente não deveria se culpar por nada kkk"
+      },
+      {
+        "speaker": "A",
+        "text": "Mas sem culpa não tem ética, sem ética a vida vira caos."
+      },
+      {
+        "speaker": "B",
+        "text": "Talvez a felicidade seja justamente aceitar que não controla tudo mesmo."
+      },
+      {
+        "speaker": "A",
+        "text": "É tipo soltar a corda? Deixa rolar e curte o processo?"
+      }
+    ]
+  }
+]

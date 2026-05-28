@@ -1,0 +1,564 @@
+{
+  "checkpoint": "finetune/stage_b/final",
+  "autocorrect": {
+    "top1": 0,
+    "top5": 1,
+    "n": 30,
+    "rows": [
+      {
+        "typo": "vc",
+        "correct": "você",
+        "top1": "",
+        "top5": [
+          "",
+          "C",
+          "P",
+          "L",
+          "G"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tb",
+        "correct": "também",
+        "top1": "",
+        "top5": [
+          "",
+          "B",
+          "t",
+          "T",
+          "b"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "hj",
+        "correct": "hoje",
+        "top1": "",
+        "top5": [
+          "",
+          "h",
+          "H",
+          "k",
+          "j"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "pq",
+        "correct": "porque",
+        "top1": "",
+        "top5": [
+          "",
+          "P",
+          "q",
+          "Q",
+          "PA"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "obg",
+        "correct": "obrigado",
+        "top1": "",
+        "top5": [
+          "",
+          "g",
+          "G",
+          "P",
+          "NG"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "vlw",
+        "correct": "valeu",
+        "top1": "",
+        "top5": [
+          "",
+          "s",
+          "d",
+          "P",
+          "ew"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "blz",
+        "correct": "beleza",
+        "top1": "",
+        "top5": [
+          "",
+          "z",
+          "a",
+          "L",
+          "ez"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "mt",
+        "correct": "muito",
+        "top1": "",
+        "top5": [
+          "",
+          "t",
+          "T",
+          "o",
+          "m"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "voce",
+        "correct": "você",
+        "top1": "ê",
+        "top5": [
+          "ê",
+          "",
+          "êe <CHAR_E><XBU><CHAR_E><XBC>",
+          "de",
+          "êe <CHAR_E><XBU><CHAR_O><XBC>"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tambem",
+        "correct": "também",
+        "top1": "",
+        "top5": [
+          "",
+          "ém",
+          "ém",
+          "em",
+          "émé"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "nao",
+        "correct": "não",
+        "top1": "",
+        "top5": [
+          "",
+          "ão o o o o o o o o o o",
+          "ão o o o o o o o o o",
+          "ão o o o o o o o o o <XBU>",
+          "ão o o o o o o o o <XBU><CHAR_E>"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "esta",
+        "correct": "está",
+        "top1": "",
+        "top5": [
+          "",
+          "esta",
+          "a",
+          "ão",
+          "ta"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "portugues",
+        "correct": "português",
+        "top1": "",
+        "top5": [
+          "",
+          "eses",
+          "esgu",
+          "esese",
+          "es"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "estao",
+        "correct": "estão",
+        "top1": "ão",
+        "top5": [
+          "ão",
+          "ão <CHAR_C>",
+          "ão",
+          "",
+          "ã"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "orgao",
+        "correct": "órgão",
+        "top1": "",
+        "top5": [
+          "ão",
+          "",
+          "ção",
+          "o",
+          "ão"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "avo",
+        "correct": "avó",
+        "top1": "o",
+        "top5": [
+          "o",
+          "o",
+          "o oo o o o o o o o",
+          "",
+          "o oo o o o o o o <XBU>"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "coracao",
+        "correct": "coração",
+        "top1": "ação",
+        "top5": [
+          "ação",
+          "ação <CHAR_D>",
+          "ção",
+          "ação",
+          ""
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "acao",
+        "correct": "ação",
+        "top1": "",
+        "top5": [
+          "",
+          "ação",
+          "ação <XBU><CHAR_E><XBC>",
+          "ação <CHAR_D>",
+          "ção"
+        ],
+        "top1_hit": false,
+        "top5_hit": true
+      },
+      {
+        "typo": "relacao",
+        "correct": "relação",
+        "top1": "ação",
+        "top5": [
+          "ação",
+          "ação <CHAR_D><XBC>",
+          "ação <CHAR_D>",
+          "ação",
+          ""
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "estacao",
+        "correct": "estação",
+        "top1": "ação",
+        "top5": [
+          "ação",
+          "ção",
+          "",
+          "ação <CHAR_E>",
+          "ação <CHAR_D>"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "merrcado",
+        "correct": "mercado",
+        "top1": "ado",
+        "top5": [
+          "ado",
+          "rado",
+          "do",
+          "cdo",
+          ""
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tdabalho",
+        "correct": "trabalho",
+        "top1": "oo",
+        "top5": [
+          "oo",
+          "oho",
+          "oos",
+          "o",
+          ""
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "compitador",
+        "correct": "computador",
+        "top1": "",
+        "top5": [
+          "",
+          "ador",
+          "orador <CHAR_D><XBC>",
+          "rador",
+          "ado"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "aamnha",
+        "correct": "amanhã",
+        "top1": "anha",
+        "top5": [
+          "anha",
+          "a",
+          "ha",
+          "",
+          "inha"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "cidaade",
+        "correct": "cidade",
+        "top1": "",
+        "top5": [
+          "",
+          "idade",
+          "dade",
+          "dade <CHAR_D>",
+          "dade <CHAR_A>"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "commer",
+        "correct": "comer",
+        "top1": "",
+        "top5": [
+          "",
+          "er",
+          "mer",
+          "cer",
+          "me"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "livvro",
+        "correct": "livro",
+        "top1": "",
+        "top5": [
+          "",
+          "ro",
+          "ivo <XBU><CHAR_E><XBC>",
+          "vio",
+          "o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "execelente",
+        "correct": "excelente",
+        "top1": "eece",
+        "top5": [
+          "eece",
+          "ente",
+          "eeces",
+          "eent",
+          ""
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "rezolver",
+        "correct": "resolver",
+        "top1": "ver",
+        "top5": [
+          "ver",
+          "verar",
+          "verov",
+          "verer",
+          "erver"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "agradeso",
+        "correct": "agradeço",
+        "top1": "ados",
+        "top5": [
+          "ados",
+          "ados osos os<XBU><CHAR_A><CHAR_O><XBC>",
+          "ados osos os<XBU><CHAR_O><CHAR_M><XBC>",
+          "ados osos os<XBU><CHAR_O><CHAR_I><XBC>",
+          "ados"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      }
+    ]
+  },
+  "next_word": {
+    "top1": 0,
+    "topk": 0,
+    "n": 7,
+    "rows": [
+      {
+        "prefix": "Bom dia, como você",
+        "plausible": [
+          "está",
+          "vai",
+          "passou",
+          "tem"
+        ],
+        "top1": "e",
+        "topk": [
+          "<xbu><char_a><char_e>se",
+          "<xbu><char_e><xbc><xec>",
+          "e"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Os meninos foram para a",
+        "plausible": [
+          "escola",
+          "casa",
+          "praia",
+          "rua"
+        ],
+        "top1": "a",
+        "topk": [
+          "a",
+          "da"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Eu queria um café com",
+        "plausible": [
+          "leite",
+          "açúcar",
+          "creme",
+          "bolo"
+        ],
+        "top1": "<XBU><CHAR_A><CHAR_E><XBC>",
+        "topk": [
+          "<char_p>a",
+          "<xbu><char_a><char_e><xbc>",
+          "<xbu><char_e><char_t><char_a>",
+          "<xbu><char_u><char_a><xbc>",
+          "<xbu><char_u><char_a>uma",
+          "<xbu><char_u><xbc><xec>",
+          "a",
+          "as"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "A capital do Brasil é",
+        "plausible": [
+          "Brasília"
+        ],
+        "top1": "cida<XBU><CHAR_E><XBC>",
+        "topk": [
+          "cida<xbu><char_a><xbc>",
+          "cida<xbu><char_d><char_e>",
+          "cida<xbu><char_d><xbc>",
+          "cida<xbu><char_d>de",
+          "cida<xbu><char_e><xbc>",
+          "cida<xbu><xbc><xec>",
+          "cidade"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Hoje está fazendo muito",
+        "plausible": [
+          "calor",
+          "frio",
+          "sol",
+          "vento"
+        ],
+        "top1": "o",
+        "topk": [
+          "o"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Eu não estou",
+        "plausible": [
+          "bem",
+          "feliz",
+          "indo",
+          "conseguindo",
+          "sabendo",
+          "entendendo"
+        ],
+        "top1": "do",
+        "topk": [
+          "ando<xbu><char_a><xbc>",
+          "ando<xbu><char_e><xbc>",
+          "anosa",
+          "anosa<xbu>",
+          "anosae",
+          "do"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "O jogo do Brasil contra a",
+        "plausible": [
+          "Argentina",
+          "Alemanha",
+          "França",
+          "Itália",
+          "Espanha"
+        ],
+        "top1": "a",
+        "topk": [
+          "a",
+          "da"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      }
+    ]
+  }
+}

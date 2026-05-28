@@ -1,0 +1,781 @@
+{
+  "checkpoint": "finetune_big_v2/stage_b/final",
+  "eval_jsonl": "notes/real_typos_eval.json",
+  "n": 50,
+  "top1": 0,
+  "top5": 0,
+  "by_category": {
+    "adjacency_or_short_edit": {
+      "n": 21,
+      "top1": 0,
+      "top5": 0
+    },
+    "hybrid": {
+      "n": 5,
+      "top1": 0,
+      "top5": 0
+    },
+    "accent_only": {
+      "n": 17,
+      "top1": 0,
+      "top5": 0
+    },
+    "prefix_completion": {
+      "n": 7,
+      "top1": 0,
+      "top5": 0
+    }
+  },
+  "rows": [
+    {
+      "typed": "passoy",
+      "committed": "passou",
+      "category": "adjacency_or_short_edit",
+      "top1": "",
+      "top5": [
+        "ou",
+        "",
+        "os",
+        "so",
+        "soou <XBU><CHAR_E><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "horriv",
+      "committed": "horrível",
+      "category": "hybrid",
+      "top1": "",
+      "top5": [
+        "ir",
+        "vi",
+        "ver",
+        "ri",
+        ""
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "tambem",
+      "committed": "também",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "ém <XBU><CHAR_E><XBC>",
+        "ém <XBU><CHAR_E><CHAR_E><XBC>",
+        "ém <XBU><CHAR_E><CHAR_T><XBC>",
+        "ém <XBU><CHAR_E><CHAR_M><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "carvao",
+      "committed": "carvão",
+      "category": "accent_only",
+      "top1": "ão",
+      "top5": [
+        "ão",
+        "ar",
+        "ão",
+        "var",
+        "ação <XBU><CHAR_O><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "esta",
+      "committed": "está",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "esta  a a a a a a <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_A><CHAR_A><XBC>",
+        "esta  a a a a a a <XBU><CHAR_O><CHAR_R><CHAR_A><CHAR_A><CHAR_A><XBC>",
+        "esta  a a a a a a <XBU><CHAR_O><CHAR_R><CHAR_A><CHAR_A><XBC>",
+        "esta  a a a a a a <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_A><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "estao",
+      "committed": "estão",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "ão <XBU><CHAR_A><XBC>o",
+        "ão <XBU><CHAR_A><CHAR_O><XBC>o",
+        "ão <XBU><CHAR_A><XBC>o             <XBU>",
+        "ão <XBU><CHAR_A><XBC>o             ,"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "pergintas",
+      "committed": "perguntas",
+      "category": "adjacency_or_short_edit",
+      "top1": "asas asas as as as as as as as as as as as as as as",
+      "top5": [
+        "asantes as as as as as as as as as as as as as as as as as",
+        "asantes as as as as as as as as as as as as as as as asas",
+        "asas das as as as as as as as as as as as as as as as",
+        "asantes as as as as as as as as as as as as as as asas as",
+        "asantes as as as as as as as as as as as as as asas as as"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "mindse",
+      "committed": "mímese",
+      "category": "adjacency_or_short_edit",
+      "top1": "",
+      "top5": [
+        "",
+        "esse o o o o o <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_O>então <XBU><CHAR_E><CHAR_T><XBC>",
+        "esse o o o o o <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_O>então <XBU><CHAR_E><XBC>",
+        "esse o o o o o <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>o",
+        "esse o o o o o o <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>o"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "pensnaod",
+      "committed": "pensando",
+      "category": "adjacency_or_short_edit",
+      "top1": "ando",
+      "top5": [
+        "ando",
+        "adoando <XBU><CHAR_A><XBC>o",
+        "adoando <XBU><CHAR_A><XBC>o            <XBU>",
+        "adoando <XBU><CHAR_A><XBC>o            ,",
+        "adoando <XBU><CHAR_A><XBC>o            o"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "monsgro",
+      "committed": "monstro",
+      "category": "adjacency_or_short_edit",
+      "top1": "ro",
+      "top5": [
+        "noo ooooooooooooooooo",
+        "noo oo oooooooooooooo",
+        "noo oo o oooooooooooo",
+        "noo oo oo ooooooooooo",
+        "noo oo oo o ooooooooo"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "alisnc",
+      "committed": "aliança",
+      "category": "adjacency_or_short_edit",
+      "top1": "",
+      "top5": [
+        "",
+        "ais a a a a a a a a a a a a a a a a a",
+        "ais a a a a a a a a a a a a a a a a <XBU>",
+        "ais a a a a a a a a a a a a a a a <XBU><CHAR_E>",
+        "ais a a a a a a a a a a a a a o a a a"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "olhafa",
+      "committed": "olhada",
+      "category": "adjacency_or_short_edit",
+      "top1": "ada",
+      "top5": [
+        "ada",
+        "aada <XBU><CHAR_A><XBC>o",
+        "adaada <XBU><CHAR_A><XBC>o",
+        "aada <XBU><CHAR_A><XBC>o            <XBU>",
+        "adaada <XBU><CHAR_A><XBC>o            <XBU>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Opc",
+      "committed": "Opção",
+      "category": "hybrid",
+      "top1": "",
+      "top5": [
+        "",
+        "o",
+        "p",
+        "co",
+        "pp"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "nascermls",
+      "committed": "nascermos",
+      "category": "adjacency_or_short_edit",
+      "top1": "em",
+      "top5": [
+        "emos os os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>os os",
+        "emos os os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>os os os",
+        "emos os os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_I><CHAR_O><XBC>os os",
+        "emos os os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_I><CHAR_O><CHAR_O><XBC>os os",
+        "emos os os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_I><CHAR_O><XBC>os os os"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "quentao",
+      "committed": "quentão",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "ão <XBU><CHAR_A><CHAR_O><XBC>o",
+        "ão <XBU><CHAR_A><CHAR_O><XBC>o            <XBU>",
+        "ão <XBU><CHAR_A><CHAR_O><XBC>o            ,",
+        "ão <XBU><CHAR_A><CHAR_O><XBC>o            e"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "nao",
+      "committed": "não",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "ão <XBU><CHAR_A><XBC>o",
+        "ão <XBU><CHAR_A><CHAR_O><XBC>o",
+        "ão <XBU><CHAR_A><XBC>o             <XBU>",
+        "ão <XBU><CHAR_A><XBC>o             ,"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "especificos",
+      "committed": "específicos",
+      "category": "accent_only",
+      "top1": "ososos os os os os os os os os <XBU><CHAR_O><CHAR_I><CHAR_E><CHAR_T><CHAR_O><XBC>os",
+      "top5": [
+        "osososososososososososososososososososos",
+        "ososoososososososososososososososososos",
+        "osososososososososososososososososososodos",
+        "ososososososososososososoososososososos",
+        "ososososososososososososososososososodosos"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "complez",
+      "committed": "complexa",
+      "category": "adjacency_or_short_edit",
+      "top1": "",
+      "top5": [
+        "",
+        "pe",
+        "pee",
+        "pez",
+        "epe"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "variabel",
+      "committed": "variável",
+      "category": "adjacency_or_short_edit",
+      "top1": "ari",
+      "top5": [
+        "ari",
+        "ável <XBU><CHAR_A><XBC>",
+        "ável <XBU><CHAR_E><XBC>",
+        "ável <XBU><CHAR_A><CHAR_A><XBC>",
+        "ável <XBU><CHAR_A><CHAR_E><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "colta",
+      "committed": "volta",
+      "category": "adjacency_or_short_edit",
+      "top1": "",
+      "top5": [
+        "",
+        "ta",
+        "tata ta",
+        "tata tatata tata ta tatatatatatatata",
+        "tata tatata tata tatatatatatatatatata"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "fre",
+      "committed": "frente",
+      "category": "prefix_completion",
+      "top1": "",
+      "top5": [
+        "re",
+        "re                  <XBU>",
+        "re                  e",
+        "re                  o",
+        "re                  m"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "reub",
+      "committed": "reunião",
+      "category": "hybrid",
+      "top1": "",
+      "top5": [
+        "reu  :::::::::::::::::",
+        "reu  :::::::::::::::::",
+        "reu  :::::::::::::::: :",
+        "reu  ::::::::::::::::a",
+        "reu  ::::::::::::::::)"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "despendimento",
+      "committed": "desprendimento",
+      "category": "adjacency_or_short_edit",
+      "top1": "oimento o o o o <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>",
+      "top5": [
+        "ecimento <XBU><CHAR_E><XBC>",
+        "ecimento <XBU><CHAR_A><XBC>o",
+        "ecimento <XBU><CHAR_A><XBC>os os os os os os os os <XBU><CHAR_O><CHAR_O><XBC>",
+        "ecimento <XBU><CHAR_E><CHAR_T><XBC>",
+        "ecimento <XBU><CHAR_A><XBC>os os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "qualw",
+      "committed": "qualquer",
+      "category": "hybrid",
+      "top1": "",
+      "top5": [
+        "",
+        "ase a a a a a a a a a a a a a a a a a",
+        "ase a a a a a a a a a a a a a a a a <XBU>",
+        "ase a a a a a a a a a a a a a a a a <CHAR_C>",
+        "ase a a a a a a a a a a a a a a a a <CHAR_P>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "arquit",
+      "committed": "arquitetura",
+      "category": "prefix_completion",
+      "top1": "",
+      "top5": [
+        "ito it",
+        "ito",
+        "quinho",
+        "ito it                <XBU>",
+        "ito it                e"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "as",
+      "committed": "às",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "es",
+        "es                  <XBU>",
+        "es                  m",
+        "es                  o"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "minimo",
+      "committed": "mínimo",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "oooooooooooooooooooo",
+        "",
+        "oooooooooooooooooooo",
+        "oooo ooooooooooooooo",
+        "ooooooooooooooooooooo"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "ativi",
+      "committed": "atividades",
+      "category": "prefix_completion",
+      "top1": "",
+      "top5": [
+        "",
+        "tivo",
+        "tivo                  <XBU>",
+        "tivo                  o",
+        "tivo                  -"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "senao",
+      "committed": "senão",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "ão",
+        "ão <XBU><CHAR_A><XBC>o",
+        "ão <XBU><CHAR_A><CHAR_O><XBC>o",
+        "ão <XBU><CHAR_E><CHAR_T><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "portu",
+      "committed": "portuguesa",
+      "category": "prefix_completion",
+      "top1": "",
+      "top5": [
+        "",
+        "ou . . . . . . . . . . . . . . . . . .",
+        "ou , , , , , , , , , , , , , , , , , ,",
+        "ou . . . . . . . . . . . . . . . . . <XBU>",
+        "ou . . . . . . . . . . . . . . . . . e"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Entao",
+      "committed": "Então",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "noo ooooooooooooooooo",
+        "noo oo oooooooooooooo",
+        "noo o",
+        "noo oo o oooooooooooo"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "combinac",
+      "committed": "combinação",
+      "category": "hybrid",
+      "top1": "",
+      "top5": [
+        "",
+        "caca",
+        "caa",
+        "can",
+        "ban"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Ai",
+      "committed": "Aí",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "o",
+        "ão  <XBU><CHAR_E><CHAR_T><XBC>",
+        "ão  <XBU><CHAR_A><CHAR_E><XBC>",
+        "ão  <XBU><CHAR_O><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "sdntido",
+      "committed": "sentido",
+      "category": "adjacency_or_short_edit",
+      "top1": "do",
+      "top5": [
+        "do",
+        "dodo",
+        "",
+        "indo o o o o <XBU><CHAR_A><CHAR_O><XBC>",
+        "indo o o o o <XBU><CHAR_E><CHAR_T><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "jma",
+      "committed": "uma",
+      "category": "adjacency_or_short_edit",
+      "top1": "",
+      "top5": [
+        "",
+        "ma",
+        "ama . a a a a a a a a a a a a a a <XBU><CHAR_E><CHAR_T>",
+        "ama . a a a a a a a a a a a a a a <XBU><CHAR_O><CHAR_R>",
+        "ama . a a a a a a a a a a a a a a <XBU><CHAR_E><CHAR_E>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "so",
+      "committed": "só",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "o  <XBU><CHAR_A><CHAR_O><XBC>o  <XBU><CHAR_E><CHAR_T><XBC>",
+        "o  <XBU><CHAR_A><CHAR_O><XBC>o  <XBU><CHAR_A><CHAR_O><XBC>o  <XBU><CHAR_A><CHAR_O>",
+        "o  <XBU><CHAR_A><CHAR_O><XBC>o  <XBU><CHAR_A><CHAR_O><XBC>o  <XBU><CHAR_E><CHAR_T>",
+        "o  <XBU><CHAR_A><CHAR_O><XBC>o  <XBU><CHAR_O><CHAR_O><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "produizu",
+      "committed": "produziu",
+      "category": "adjacency_or_short_edit",
+      "top1": "uiuu",
+      "top5": [
+        "iuiu",
+        "uiuu",
+        "iuuu",
+        "iuu",
+        "ririu"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "intere",
+      "committed": "interesse",
+      "category": "prefix_completion",
+      "top1": "",
+      "top5": [
+        "",
+        "ente a a a a a a a a a a a a a a a a a",
+        "ente a a a a a a a a a a a a a a a a <XBU>",
+        "ente a a a a a a a a a a a a a a a <XBU><CHAR_E>",
+        "ente a a a a a a a a a a a a a a a <XBU><CHAR_O>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "voce",
+      "committed": "você",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "",
+        "e",
+        "eeee a a a a a a a a a a a <XBU><CHAR_O><CHAR_R><CHAR_A>",
+        "eee a a a a a a a a a a <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_A><CHAR_A>",
+        "eeee a a a a a a a a a a a <XBU><CHAR_E><CHAR_T><CHAR_A>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "port",
+      "committed": "português",
+      "category": "prefix_completion",
+      "top1": "",
+      "top5": [
+        "",
+        "tor",
+        "port",
+        "tor                  <XBU>",
+        "tor                  e"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "ofuscsdor",
+      "committed": "ofuscado",
+      "category": "adjacency_or_short_edit",
+      "top1": "ordo  o o o o <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_O>então <XBU><CHAR_A><CHAR_O>não",
+      "top5": [
+        "ordor",
+        "oror",
+        "ordo",
+        "ador",
+        "dor"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "cafe",
+      "committed": "café",
+      "category": "accent_only",
+      "top1": "",
+      "top5": [
+        "efe",
+        "efe                 <XBU>",
+        "ce",
+        "efe                 e",
+        "efe                 o"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "oublicada",
+      "committed": "publicada",
+      "category": "adjacency_or_short_edit",
+      "top1": "adaada <XBU><CHAR_A>a<XBU><XBC>",
+      "top5": [
+        "adaada . a a a a a a a a a a a a a a a a",
+        "adaada <XBU><CHAR_A><XBC>o",
+        "adaada . a a a a a a a a a a a a a a a <XBU>",
+        "adaada <XBU><CHAR_O><XBC>",
+        "adaada <XBU><CHAR_E><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Heheheheh",
+      "committed": "Bebê jeje",
+      "category": "adjacency_or_short_edit",
+      "top1": "hhhh",
+      "top5": [
+        "ehhhhhhhhhhhhhhhhhhh",
+        "hhhhhhhhhhhhhhhhhhhh",
+        "hehhhhhhhhhhhhhhhhhh",
+        "ehhhhhhhhhhhhhhhhhhh",
+        "hhhhhhhhhhhhhhhhhhhh"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "realmdnre",
+      "committed": "realmente",
+      "category": "adjacency_or_short_edit",
+      "top1": "",
+      "top5": [
+        "almente a a a a a a a a a a a a a <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_A>",
+        "almente a a a a a a a a a a a a a <XBU><CHAR_O><CHAR_R><CHAR_A><CHAR_A>",
+        "almente a a a a a a a a a a a a a <XBU><CHAR_O><CHAR_R><CHAR_A><CHAR_I>",
+        "almente a a a a a a a a a a a a a <XBU><CHAR_O><CHAR_R><CHAR_A><CHAR_E>",
+        "almente a a a a a a a a a a a a a <XBU><CHAR_O><CHAR_T><CHAR_A><CHAR_A>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "atend",
+      "committed": "atendimento",
+      "category": "prefix_completion",
+      "top1": "",
+      "top5": [
+        "",
+        "endo endoendoendoendoendoendoendoendoendoendoendoendoendoendoendoendoendoendo",
+        "endo endoendoendoendoendoendoendoendoendoendoendoendoendoendoendoendoendodo",
+        "endo endoendoendoendoendoendoendoendoendoendoendoendoendoendoendoendoendoen",
+        "endo endoendoendoendoendoendoendoendoendoendoendoendoendoendoendoendoenen"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "audio",
+      "committed": "áudio",
+      "category": "accent_only",
+      "top1": "dioo o o o o o <XBC><XBU><CHAR_A><CHAR_E><XBC>",
+      "top5": [
+        "ooo oooooooooooooooo",
+        "ooo oo ooooooooooooo",
+        "ooo oooo ooooooooooo",
+        "ooo ooo oooooooooooo",
+        "ooo ooooo oooooooooo"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "daqueke",
+      "committed": "daquele",
+      "category": "adjacency_or_short_edit",
+      "top1": "que",
+      "top5": [
+        "que",
+        "qu",
+        "quê a a a a a a a a a a a a <XBU><CHAR_O><CHAR_R><CHAR_A><XBC>",
+        "quê a a a a a a a a a a a <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_A><XBC>",
+        "quê a a a a a a a a a a a <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_A><CHAR_A><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "awuela",
+      "committed": "aquela",
+      "category": "adjacency_or_short_edit",
+      "top1": "ela ou <XBU><CHAR_A><XBC>",
+      "top5": [
+        "ela <XBU><CHAR_E><XBC>",
+        "ela <XBU><CHAR_A><XBC>o",
+        "ela <XBU><CHAR_O><XBC>",
+        "ela \", a a a a a a a a a a a <XBU><CHAR_O><CHAR_R><CHAR_A><XBC>",
+        "ela \", a a a a a a a a a a a <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_A><CHAR_A>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "diretorios",
+      "committed": "diretórios",
+      "category": "accent_only",
+      "top1": "órios",
+      "top5": [
+        "ososos os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_A><CHAR_O><XBC>",
+        "ososos os os os os os os os <XBU><CHAR_O><CHAR_O><XBC>",
+        "ososos os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>o",
+        "ososos os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>",
+        "ososos os os os os os os os <XBU><CHAR_E><CHAR_T><CHAR_O><CHAR_O><XBC>os os"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    }
+  ]
+}

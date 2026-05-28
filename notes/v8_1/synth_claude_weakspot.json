@@ -1,0 +1,1248 @@
+[
+  {
+    "typed": "producao",
+    "committed": "produção",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Na produção de carne bovina, o México é um dos 10 maiores produtores do mundo e a Colômbia um dos 20 maiores produtores."
+  },
+  {
+    "typed": "historia",
+    "committed": "História",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "História do clima A Terra, em sua longa história, já sofreu muitas mudanças climáticas globais de grande amplitude."
+  },
+  {
+    "typed": "frequencia",
+    "committed": "frequência",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Também estão previstas mudanças no padrão dos ventos e o aumento na frequência e intensidade das tempestades severas e das ondas de calor extremo."
+  },
+  {
+    "typed": "tanbem",
+    "committed": "também",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Chaplin também lembrou que Elsa lhe contou sobre a época em que concebeu a teoria da relatividade."
+  },
+  {
+    "typed": "expedicao",
+    "committed": "expedição",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Élida e Tenedo Regressados ao porto de Élida - oito anos mais tarde - para se reagruparem após esta expedição fracassada, os gregos foram imobilizados pela força dos ventos."
+  },
+  {
+    "typed": "civilisacoes",
+    "committed": "civilizações",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Essas civilizações exerceram muita influência na prosperidade latino-americana que veio depois dessa contribuição dada pelos primeiros povos da região."
+  },
+  {
+    "typed": "movim",
+    "committed": "movimento",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Anarquistas que defendem a segunda posição enfatizam que a violência deveria dar suporte ao movimento sindical e de massas durante um processo revolucionário."
+  },
+  {
+    "typed": "populacao",
+    "committed": "população",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Economia A maior ou menor presença de população ativa no setor primário é um dos elementos que caracterizam o grau de desenvolvimento de uma região."
+  },
+  {
+    "typed": "frequencia",
+    "committed": "frequência",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Ditaduras têm tido muita frequência em repúblicas centro-americanas, exceto Costa Rica, que, há muitos anos, seu governo tem estabilidade e constitucionalidade."
+  },
+  {
+    "typed": "hemisfeio",
+    "committed": "hemisfério",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 1936, em Buenos Aires, na Argentina, comprometeram-se a manter a paz no hemisfério ocidental."
+  },
+  {
+    "typed": "imposivel",
+    "committed": "impossível",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No último momento, quando Aquiles viu o rosto da sua vítima inflamado por uma súbita e impossível paixão, chorou sobre o seu corpo."
+  },
+  {
+    "typed": "projecoes",
+    "committed": "projeções",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Perspectiva de aquecimento futuro Por várias questões práticas, os modelos climáticos referenciados pelo IPCC normalmente limitam suas projeções até o ano de 2100."
+  },
+  {
+    "typed": "eesta",
+    "committed": "está",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Lá está seu templo e sua estátua, obras arcaicas."
+  },
+  {
+    "typed": "Associacao",
+    "committed": "Associação",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A Associação Latino-Americana de Integração (ALADI) substituiu o sistema em 1980."
+  },
+  {
+    "typed": "principios",
+    "committed": "princípios",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Estes modelos se baseiam em princípios físicos que incluem dinâmica de fluidos, termodinâmica e transporte radiativo."
+  },
+  {
+    "typed": "previsoes",
+    "committed": "previsões",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Para provar sua confiabilidade os modelos que estabelecem previsões futuras precisam reproduzir as observações reais registradas historicamente."
+  },
+  {
+    "typed": "aviacao",
+    "committed": "aviação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No setor de aviação, o o Brasil tem a Embraer, a terceira maior fabricante de aeronaves do mundo, atrás apenas da Boeing e Airbus."
+  },
+  {
+    "typed": "fisica",
+    "committed": "física",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Estão entre os trabalhos mais profundos já publicados na física."
+  },
+  {
+    "typed": "grassa",
+    "committed": "Graça",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "É, por vezes, ainda substituído pela expressão na era da Graça."
+  },
+  {
+    "typed": "vingar-ze",
+    "committed": "vingar-se",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A sua contenda com Agamemnon fora esquecida, pois agora Aquiles só pensava em vingar-se da morte de Pátroclo."
+  },
+  {
+    "typed": "tambem",
+    "committed": "também",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Aquiles também apareceu em outro épico perdido sobre a Guerra de Troia, de autoria de Arctino de Mileto, como tendo vivido ainda após a sua morte, na ilha de Leucas, na foz do rio Danúbio."
+  },
+  {
+    "typed": "particulas",
+    "committed": "partículas",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Einstein notou que as estatísticas de Bose aplicavam-se a alguns átomos, bem como partículas de luz propostas, e submeteu a tradução do artigo em alemão para o Zeitschrift für Physikalische Chemie."
+  },
+  {
+    "typed": "relasao",
+    "committed": "relação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Nos anos 500, Aryabhata apresentou um sistema matemático que considerava que a Terra rodava em torno do seu eixo e que os planetas se deslocavam em relação ao Sol."
+  },
+  {
+    "typed": "eletrodina",
+    "committed": "eletrodinâmica",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Seu artigo \"Sobre a Eletrodinâmica dos Corpos em Movimento\" (\"Zur Elektrodynamik bewegter Körper\") foi recebido em 30 de junho de 1905 e publicado em 26 de setembro daquele ano."
+  },
+  {
+    "typed": "pais",
+    "committed": "país",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 2016, o país foi o 2º produtor de celulose no mundo e o 8º produtor de papel."
+  },
+  {
+    "typed": "Napolean",
+    "committed": "Napoleão",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Voltou a Lisboa 14 anos depois que Napoleão Bonaparte foi derrotado."
+  },
+  {
+    "typed": "origenalmante",
+    "committed": "originalmente",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em dezembro de 1930, visitou os Estados Unidos pela segunda vez, originalmente concebida como uma visita de trabalho de dois meses como pesquisador no Instituto de Tecnologia da Califórnia (Caltech)."
+  },
+  {
+    "typed": "astronomicos",
+    "committed": "astronômicos",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Astronomia de raios-X A astronomia de raio-X é o estudo de objetos astronômicos no comprimento de onda de raio-X."
+  },
+  {
+    "typed": "estrategica",
+    "committed": "estratégica",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "O anarquismo social ou de massas, entretanto, teria duas subdivisões de ordem estratégica em relação às abordagens sindicais e antissindicais."
+  },
+  {
+    "typed": "ate",
+    "committed": "até",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Mas teve que esperar até 1982 para um verdadeiro veredito experimental."
+  },
+  {
+    "typed": "genio",
+    "committed": "gênio",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Suas grandes conquistas intelectuais e originalidade fizeram da palavra \"Einstein\" sinônimo de gênio."
+  },
+  {
+    "typed": "dissipacao",
+    "committed": "dissipação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Esses e outros gases atuam obstruindo a dissipação do calor terrestre para o espaço."
+  },
+  {
+    "typed": "nao",
+    "committed": "não",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Suas últimas palavras pronunciadas em alemão não puderam ser entendidas pela enfermeira."
+  },
+  {
+    "typed": "Colombia",
+    "committed": "Colômbia",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Um dos dois é general venezuelano Simón Bolívar (1783-1830) que venceu libertando a Venezuela, a Colômbia, o Equador, o Peru e a Bolívia."
+  },
+  {
+    "typed": "direcao",
+    "committed": "direção",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 1531, Pizarro saiu do Panamá, velejando em direção ao sul, com mais de 180 homens e 27 cavalos."
+  },
+  {
+    "typed": "humanizacao",
+    "committed": "humanização",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A humanização de Aquiles através dos eventos da guerra é um importante tema da narrativa da obra."
+  },
+  {
+    "typed": "aprisionalo",
+    "committed": "aprisioná-lo",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Profecias ligavam o destino de Troilo ao de Troia, e por isso ele sofreu uma emboscada, numa tentativa de aprisioná-lo."
+  },
+  {
+    "typed": "optica",
+    "committed": "óptica",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Astronomia óptica Historicamente, a astronomia óptica (também chamada de astronomia da luz visível) é a forma mais antiga da astronomia."
+  },
+  {
+    "typed": "comecou",
+    "committed": "começou",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Uma segunda fase da sua carreira começou a verificar-se por volta da década de 1920."
+  },
+  {
+    "typed": "circuulo",
+    "committed": "Círculo",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Imier e, em 1881, o Círculo Europeu de Estudos Sociais."
+  },
+  {
+    "typed": "propia",
+    "committed": "própria",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A própria cronologia sugere isso, pois o filho de Aquiles vai participar da guerra, dez anos depois."
+  },
+  {
+    "typed": "Patricia",
+    "committed": "Patrícia",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Patrícia) Silva Pinto – a sua vida e obra (Col."
+  },
+  {
+    "typed": "arefecer",
+    "committed": "arrefecer",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Podem arrefecer a Terra ao refletirem a luz solar para o espaço, e podem aquecê-la por absorção da radiação infravermelha radiada pela superfície, de um modo análogo ao dos gases estufa."
+  },
+  {
+    "typed": "tradicao",
+    "committed": "tradição",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A tradição liberal antiestadista na Europa e nos Estados Unidos continuou após Molinari nos primeiros escritos de Herbert Spencer, bem como em pensadores como Paul Émile de Puydt e Auberon Herbert."
+  },
+  {
+    "typed": "nao",
+    "committed": "não",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Ainda assim, posições externas ao anarquismo, que consideram a não violência um princípio, como as de Henry David Thoreau e Liev Tolstói, exerceram alguma influência entre os anarquistas."
+  },
+  {
+    "typed": "consequencias",
+    "committed": "consequências",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Ao mesmo tempo, as evidências concretas do aquecimento global e das suas consequências têm se avolumado ano a ano."
+  },
+  {
+    "typed": "confraternisacao",
+    "committed": "confraternização",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em outubro do mesmo ano recebeu os membros da mesma universidade para uma confraternização em sua casa em Princeton."
+  },
+  {
+    "typed": "atencao",
+    "committed": "atenção",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Isso começou a mudar depois que recebeu a atenção de Max Planck, o fundador da teoria quântica, um dos físicos mais influentes de sua geração e o único físico que notou os trabalhos."
+  },
+  {
+    "typed": "formacao",
+    "committed": "formação",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Evolução estelar: Estudo da evolução das estrelas, de sua formação a seu fim como um remanescente estelar."
+  },
+  {
+    "typed": "selecao",
+    "committed": "seleção",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A seleção dos dados de Eddington parece válida e sua equipe realmente fez medições astronômicas verificando a teoria."
+  },
+  {
+    "typed": "vegitacao",
+    "committed": "vegetação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Se considerados feedbacks lentos como a mudança da vegetação ou mantos de gelo, o sistema climático pode lever milênios aquecendo-se lentamente até se estabilizar."
+  },
+  {
+    "typed": "composicao",
+    "committed": "composição",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Porém, mudanças na composição atmosférica podem desequilibrá-lo."
+  },
+  {
+    "typed": "potanto",
+    "committed": "portanto",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Odisseu teria argumentado que a lança de Aquiles causou a ferida e, portanto, ela deveria poder curá-la."
+  },
+  {
+    "typed": "hemisferio",
+    "committed": "hemisfério",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No verão, no hemisfério sul, as temperaturas de maior elevação acontecem no centro da América do Sul, o que atrai ventos do oceano Atlântico."
+  },
+  {
+    "typed": "critica",
+    "committed": "crítica",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Essa crítica anarquista ao Estado estendeu-se amplamente, para todas as suas formas e seus distintos sistemas de governo, desde os mais autoritários até os mais liberais."
+  },
+  {
+    "typed": "tranformacao",
+    "committed": "transformação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A indústria respondia por 21% do total, incluindo queima de combustíveis fósseis para processos químicos, metalúrgicos, transformação mineral e manejo de resíduos."
+  },
+  {
+    "typed": "evidencias",
+    "committed": "evidências",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Isso é demonstrado por uma série de evidências físicas e por reconstruções teóricas."
+  },
+  {
+    "typed": "emocao",
+    "committed": "emoção",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Einstein compartilhava a emoção."
+  },
+  {
+    "typed": "conssules",
+    "committed": "cônsules",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A datação consular foi extinta quando o imperador Justiniano I deixou de nomear cônsules em meados do ."
+  },
+  {
+    "typed": "elaboacao",
+    "committed": "elaboração",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Historicamente, a astronomia incluiu disciplinas tão diversas como astrometria, navegação astronômica, astronomia observacional e a elaboração de calendários."
+  },
+  {
+    "typed": "rigioes",
+    "committed": "regiões",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "As regiões dominadas do litoral oeste da América do Sul, do Panamá até o centro do Chile foram dadas por essa conquista à Coroa de Castela."
+  },
+  {
+    "typed": "fisca",
+    "committed": "física",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "De 1912 até 1914 foi professor de física teórica no Instituto Federal de Tecnologia de Zurique (ETH), onde lecionou mecânica analítica e termodinâmica."
+  },
+  {
+    "typed": "seculo",
+    "committed": "século",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Durante o século XX, o campo da astronomia profissional dividiu-se em dois ramos: a astronomia observacional e a astronomia teórica."
+  },
+  {
+    "typed": "cerimania",
+    "committed": "cerimônia",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Queria uma cerimônia simples e sem lápide."
+  },
+  {
+    "typed": "crecenti",
+    "committed": "crescente",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Com o passar dos anos, sua amizade com Marić se desenvolveu em romance, e juntos liam livros extra-curriculares de física onde Einstein estava mostrando um interesse crescente."
+  },
+  {
+    "typed": "nao",
+    "committed": "não",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Campos não baseados no espectro eletromagnético Além da radiação eletromagnética outras coisas podem ser observadas da Terra que se originam de grandes distâncias."
+  },
+  {
+    "typed": "escravidao",
+    "committed": "escravidão",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 1845, Spooner escreveu um ensaio radical contra a escravidão, Unconstitutionality of slavery."
+  },
+  {
+    "typed": "evidencias",
+    "committed": "evidências",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No seu conjunto, as evidências são consistentes apenas com a intensificação do efeito estufa causado pela atividade humana."
+  },
+  {
+    "typed": "siencia",
+    "committed": "ciência",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Durante um discurso aos alunos da instituição, observou que a ciência era muitas vezes disposta a fazer mais mal do que bem."
+  },
+  {
+    "typed": "educacao",
+    "committed": "educação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Aos oito foi transferido para o Ginásio Luitpold, hoje conhecido como Ginásio Albert Einstein, onde recebeu educação escolar primária e secundária, até deixar a Alemanha sete anos depois."
+  },
+  {
+    "typed": "mermidoes",
+    "committed": "mirmidões",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Com as tropas gregas à beira da completa destruição, Pátroclo liderou os mirmidões na batalha, passando-se por Aquiles após vestir sua armadura e usar seu carro de batalha."
+  },
+  {
+    "typed": "linguas",
+    "committed": "línguas",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em outras, existe uma grande quantidade de falantes das línguas indígenas, como o México, o Peru, a Guatemala e o Paraguai."
+  },
+  {
+    "typed": "previ",
+    "committed": "previsão",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A observação dos céus levou à previsão de eventos como os eclipses."
+  },
+  {
+    "typed": "excursao",
+    "committed": "excursão",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 1922, viajou por toda a Ásia e depois à Palestina, como parte de uma excursão de seis meses apresentando palestras."
+  },
+  {
+    "typed": "vaarios",
+    "committed": "vários",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Segundo Woodcock: Durante vários meses, as forças armadas dessas regiões foram, em geral, milícias controladas pelos anarquistas."
+  },
+  {
+    "typed": "Varialoes",
+    "committed": "Variações",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Variações regionais são esperadas e o efeito dominante depende de muitos fatores, entre eles a altitude e do tamanho das nuvens e das suas gotículas."
+  },
+  {
+    "typed": "America",
+    "committed": "América",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Durante muitos anos, a doutrina causou ressentimentos na América Latina."
+  },
+  {
+    "typed": "situacao",
+    "committed": "situação",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A situação dos gregos não tardou a tornar-se aflitiva."
+  },
+  {
+    "typed": "gavidadi",
+    "committed": "gravidade",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A intensa gravidade associada com esses buracos negros poderia muito bem levar a enormes distorções espaciais."
+  },
+  {
+    "typed": "litiraria",
+    "committed": "literária",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Início de carreira Albino Forjaz de Sampaio começou a sua carreira literária aos 16 anos como jornalista no jornal A Lucta sob o patronato de Fialho de Almeida e Brito Camacho."
+  },
+  {
+    "typed": "musica",
+    "committed": "música",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A música assumiu um papel fundamental e permanente em sua vida."
+  },
+  {
+    "typed": "observacoes",
+    "committed": "observações",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Como os raio-X são absorvidos pela atmosfera terrestre todas as observações devem ser feitas de balões de grande altitude, foguetes, ou naves espaciais."
+  },
+  {
+    "typed": "nacoes",
+    "committed": "nações",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A Doutrina Monroe colocava as nações latino-americanas sob a proteção dos Estados Unidos."
+  },
+  {
+    "typed": "colera",
+    "committed": "cólera",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A cólera de Aquiles No decurso do décimo ano de guerra, Aquiles e Agamemnon envolveram-se em grande disputa."
+  },
+  {
+    "typed": "superf",
+    "committed": "superfície",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Algumas partes do espectro podem ser observadas da superfície da Terra, enquanto outras partes só são observáveis de grandes altitudes ou no espaço."
+  },
+  {
+    "typed": "Patrisia",
+    "committed": "Patrícia",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Patrícia) Garcia de Resende – a sua vida e obra ( Col."
+  },
+  {
+    "typed": "Cammara",
+    "committed": "Câmara",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "João da Câmara; Camilo Castelo Branco; Júlio Dinis; José Duro; António Ferreira; Agostinho Fortes; João Penha ou ainda Delfim Guimarães."
+  },
+  {
+    "typed": "Tambem",
+    "committed": "Também",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Também destacou-se a participação dos anarquistas no movimento Occupy Wall Street em 2011."
+  },
+  {
+    "typed": "planetaia",
+    "committed": "planetária",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Ciência planetária Ciência planetária: Estuda os planetas."
+  },
+  {
+    "typed": "Julia",
+    "committed": "Júlia",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Camilo Blas (1903-1985) e Júlia Codesido (1892-1979) pintam cenas peruanas."
+  },
+  {
+    "typed": "pescoco",
+    "committed": "pescoço",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Aquiles obteve finalmente sua vingança, matando Heitor com um único golpe no pescoço."
+  },
+  {
+    "typed": "dicendente",
+    "committed": "descendente",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 1831, houve a abdicação do trono por Dom Pedro I favorecendo seu descendente, Pedro II (1825-1891)."
+  },
+  {
+    "typed": "seculos",
+    "committed": "séculos",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Outra era AM, especialmente adoptada no Oriente durante os primeiros séculos do Império Bizantino foi desenvolvida pelo monge Aniano de Alexandria."
+  },
+  {
+    "typed": "agriclas",
+    "committed": "agrícolas",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Era contemporânea e integração A economia da maior parte dos países da América Latina é dependente, em sua maioria, de produtos agrícolas e minerais exportados para a Europa e os Estados Unidos."
+  },
+  {
+    "typed": "constituida",
+    "committed": "constituída",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Inicialmente era constituída por 20 repúblicas latino-americanas e os Estados Unidos."
+  },
+  {
+    "typed": "protege-lo",
+    "committed": "protegê-lo",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Para protegê-lo, Locker-Lampson secretamente tinha dois assistentes o vigiando em sua casa de campo isolada fora de Londres, com a imprensa publicando uma foto deles protegendo Einstein."
+  },
+  {
+    "typed": "aprrendio",
+    "committed": "aprendeu",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No século XII, os seus trabalhos foram traduzidos para o latim, e diz-se que Dante aprendeu astronomia pelos livros de al-Farghani."
+  },
+  {
+    "typed": "visivel",
+    "committed": "visível",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A superfície externa visível do Sol é chamada fotosfera."
+  },
+  {
+    "typed": "gloria",
+    "committed": "glória",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Esta glória libertou o total das colônias do Reino da Espanha na América do Sul."
+  },
+  {
+    "typed": "involuntaria",
+    "committed": "involuntária",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Se uma pessoa precisa de emprego para se alimentar e se abrigar, a relação empregador-empregado pode ser considerada involuntária."
+  },
+  {
+    "typed": "tambem",
+    "committed": "também",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A defesa da autogestão defendida pelos anarquistas também tem, como foco, as esferas econômica, política, ideológica e cultural."
+  },
+  {
+    "typed": "mirmidoes",
+    "committed": "mirmidões",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Nascimento Aquiles era o filho da nereida Tétis e de Peleu, rei dos mirmidões."
+  },
+  {
+    "typed": "obediencia",
+    "committed": "obediência",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Para ele, a obediência é o \"eterno brado da igreja e da escola, independente da vileza do tirano, independente do quão opressivas e injustas são suas leis e ordens\"."
+  },
+  {
+    "typed": "America",
+    "committed": "América",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Relevo A América Latina possui a mesma ordem de formas de relevo, no sentido norte-sul, em todas as latitudes."
+  },
+  {
+    "typed": "situacao",
+    "committed": "situação",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Durante milhares de anos, as pessoas investigaram o espaço e a situação da Terra."
+  },
+  {
+    "typed": "construcao",
+    "committed": "construção",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Ao setor de transporte cabiam 14%, à construção civil 6%, e o restante a uma série de outros agentes de menor expressão."
+  },
+  {
+    "typed": "instalacao",
+    "committed": "instalação",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "De maneira geral, nesses países sobressaem indústrias que exigem pouco capital e tecnologia simples para sua instalação, como as indústrias de beneficiamento de produtos alimentícios e têxteis."
+  },
+  {
+    "typed": "britanica",
+    "committed": "britânica",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em julho foi para Inglaterra por cerca de seis semanas, a convite pessoal do oficial da marinha britânica Comandante Oliver Locker-Lampson, que havia se tornado seu amigo nos anos anteriores."
+  },
+  {
+    "typed": "napoleonica",
+    "committed": "napoleônica",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 1808, João VI de Portugal (1767-1826) encontrou refúgio durante a invasão napoleônica em seu país."
+  },
+  {
+    "typed": "agressao",
+    "committed": "agressão",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Este código legal reconheceria contratos entre indivíduos, propriedade privada, autopropriedade e lei sobre danos de acordo com o princípio da não agressão."
+  },
+  {
+    "typed": "supeficie",
+    "committed": "superfície",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em primeiro lugar, as terras aquecem mais rapidamente do que o mar, e em segundo, há mais superfície coberta por neve e gelo perenes."
+  },
+  {
+    "typed": "classica",
+    "committed": "clássica",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Defesa consequencialista clássica do anarcocapitalismo."
+  },
+  {
+    "typed": "fisica",
+    "committed": "física",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Embora tivesse apenas 17 anos, um a menos que os demais alunos, matriculou-se no curso de quatro anos para obter o diploma de professor de física da Escola Politécnica."
+  },
+  {
+    "typed": "posivel",
+    "committed": "possível",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Injuriado e furioso, Aquiles decidiu abandonar a guerra e retirou-se para o seu acampamento, pondo assim em causa a possível vitória dos gregos."
+  },
+  {
+    "typed": "recomendacoes",
+    "committed": "recomendações",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Tétis, assustada com o insucesso do seu estratagema, fez insistentes recomendações a seu filho: a sua vida seria tanto mais longa quanto mais obscura ele a mantivesse."
+  },
+  {
+    "typed": "Patricia",
+    "committed": "Patrícia",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Patrícia) Julio Diniz: a sua vida e a sua obra (Col."
+  },
+  {
+    "typed": "diverridade",
+    "committed": "diversidade",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Os parques industriais brasileiro, mexicano, argentino e chileno apresentam, contudo, uma diversidade e sofisticação muito maiores, produzindo artigos de avançada tecnologia."
+  },
+  {
+    "typed": "explorasao",
+    "committed": "exploração",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Sendo assim, a propriedade da terra nos moldes das economias pré-capitalistas também é alvo de críticas pelos anarquistas, fundamentalmente, por se basear na exploração do campesinato."
+  },
+  {
+    "typed": "seculo",
+    "committed": "século",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Trouxeram os primeiros escravos que vieram da África para a América nos primeiros anos do século XVI."
+  },
+  {
+    "typed": "jappao",
+    "committed": "Japão",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Na Segunda Guerra Mundial, os latino-americanos recrutaram soldados para dar apoio aos Estados Unidos depois que o Japão atacou a base norte-americana de Pearl Harbor, Havaí, em dezembro de 1941."
+  },
+  {
+    "typed": "participa",
+    "committed": "participação",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Nos Estados Unidos, os protestos contra o encontro da OMC em Seattle destacaram-se como um dos mais significativos eventos com participação anarquista durante o movimento antiglobalização."
+  },
+  {
+    "typed": "nao",
+    "committed": "não",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Sua mãe tocava piano razoavelmente bem e queria que seu filho aprendesse a tocar violino, não só para incutir nele o amor pela música, mas também para ajudá-lo a assimilar a cultura alemã."
+  },
+  {
+    "typed": "associacao",
+    "committed": "associação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Voltairine de Cleyre afirmava que a associação dos anarquistas deveria encontrar sua forma organizativa a partir da experiência."
+  },
+  {
+    "typed": "concetacao",
+    "committed": "concentração",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Nos últimos 800 mil anos a concentração de CO2 atmosférico manteve-se relativamente estável, variando de 170 a 300 ppm (partes por milhão)."
+  },
+  {
+    "typed": "eleicao",
+    "committed": "eleição",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No continente Europeu, o Anno Domini foi a era de eleição de Alcuíno de Iorque, durante a Renascença Carolíngia."
+  },
+  {
+    "typed": "aprovassao",
+    "committed": "aprovação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 28 de janeiro de 1896, com a aprovação de seu pai, renunciou à sua cidadania no Reino de Württemberg, para evitar o serviço militar."
+  },
+  {
+    "typed": "comecando",
+    "committed": "começando",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Seu trabalho de 1905 sobre a relatividade permaneceu controverso por muitos anos, mas foi aceito pelos principais físicos, começando com Max Planck."
+  },
+  {
+    "typed": "tambem",
+    "committed": "também",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Há também em Proudhon a crítica à religião e à educação, que, para ele, atuariam como instrumentos de legitimação do capitalismo e do Estado."
+  },
+  {
+    "typed": "esta",
+    "committed": "está",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Apesar de seu nome, o anarcocapitalismo está fora da tradição do anarquismo e está mais intimamente associado ao capitalismo, ao libertarianismo de direita e ao liberalismo clássico."
+  },
+  {
+    "typed": "expressao",
+    "committed": "expressão",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A expressão \"calcanhar de Aquiles\", que indica a principal fraqueza de alguém, teria aí a sua origem."
+  },
+  {
+    "typed": "Patriccia",
+    "committed": "Patrícia",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Patrícia) [1924 ou 1925?] Gomes Leal: a sua vida e a sua obra (Col."
+  },
+  {
+    "typed": "seculo",
+    "committed": "século",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "De acordo com Hans-Hermann Hoppe, um dos precursores do anarcocapitalismo do século XIX foi o filósofo Herbert Spencer, o liberal clássico Auberon Herbert e o professor acadêmico Franz Oppenheimer."
+  },
+  {
+    "typed": "forcass",
+    "committed": "forças",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Todos declararam guerra às forças do Eixo, embora somente Brasil e México tenham fornecido tropas aos Aliados."
+  },
+  {
+    "typed": "mimbros",
+    "committed": "membros",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Entre os membros estavam Szilárd, Teller e Wigner."
+  },
+  {
+    "typed": "minimo",
+    "committed": "mínimo",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Por exemplo, se acredita que o mínimo de Maunder tenha causado a Pequena Idade do Gelo."
+  },
+  {
+    "typed": "nao",
+    "committed": "não",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "O proeminente anarquista russo Piotr Kropotkin, ao buscar pelas origens do anarquismo, procurou encontrá-las não em filósofos isolados, mas sim nas massas populares anônimas."
+  },
+  {
+    "typed": "Candido",
+    "committed": "Cândido",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Nesta carta, sugeria o nome do marechal Cândido Rondon para o Nobel da Paz."
+  },
+  {
+    "typed": "dancas",
+    "committed": "danças",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "As danças formam uma parte importante dos festejos dos feriados."
+  },
+  {
+    "typed": "sucoro",
+    "committed": "socorro",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Entre estas, pode-se destacar a sua luta contra a rainha das amazonas, Pentesileia, que veio com as suas tropas em socorro dos troianos e perdeu a vida às suas mãos."
+  },
+  {
+    "typed": "nao",
+    "committed": "não",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Todavia, o aquecimento das últimas décadas não pode ser atribuído a isso."
+  },
+  {
+    "typed": "superficie",
+    "committed": "superfície",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Essas interferências afetam as trocas energéticas entre o Sol, a atmosfera e a superfície da Terra."
+  },
+  {
+    "typed": "tradisao",
+    "committed": "tradição",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Isso justifica-se tanto pelo peso da tradição ocidental quanto pelo facto de que o Calendário Gregoriano foi, durante muito tempo, considerado astronomicamente correto."
+  },
+  {
+    "typed": "producao",
+    "committed": "produção",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 2018, a Argentina era o quarto maior produtor de carne bovina do mundo, com uma produção de 3 milhões de toneladas (atrás apenas dos Estados Unidos, Brasil e China)."
+  },
+  {
+    "typed": "qestoes",
+    "committed": "questões",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Cultura autogestionária Juntamente com as propostas para a economia e a política, o anarquismo, historicamente, preocupou-se com questões ideológicas e culturais."
+  },
+  {
+    "typed": "patricia",
+    "committed": "Patrícia",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Patrícia) Fialho d'Almeida – a sua vida e obra (Col."
+  },
+  {
+    "typed": "expresao",
+    "committed": "expressão",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Esta forma de expressão é uma parte importante da vida na América Latina."
+  },
+  {
+    "typed": "fotoeletrico",
+    "committed": "fotoelétrico",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Mas ele sugere que essa ideia poderia explicar alguns resultados experimentais, especialmente o efeito fotoelétrico."
+  },
+  {
+    "typed": "tambem",
+    "committed": "também",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Aquiles partiu, levando consigo o seu fiel preceptor Fénix, assim como também, o seu fiel e inseparável amigo Pátroclo."
+  },
+  {
+    "typed": "politicos",
+    "committed": "políticos",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 1920, houve a união dos partidos políticos onde eram incluídos como membros agricultores e operários."
+  },
+  {
+    "typed": "muculmanos",
+    "committed": "muçulmanos",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Nem todos os países seguem o calendário ocidental: judeus e muçulmanos, por exemplo, organizam anos e meses de maneiras diferentes."
+  },
+  {
+    "typed": "territorio",
+    "committed": "território",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "O Peru venceu o Equador, que havia anexado quase o território inteiro aos peruanos."
+  },
+  {
+    "typed": "organizacao",
+    "committed": "organização",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A primeira, defende um modelo de organização flexível, que insiste na necessidade de agrupar o maior número possível de anarquistas, ainda que com distintas perspectivas estratégicas."
+  },
+  {
+    "typed": "reggiao",
+    "committed": "região",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "De 1940 até 1941, ambos os países batalharam porque essa região era litigiada."
+  },
+  {
+    "typed": "decadas",
+    "committed": "décadas",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No uso comum, o termo se refere ao aquecimento ocorrido nas décadas recentes devido à influência humana."
+  },
+  {
+    "typed": "aconteceeu",
+    "committed": "aconteceu",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Entretanto, isso aconteceu há milhões de anos, e suas causas foram naturais."
+  },
+  {
+    "typed": "rotassao",
+    "committed": "rotação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Isto foi estabelecido por Einstein, Infeld e Hoffmann para objetos pontuais sem movimento angular e por Roy Kerr para objetos em rotação."
+  },
+  {
+    "typed": "numero",
+    "committed": "número",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Colonização Entre 1500 e 1800, os colonizadores que vieram da Coroa de Castela e do Reino de Portugal acorreram em grande número para as novas terras."
+  },
+  {
+    "typed": "familia",
+    "committed": "família",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No final de dezembro de 1894, viajou para a Itália para se juntar à sua família em Pavia, convencendo a escola a deixá-lo ir usando um atestado médico."
+  },
+  {
+    "typed": "diarrio",
+    "committed": "diário",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "As anotações de seu diário ilustram bem suas percepções quanto à natureza tropical do local."
+  },
+  {
+    "typed": "libedade",
+    "committed": "liberdade",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Ainda que conciliadas com a liberdade coletiva, as liberdades individuais também seriam garantidas."
+  },
+  {
+    "typed": "nacoes",
+    "committed": "Nações",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Após a guerra, a maioria dos países latino-americanos ingressou na Liga das Nações."
+  },
+  {
+    "typed": "obervacao",
+    "committed": "observação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "História Inicialmente, a astronomia envolveu somente a observação e a previsão dos movimentos dos objetos no céu que podiam ser vistos a olho nu."
+  },
+  {
+    "typed": "Conferancia",
+    "committed": "Conferência",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Este ressentimento diminuiu um pouco na Conferência Pan-Americana de 1933."
+  },
+  {
+    "typed": "radiacao",
+    "committed": "radiação",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Radioastronomia A radioastronomia estuda a radiação com comprimento de onda maior que aproximadamente 1 milímetro."
+  },
+  {
+    "typed": "comessado",
+    "committed": "começado",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "De acordo com o maestro Leon Botstein, Einstein disse ter começado a tocar quando tinha cinco anos, mas não o apreciava nessa idade."
+  },
+  {
+    "typed": "alcanssou",
+    "committed": "alcançou",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 24 de abril de 1925, Einstein deixou Buenos Aires e alcançou Montevidéu."
+  },
+  {
+    "typed": "qestao",
+    "committed": "questão",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A última passagem da Ilíada é o funeral de Heitor, após o qual o destino de Troia era apenas uma questão de tempo."
+  },
+  {
+    "typed": "visoes",
+    "committed": "visões",
+    "category_hint": "letter_swap",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Os anarcocapitalistas têm visões variadas de como eliminar o Estado."
+  },
+  {
+    "typed": "peridicos",
+    "committed": "periódicos",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No Brasil, durante a ditadura militar, os anarquistas atuaram através da criação de grupos culturais, editoriais e periódicos."
+  },
+  {
+    "typed": "economicos",
+    "committed": "econômicos",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Rothbard vê o poder do Estado como injustificado, argumentando que restringe os direitos individuais e a prosperidade, agregando problemas sociais e econômicos."
+  },
+  {
+    "typed": "espec",
+    "committed": "especial",
+    "category_hint": "prefix_completion",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Emissões antrópicas de alguns poluentes — em especial aerossóis de sulfato — podem gerar um efeito refrigerante através do aumento do reflexo da luz incidente."
+  },
+  {
+    "typed": "milhoes",
+    "committed": "milhões",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 2019, o Brasil era o 4º maior produtor de carne de porco do mundo, com quase 4 milhões de toneladas."
+  },
+  {
+    "typed": "geopoliticos",
+    "committed": "geopolíticos",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "O Paraguai alargou suas fronteiras, e isso provocou principalmente as lutas, ainda nos tempos atuais se discutem certas fronteiras do país e esses limites geopolíticos são controversos."
+  },
+  {
+    "typed": "espacamento",
+    "committed": "espaçamento",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Ele modificou a hipótese de Planck, definindo que o estado de menor energia de um oscilador é igual a hf, a metade do espaçamento de energia entre os níveis."
+  },
+  {
+    "typed": "seri",
+    "committed": "série",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Em 1905, publicou uma série de artigos acadêmicos revolucionários."
+  },
+  {
+    "typed": "dao",
+    "committed": "dão",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Esses dados dão provas materiais seguras de que o clima está realmente esquentando."
+  },
+  {
+    "typed": "tambem",
+    "committed": "também",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Este último período interglacial, chamado Holoceno, também sofreu mudanças climáticas naturais, embora tenha sido um período de notável estabilidade quando comparado às interglaciais anteriores."
+  },
+  {
+    "typed": "galachias",
+    "committed": "galáxias",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Astronomia extragaláctica Astronomia extragaláctica: Estudo de objetos (principalmente galáxias) fora de nossa galáxia."
+  }
+]

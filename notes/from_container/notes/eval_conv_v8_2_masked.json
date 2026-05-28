@@ -1,0 +1,513 @@
+{
+  "checkpoint": "finetune_big_v8_2/stage_c/checkpoint-2000",
+  "n_conversations": 65,
+  "nwp": {
+    "top1": 3.569525839104955,
+    "top3": 4.661694192860948,
+    "top5": 4.661694192860948,
+    "n": 3754
+  },
+  "prefix": {
+    "top1": 0.0,
+    "top3": 0.0,
+    "top5": 0.0,
+    "n": 0
+  },
+  "by_scenario": {
+    "friends_casual": {
+      "nwp": {
+        "top1": 2.898550724637681,
+        "top3": 3.6231884057971016,
+        "top5": 3.6231884057971016,
+        "n": 276
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "family_logistics": {
+      "nwp": {
+        "top1": 2.47787610619469,
+        "top3": 3.893805309734513,
+        "top5": 3.893805309734513,
+        "n": 565
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "workmates": {
+      "nwp": {
+        "top1": 3.2581453634085213,
+        "top3": 4.135338345864661,
+        "top5": 4.135338345864661,
+        "n": 798
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "parenting": {
+      "nwp": {
+        "top1": 2.953953084274544,
+        "top3": 4.344048653344918,
+        "top5": 4.344048653344918,
+        "n": 1151
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "gig_planning": {
+      "nwp": {
+        "top1": 3.112033195020747,
+        "top3": 4.287690179806362,
+        "top5": 4.287690179806362,
+        "n": 1446
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "breakfast": {
+      "nwp": {
+        "top1": 3.126809496236248,
+        "top3": 4.226983207874928,
+        "top5": 4.226983207874928,
+        "n": 1727
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "lunch": {
+      "nwp": {
+        "top1": 3.264094955489614,
+        "top3": 4.3026706231454,
+        "top5": 4.3026706231454,
+        "n": 2022
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "dinner": {
+      "nwp": {
+        "top1": 3.4362766420182687,
+        "top3": 4.654197477163985,
+        "top5": 4.654197477163985,
+        "n": 2299
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "op_movies": {
+      "nwp": {
+        "top1": 3.1819945673263486,
+        "top3": 4.307334109429569,
+        "top5": 4.307334109429569,
+        "n": 2577
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "op_social_media": {
+      "nwp": {
+        "top1": 3.297872340425532,
+        "top3": 4.361702127659575,
+        "top5": 4.361702127659575,
+        "n": 2820
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "op_celebrities": {
+      "nwp": {
+        "top1": 3.473318598042311,
+        "top3": 4.5153141774550045,
+        "top5": 4.5153141774550045,
+        "n": 3167
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "op_news": {
+      "nwp": {
+        "top1": 3.2947976878612715,
+        "top3": 4.364161849710983,
+        "top5": 4.364161849710983,
+        "n": 3460
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    },
+    "op_philosophy": {
+      "nwp": {
+        "top1": 3.5685752330226364,
+        "top3": 4.660452729693741,
+        "top5": 4.660452729693741,
+        "n": 3755
+      },
+      "pfx": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "n": 0
+      }
+    }
+  },
+  "samples": [
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 1,
+      "context_tail": "E",
+      "actual": "aí",
+      "nwp_top5": [
+        "Semelhidos",
+        "Semelhção"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 2,
+      "context_tail": "E aí,",
+      "actual": "vc",
+      "nwp_top5": [
+        "como"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 3,
+      "context_tail": "E aí, vc",
+      "actual": "tá",
+      "nwp_top5": [
+        "está"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 4,
+      "context_tail": "E aí, vc tá",
+      "actual": "livre",
+      "nwp_top5": [
+        "em",
+        "com"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 5,
+      "context_tail": "E aí, vc tá livre",
+      "actual": "no",
+      "nwp_top5": [
+        "de"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 6,
+      "context_tail": "E aí, vc tá livre no",
+      "actual": "fim",
+      "nwp_top5": [
+        "ano"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 7,
+      "context_tail": "E aí, vc tá livre no fim",
+      "actual": "de",
+      "nwp_top5": [
+        "desta",
+        "dessa"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 8,
+      "context_tail": "E aí, vc tá livre no fim de",
+      "actual": "semana",
+      "nwp_top5": [
+        "semana",
+        "minha"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 1,
+      "context_tail": "Vc",
+      "actual": "tá",
+      "nwp_top5": [
+        "te"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 2,
+      "context_tail": "Vc tá",
+      "actual": "livre",
+      "nwp_top5": [
+        "que"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 3,
+      "context_tail": "Vc tá livre",
+      "actual": "no",
+      "nwp_top5": [
+        "de"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 4,
+      "context_tail": "Vc tá livre no",
+      "actual": "fim",
+      "nwp_top5": [
+        "ano"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 5,
+      "context_tail": "Vc tá livre no fim",
+      "actual": "de",
+      "nwp_top5": [
+        "ao"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 6,
+      "context_tail": "Vc tá livre no fim de",
+      "actual": "semana",
+      "nwp_top5": [
+        "ano"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 7,
+      "context_tail": "Vc tá livre no fim de semana",
+      "actual": "pra",
+      "nwp_top5": [
+        "de"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 8,
+      "context_tail": "Vc tá livre no fim de semana pra",
+      "actual": "gente",
+      "nwp_top5": [
+        "ser"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 1,
+      "context_tail": "E",
+      "actual": "aí",
+      "nwp_top5": [
+        "Semelhidos",
+        "Semelhção"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 2,
+      "context_tail": "E aí,",
+      "actual": "vc",
+      "nwp_top5": [
+        "como"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 3,
+      "context_tail": "E aí, vc",
+      "actual": "tá",
+      "nwp_top5": [
+        "está"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 4,
+      "context_tail": "E aí, vc tá",
+      "actual": "com",
+      "nwp_top5": [
+        "em",
+        "com"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 5,
+      "context_tail": "E aí, vc tá com",
+      "actual": "tempo",
+      "nwp_top5": [
+        "a",
+        "uma"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 6,
+      "context_tail": "E aí, vc tá com tempo",
+      "actual": "pra",
+      "nwp_top5": [
+        "deste"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 7,
+      "context_tail": "E aí, vc tá com tempo pra",
+      "actual": "tomar",
+      "nwp_top5": [
+        "aristar",
+        "aringar",
+        "arar"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 8,
+      "context_tail": "E aí, vc tá com tempo pra tomar",
+      "actual": "um",
+      "nwp_top5": [
+        "a",
+        "as"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 1,
+      "context_tail": "Opa,",
+      "actual": "vc",
+      "nwp_top5": [
+        "ao"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 2,
+      "context_tail": "Opa, vc",
+      "actual": "tá",
+      "nwp_top5": [
+        "está"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 3,
+      "context_tail": "Opa, vc tá",
+      "actual": "livre",
+      "nwp_top5": [
+        "com"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 4,
+      "context_tail": "Opa, vc tá livre",
+      "actual": "amanhã",
+      "nwp_top5": [
+        "e"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 5,
+      "context_tail": "Opa, vc tá livre amanhã",
+      "actual": "pra",
+      "nwp_top5": [
+        "ao"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 6,
+      "context_tail": "Opa, vc tá livre amanhã pra",
+      "actual": "tomar",
+      "nwp_top5": [
+        "aringar",
+        "arar"
+      ]
+    }
+  ]
+}

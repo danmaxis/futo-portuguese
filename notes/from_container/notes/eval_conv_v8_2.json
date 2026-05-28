@@ -1,0 +1,506 @@
+{
+  "checkpoint": "finetune_big_v8_2/stage_c/checkpoint-2000",
+  "n_conversations": 65,
+  "nwp": {
+    "top1": 0.15982951518380395,
+    "top3": 0.3995737879595099,
+    "top5": 0.3995737879595099,
+    "n": 3754
+  },
+  "prefix": {
+    "top1": 14.11442995372318,
+    "top3": 23.033235170382834,
+    "top5": 27.345393352965925,
+    "n": 4754
+  },
+  "by_scenario": {
+    "friends_casual": {
+      "nwp": {
+        "top1": 0.36231884057971014,
+        "top3": 0.7246376811594203,
+        "top5": 0.7246376811594203,
+        "n": 276
+      },
+      "pfx": {
+        "top1": 13.69047619047619,
+        "top3": 24.404761904761905,
+        "top5": 27.976190476190474,
+        "n": 336
+      }
+    },
+    "family_logistics": {
+      "nwp": {
+        "top1": 0.17699115044247787,
+        "top3": 0.35398230088495575,
+        "top5": 0.35398230088495575,
+        "n": 565
+      },
+      "pfx": {
+        "top1": 12.893553223388306,
+        "top3": 24.28785607196402,
+        "top5": 29.235382308845576,
+        "n": 667
+      }
+    },
+    "workmates": {
+      "nwp": {
+        "top1": 0.12531328320802004,
+        "top3": 0.2506265664160401,
+        "top5": 0.2506265664160401,
+        "n": 798
+      },
+      "pfx": {
+        "top1": 11.168562564632886,
+        "top3": 21.820062047569802,
+        "top5": 25.542916235780766,
+        "n": 967
+      }
+    },
+    "parenting": {
+      "nwp": {
+        "top1": 0.08688097306689835,
+        "top3": 0.26064291920069504,
+        "top5": 0.26064291920069504,
+        "n": 1151
+      },
+      "pfx": {
+        "top1": 13.352685050798259,
+        "top3": 24.81857764876633,
+        "top5": 28.664731494920176,
+        "n": 1378
+      }
+    },
+    "gig_planning": {
+      "nwp": {
+        "top1": 0.06915629322268327,
+        "top3": 0.2766251728907331,
+        "top5": 0.2766251728907331,
+        "n": 1446
+      },
+      "pfx": {
+        "top1": 12.973593570608497,
+        "top3": 23.880597014925375,
+        "top5": 27.898966704936853,
+        "n": 1742
+      }
+    },
+    "breakfast": {
+      "nwp": {
+        "top1": 0.17371163867979156,
+        "top3": 0.3474232773595831,
+        "top5": 0.3474232773595831,
+        "n": 1727
+      },
+      "pfx": {
+        "top1": 13.221957040572793,
+        "top3": 24.295942720763723,
+        "top5": 28.687350835322196,
+        "n": 2095
+      }
+    },
+    "lunch": {
+      "nwp": {
+        "top1": 0.24727992087042533,
+        "top3": 0.39564787339268054,
+        "top5": 0.39564787339268054,
+        "n": 2022
+      },
+      "pfx": {
+        "top1": 13.540824575586095,
+        "top3": 24.090541632983022,
+        "top5": 28.13257881972514,
+        "n": 2474
+      }
+    },
+    "dinner": {
+      "nwp": {
+        "top1": 0.21748586341887777,
+        "top3": 0.43497172683775553,
+        "top5": 0.43497172683775553,
+        "n": 2299
+      },
+      "pfx": {
+        "top1": 13.33803810868031,
+        "top3": 23.782639378969655,
+        "top5": 27.911079745942132,
+        "n": 2834
+      }
+    },
+    "op_movies": {
+      "nwp": {
+        "top1": 0.23282887077997672,
+        "top3": 0.46565774155995343,
+        "top5": 0.46565774155995343,
+        "n": 2577
+      },
+      "pfx": {
+        "top1": 13.246268656716419,
+        "top3": 23.32089552238806,
+        "top5": 27.736318407960198,
+        "n": 3216
+      }
+    },
+    "op_social_media": {
+      "nwp": {
+        "top1": 0.2127659574468085,
+        "top3": 0.425531914893617,
+        "top5": 0.425531914893617,
+        "n": 2820
+      },
+      "pfx": {
+        "top1": 13.417721518987342,
+        "top3": 23.0098452883263,
+        "top5": 27.229254571026722,
+        "n": 3555
+      }
+    },
+    "op_celebrities": {
+      "nwp": {
+        "top1": 0.1894537417113988,
+        "top3": 0.4420587306599305,
+        "top5": 0.4420587306599305,
+        "n": 3167
+      },
+      "pfx": {
+        "top1": 13.43804537521815,
+        "top3": 22.787334829219645,
+        "top5": 27.050610820244327,
+        "n": 4011
+      }
+    },
+    "op_news": {
+      "nwp": {
+        "top1": 0.17341040462427745,
+        "top3": 0.4046242774566474,
+        "top5": 0.4046242774566474,
+        "n": 3460
+      },
+      "pfx": {
+        "top1": 13.362265874828688,
+        "top3": 22.45317496573778,
+        "top5": 26.74737322978529,
+        "n": 4378
+      }
+    },
+    "op_philosophy": {
+      "nwp": {
+        "top1": 0.15978695073235685,
+        "top3": 0.3994673768308921,
+        "top5": 0.3994673768308921,
+        "n": 3755
+      },
+      "pfx": {
+        "top1": 14.11442995372318,
+        "top3": 23.033235170382834,
+        "top5": 27.345393352965925,
+        "n": 4754
+      }
+    }
+  },
+  "samples": [
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 1,
+      "context_tail": "E",
+      "actual": "aí",
+      "nwp_top5": [
+        "CHAR_D",
+        "CHAR_E",
+        "CHAR_A"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 2,
+      "context_tail": "E aí,",
+      "actual": "vc",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 3,
+      "context_tail": "E aí, vc",
+      "actual": "tá",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 4,
+      "context_tail": "E aí, vc tá",
+      "actual": "livre",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 5,
+      "context_tail": "E aí, vc tá livre",
+      "actual": "no",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 6,
+      "context_tail": "E aí, vc tá livre no",
+      "actual": "fim",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 7,
+      "context_tail": "E aí, vc tá livre no fim",
+      "actual": "de",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 0,
+      "wi": 8,
+      "context_tail": "E aí, vc tá livre no fim de",
+      "actual": "semana",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 1,
+      "context_tail": "Vc",
+      "actual": "tá",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 2,
+      "context_tail": "Vc tá",
+      "actual": "livre",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 3,
+      "context_tail": "Vc tá livre",
+      "actual": "no",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 4,
+      "context_tail": "Vc tá livre no",
+      "actual": "fim",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 5,
+      "context_tail": "Vc tá livre no fim",
+      "actual": "de",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 6,
+      "context_tail": "Vc tá livre no fim de",
+      "actual": "semana",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 7,
+      "context_tail": "Vc tá livre no fim de semana",
+      "actual": "pra",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 1,
+      "wi": 8,
+      "context_tail": "Vc tá livre no fim de semana pra",
+      "actual": "gente",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 1,
+      "context_tail": "E",
+      "actual": "aí",
+      "nwp_top5": [
+        "CHAR_D",
+        "CHAR_E",
+        "CHAR_A"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 2,
+      "context_tail": "E aí,",
+      "actual": "vc",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 3,
+      "context_tail": "E aí, vc",
+      "actual": "tá",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 4,
+      "context_tail": "E aí, vc tá",
+      "actual": "com",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 5,
+      "context_tail": "E aí, vc tá com",
+      "actual": "tempo",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 6,
+      "context_tail": "E aí, vc tá com tempo",
+      "actual": "pra",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 7,
+      "context_tail": "E aí, vc tá com tempo pra",
+      "actual": "tomar",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 2,
+      "wi": 8,
+      "context_tail": "E aí, vc tá com tempo pra tomar",
+      "actual": "um",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 1,
+      "context_tail": "Opa,",
+      "actual": "vc",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 2,
+      "context_tail": "Opa, vc",
+      "actual": "tá",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 3,
+      "context_tail": "Opa, vc tá",
+      "actual": "livre",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 4,
+      "context_tail": "Opa, vc tá livre",
+      "actual": "amanhã",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 5,
+      "context_tail": "Opa, vc tá livre amanhã",
+      "actual": "pra",
+      "nwp_top5": [
+        "XBU"
+      ]
+    },
+    {
+      "scenario": "friends_casual",
+      "conv": 3,
+      "wi": 6,
+      "context_tail": "Opa, vc tá livre amanhã pra",
+      "actual": "tomar",
+      "nwp_top5": [
+        "XBU"
+      ]
+    }
+  ]
+}

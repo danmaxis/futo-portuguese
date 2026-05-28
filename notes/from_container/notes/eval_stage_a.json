@@ -1,0 +1,583 @@
+{
+  "checkpoint": "finetune/stage_a/final",
+  "autocorrect": {
+    "top1": 0,
+    "top5": 0,
+    "n": 30,
+    "rows": [
+      {
+        "typo": "vc",
+        "correct": "você",
+        "top1": "cvcccccccccc",
+        "top5": [
+          "cvcccccccccc",
+          "cvccvccccccc",
+          "cvcvcccccccc",
+          "cccccccccccc",
+          "cvccccccccbc"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tb",
+        "correct": "também",
+        "top1": "ttb",
+        "top5": [
+          "gbtb",
+          "vtb",
+          "ttbt",
+          "gtb",
+          "ttb"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "hj",
+        "correct": "hoje",
+        "top1": "hhh",
+        "top5": [
+          "ghhai",
+          "bhhai",
+          "ghachi",
+          "ghham",
+          "ghhj"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "pq",
+        "correct": "porque",
+        "top1": "qq",
+        "top5": [
+          "qq",
+          "páq",
+          "macq",
+          "cano",
+          "q"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "obg",
+        "correct": "obrigado",
+        "top1": "boghg",
+        "top5": [
+          "boghg",
+          "boggy",
+          "goggh",
+          "goggy",
+          "boghgs"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "vlw",
+        "correct": "valeu",
+        "top1": "cvlww",
+        "top5": [
+          "cvlww",
+          "villwww",
+          "cvlwow",
+          "cvlws",
+          "villwwk"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "blz",
+        "correct": "beleza",
+        "top1": "boblaz",
+        "top5": [
+          "boblaz",
+          "boglz",
+          "gblaz",
+          "boglaz",
+          "bzlz"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "mt",
+        "correct": "muito",
+        "top1": "vtt",
+        "top5": [
+          "vtt",
+          "vtvt",
+          "vttv",
+          "gtvt",
+          "vtti"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "voce",
+        "correct": "você",
+        "top1": "vvovere",
+        "top5": [
+          "vvigoe",
+          "vvoce",
+          "vocece",
+          "vvovee",
+          "vvigode"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tambem",
+        "correct": "também",
+        "top1": "ttbabem",
+        "top5": [
+          "ttamembe",
+          "gtambegem",
+          "tgamberquim",
+          "tgamberem",
+          "gastbem"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "nao",
+        "correct": "não",
+        "top1": "gggado",
+        "top5": [
+          "go-ganho",
+          "go-go",
+          "go-go-go",
+          "go-co-o",
+          "go-go-o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "esta",
+        "correct": "está",
+        "top1": "gégastias",
+        "top5": [
+          "géestata",
+          "géestua",
+          "gestasta",
+          "estesta",
+          "gestas"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "portugues",
+        "correct": "português",
+        "top1": "gospouves",
+        "top5": [
+          "gnóstices",
+          "grooutsownes",
+          "grooutsuges",
+          "gnósticas",
+          "grooutings"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "estao",
+        "correct": "estão",
+        "top1": "estado-estão",
+        "top5": [
+          "gelestado",
+          "estado-estão",
+          "gestão",
+          "estado-nado",
+          "gestão"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "orgao",
+        "correct": "órgão",
+        "top1": "gorogação",
+        "top5": [
+          "fogo-gão",
+          "fogo-carnão",
+          "fogo-gano",
+          "gonorgiano",
+          "fogo-fogão"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "avo",
+        "correct": "avó",
+        "top1": "cavio",
+        "top5": [
+          "cavio",
+          "cavo",
+          "cvavio",
+          "cvavo",
+          "givo"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "coracao",
+        "correct": "coração",
+        "top1": "conracação",
+        "top5": [
+          "corcoração",
+          "concoração",
+          "cocoração",
+          "cogoração",
+          "co-coreação"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "acao",
+        "correct": "ação",
+        "top1": "caça-a-cã-o",
+        "top5": [
+          "derrotado",
+          "atacação",
+          "atacado",
+          "cacaco",
+          "cacação"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "relacao",
+        "correct": "relação",
+        "top1": "cecalação",
+        "top5": [
+          "cecalação",
+          "grelaçado",
+          "grelaçação",
+          "ccelacão",
+          "cellação"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "estacao",
+        "correct": "estação",
+        "top1": "destacação",
+        "top5": [
+          "destacação",
+          "destacação",
+          "estado-nação",
+          "gestação",
+          "paisagação"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "merrcado",
+        "correct": "mercado",
+        "top1": "cicer-aristado",
+        "top5": [
+          "feriadoçado",
+          "cercarcado",
+          "feriadoçoado",
+          "encerrado",
+          "feriadoçodo"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tdabalho",
+        "correct": "trabalho",
+        "top1": "gd'd'abal-ho'la",
+        "top5": [
+          "gtdabalho",
+          "tetdabalho",
+          "gd'dabbalho",
+          "gd'dabbalho",
+          "gd'dabbalhoo"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "compitador",
+        "correct": "computador",
+        "top1": "competitador",
+        "top5": [
+          "competitador",
+          "competitado",
+          "comandador",
+          "completador",
+          "candidatador"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "aamnha",
+        "correct": "amanhã",
+        "top1": "gamanhha",
+        "top5": [
+          "gamanhha",
+          "gamachba",
+          "gamachha",
+          "gamamha",
+          "gamanha"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "cidaade",
+        "correct": "cidade",
+        "top1": "ccddadas",
+        "top5": [
+          "ccddadas",
+          "ccdadesade",
+          "ccdridaed",
+          "ccdridade",
+          "cidaddade"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "commer",
+        "correct": "comer",
+        "top1": "codomer",
+        "top5": [
+          "codomer",
+          "codomen",
+          "coverkmer",
+          "comcome",
+          "comcomer"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "livvro",
+        "correct": "livro",
+        "top1": "plebovvalho",
+        "top5": [
+          "civilvo",
+          "plebovvalho",
+          "plebvivo",
+          "plebvivro",
+          "civilvogeral"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "execelente",
+        "correct": "excelente",
+        "top1": "exceldeente",
+        "top5": [
+          "ex-executive",
+          "ex-execute",
+          "excelece",
+          "exceldeente",
+          "independente"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "rezolver",
+        "correct": "resolver",
+        "top1": "cezol-vel-ver",
+        "top5": [
+          "gaz-olver",
+          "czesolver",
+          "czezolver",
+          "gaz-lover",
+          "gezozover"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "agradeso",
+        "correct": "agradeço",
+        "top1": "gigradoes",
+        "top5": [
+          "gggradeados",
+          "gggradoeso",
+          "giggrade-os",
+          "giggradeos",
+          "gggradoesos"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      }
+    ]
+  },
+  "next_word": {
+    "top1": 0,
+    "topk": 0,
+    "n": 7,
+    "rows": [
+      {
+        "prefix": "Bom dia, como você",
+        "plausible": [
+          "está",
+          "vai",
+          "passou",
+          "tem"
+        ],
+        "top1": "o-x-",
+        "topk": [
+          "bo-so-",
+          "eiro<xec>",
+          "o-lix",
+          "o-x-",
+          "odimar<xec>",
+          "quebde<xec>"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Os meninos foram para a",
+        "plausible": [
+          "escola",
+          "casa",
+          "praia",
+          "rua"
+        ],
+        "top1": "----",
+        "topk": [
+          "----",
+          "-série<xec>",
+          "a"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Eu queria um café com",
+        "plausible": [
+          "leite",
+          "açúcar",
+          "creme",
+          "bolo"
+        ],
+        "top1": "aifa",
+        "topk": [
+          "aibo<xec>",
+          "aifa",
+          "çar-a",
+          "çar-se",
+          "ê-",
+          "ê-a",
+          "êroda<xec>"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "A capital do Brasil é",
+        "plausible": [
+          "Brasília"
+        ],
+        "top1": "oguo<XEC>",
+        "topk": [
+          "-xi--",
+          "ange<xec>",
+          "ogua<xec>",
+          "oguo<xec>",
+          "ogué<xec>",
+          "xicoe<xec>",
+          "úbcio<xec>",
+          "úbito<xec>"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Hoje está fazendo muito",
+        "plausible": [
+          "calor",
+          "frio",
+          "sol",
+          "vento"
+        ],
+        "top1": "sucesso<XEC>",
+        "topk": [
+          "ela<xec>",
+          "elariz<xec>",
+          "que<xec>",
+          "sucesso<xec>",
+          "usa<xec>",
+          "usar<xec>",
+          "usará<xec>",
+          "usarê<xec>"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Eu não estou",
+        "plausible": [
+          "bem",
+          "feliz",
+          "indo",
+          "conseguindo",
+          "sabendo",
+          "entendendo"
+        ],
+        "top1": "a-a-",
+        "topk": [
+          "a---",
+          "a-a-",
+          "a-fa-",
+          "a-fia",
+          "a-polf",
+          "a-se-",
+          "a-se<xec>",
+          "ao<xec>"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "O jogo do Brasil contra a",
+        "plausible": [
+          "Argentina",
+          "Alemanha",
+          "França",
+          "Itália",
+          "Espanha"
+        ],
+        "top1": "----",
+        "topk": [
+          "----",
+          "--a-",
+          "-a--",
+          "a-a-",
+          "iba-<xec>",
+          "iva<xec>",
+          "ivain<xec>",
+          "ultura<xec>"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,781 @@
+{
+  "checkpoint": "finetune_big_v8_1/stage_c/checkpoint-6500",
+  "eval_jsonl": "notes/real_typos_eval.json",
+  "n": 50,
+  "top1": 22,
+  "top5": 32,
+  "by_category": {
+    "adjacency_or_short_edit": {
+      "n": 21,
+      "top1": 11,
+      "top5": 15
+    },
+    "hybrid": {
+      "n": 5,
+      "top1": 0,
+      "top5": 1
+    },
+    "accent_only": {
+      "n": 17,
+      "top1": 11,
+      "top5": 15
+    },
+    "prefix_completion": {
+      "n": 7,
+      "top1": 0,
+      "top5": 1
+    }
+  },
+  "rows": [
+    {
+      "typed": "passoy",
+      "committed": "passou",
+      "category": "adjacency_or_short_edit",
+      "top1": "passou",
+      "top5": [
+        "passou",
+        "passa",
+        "passado",
+        "Passou",
+        "passado"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "horriv",
+      "committed": "horrível",
+      "category": "hybrid",
+      "top1": "Horvi",
+      "top5": [
+        "horrível",
+        "frio",
+        "Hirvi",
+        "Horvi",
+        "Hervive"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "tambem",
+      "committed": "também",
+      "category": "accent_only",
+      "top1": "também",
+      "top5": [
+        "também",
+        "também<CHAR_A><CHAR_R><CHAR_O><CHAR_S><XBC>armares",
+        "também<CHAR_A><CHAR_R><CHAR_O><CHAR_S><XBC>armários",
+        "também<CHAR_A><CHAR_R><CHAR_O><CHAR_S><XBC>armamos",
+        "também<CHAR_A><CHAR_R><CHAR_O><CHAR_S><XBC>armeiros"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "carvao",
+      "committed": "carvão",
+      "category": "accent_only",
+      "top1": "carrovo",
+      "top5": [
+        "carvão",
+        "carrovo",
+        "Carvão",
+        "cartão",
+        "carrotivo"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "esta",
+      "committed": "está",
+      "category": "accent_only",
+      "top1": "está",
+      "top5": [
+        "está",
+        "Está",
+        "estás",
+        "está",
+        "esta"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "estao",
+      "committed": "estão",
+      "category": "accent_only",
+      "top1": "estão",
+      "top5": [
+        "estão",
+        "estão",
+        "Estão",
+        "Estestão",
+        "Estado"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "pergintas",
+      "committed": "perguntas",
+      "category": "adjacency_or_short_edit",
+      "top1": "perguntas",
+      "top5": [
+        "perguntas",
+        "precisas",
+        "pretendias",
+        "esperistas",
+        "prostrita"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "mindse",
+      "committed": "mímese",
+      "category": "adjacency_or_short_edit",
+      "top1": "Minees",
+      "top5": [
+        "Minees",
+        "Minese",
+        "Mines",
+        "Minee",
+        "Mines"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "pensnaod",
+      "committed": "pensando",
+      "category": "adjacency_or_short_edit",
+      "top1": "pensando",
+      "top5": [
+        "pensando",
+        "pensado",
+        "Pensado",
+        "Pensando",
+        "pensados"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "monsgro",
+      "committed": "monstro",
+      "category": "adjacency_or_short_edit",
+      "top1": "Montago",
+      "top5": [
+        "mongeiro",
+        "monsgo",
+        "mongreiro",
+        "monstro",
+        "Montago"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "alisnc",
+      "committed": "aliança",
+      "category": "adjacency_or_short_edit",
+      "top1": "allison",
+      "top5": [
+        "ALALIL",
+        "ALILES",
+        "allison",
+        "Alline",
+        "alline"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "olhafa",
+      "committed": "olhada",
+      "category": "adjacency_or_short_edit",
+      "top1": "olhada",
+      "top5": [
+        "olhada",
+        "lalhada",
+        "lalha",
+        "olhha",
+        "olhara"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "Opc",
+      "committed": "Opção",
+      "category": "hybrid",
+      "top1": "Opke",
+      "top5": [
+        "Opke",
+        "Option",
+        "Opol",
+        "OPC",
+        "Ople"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "nascermls",
+      "committed": "nascermos",
+      "category": "adjacency_or_short_edit",
+      "top1": "nascermos",
+      "top5": [
+        "nascermos",
+        "nasccermos",
+        "Nasccermos",
+        "naccermes",
+        "nascimentos"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "quentao",
+      "committed": "quentão",
+      "category": "accent_only",
+      "top1": "Enquanto",
+      "top5": [
+        "Enquanto",
+        "porque",
+        "Quentão",
+        "então",
+        "querão"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "nao",
+      "committed": "não",
+      "category": "accent_only",
+      "top1": "não",
+      "top5": [
+        "não",
+        "Não",
+        "não<XBC>",
+        "não",
+        "ao"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "especificos",
+      "committed": "específicos",
+      "category": "accent_only",
+      "top1": "específicos",
+      "top5": [
+        "específicos",
+        "específicos",
+        "Espaçosticos",
+        "Especiíficos",
+        "especificos"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "complez",
+      "committed": "complexa",
+      "category": "adjacency_or_short_edit",
+      "top1": "completa",
+      "top5": [
+        "completa",
+        "complexa",
+        "composta",
+        "completa",
+        "complete"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "variabel",
+      "committed": "variável",
+      "category": "adjacency_or_short_edit",
+      "top1": "variável",
+      "top5": [
+        "variável",
+        "varibalal",
+        "Variarial",
+        "variavel",
+        "valariem"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "colta",
+      "committed": "volta",
+      "category": "adjacency_or_short_edit",
+      "top1": "completa",
+      "top5": [
+        "completa",
+        "colta",
+        "volta",
+        "comta",
+        "conta"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "fre",
+      "committed": "frente",
+      "category": "prefix_completion",
+      "top1": "forte",
+      "top5": [
+        "forte",
+        "fere",
+        "frente",
+        "ferre",
+        "de"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "reub",
+      "committed": "reunião",
+      "category": "hybrid",
+      "top1": "reu",
+      "top5": [
+        "reu",
+        "Renu",
+        "Reiu",
+        "Reib",
+        "Reium"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "despendimento",
+      "committed": "desprendimento",
+      "category": "adjacency_or_short_edit",
+      "top1": "despensamento",
+      "top5": [
+        "desejamento",
+        "despensamento",
+        "despropósito",
+        "deliberamento",
+        "desânimo"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "qualw",
+      "committed": "qualquer",
+      "category": "hybrid",
+      "top1": "qual",
+      "top5": [
+        "qual",
+        "quais",
+        "que",
+        "Quase",
+        "quada"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "arquit",
+      "committed": "arquitetura",
+      "category": "prefix_completion",
+      "top1": "Arquity",
+      "top5": [
+        "Arquity",
+        "Arquito",
+        "Artique",
+        "arquittiy",
+        "Arquith"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "as",
+      "committed": "às",
+      "category": "accent_only",
+      "top1": "às",
+      "top5": [
+        "às",
+        "das",
+        "as",
+        "às<XBC>às",
+        "às􀀀"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "minimo",
+      "committed": "mínimo",
+      "category": "accent_only",
+      "top1": "mínimo",
+      "top5": [
+        "mínimo",
+        "mínimo",
+        "mino",
+        "Minimo",
+        "máximo"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "ativi",
+      "committed": "atividades",
+      "category": "prefix_completion",
+      "top1": "ativou",
+      "top5": [
+        "ativou",
+        "ativo",
+        "havii",
+        "atingiu",
+        "haviu"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "senao",
+      "committed": "senão",
+      "category": "accent_only",
+      "top1": "senão",
+      "top5": [
+        "senão",
+        "sendo",
+        "senano",
+        "semão",
+        "Sena"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "portu",
+      "committed": "portuguesa",
+      "category": "prefix_completion",
+      "top1": "portou",
+      "top5": [
+        "portou",
+        "porto",
+        "porto",
+        "Porte",
+        "Porto"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Entao",
+      "committed": "Então",
+      "category": "accent_only",
+      "top1": "então",
+      "top5": [
+        "então",
+        "Então",
+        "entado",
+        "entido",
+        "entanto"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "combinac",
+      "committed": "combinação",
+      "category": "hybrid",
+      "top1": "comumbina",
+      "top5": [
+        "comumbina",
+        "contacação",
+        "climca",
+        "comuna",
+        "comunca"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Ai",
+      "committed": "Aí",
+      "category": "accent_only",
+      "top1": "ao",
+      "top5": [
+        "ao",
+        "aí",
+        "ai",
+        "aoi",
+        "ais"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "sdntido",
+      "committed": "sentido",
+      "category": "adjacency_or_short_edit",
+      "top1": "sentido",
+      "top5": [
+        "contido",
+        "entendido",
+        "sentido",
+        "conhecido",
+        "sfundido"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "jma",
+      "committed": "uma",
+      "category": "adjacency_or_short_edit",
+      "top1": "Jama",
+      "top5": [
+        "Jama",
+        "uma",
+        "Juma",
+        "Jma",
+        "Jima"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "so",
+      "committed": "só",
+      "category": "accent_only",
+      "top1": "só",
+      "top5": [
+        "só",
+        "do",
+        "Só",
+        "soo",
+        "ao"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "produizu",
+      "committed": "produziu",
+      "category": "adjacency_or_short_edit",
+      "top1": "produziu",
+      "top5": [
+        "produziu",
+        "produziu",
+        "produzuu",
+        "produzida",
+        "produziu"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "intere",
+      "committed": "interesse",
+      "category": "prefix_completion",
+      "top1": "entre",
+      "top5": [
+        "integre",
+        "encontre",
+        "entre",
+        "Entre",
+        "tenter"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "voce",
+      "committed": "você",
+      "category": "accent_only",
+      "top1": "você",
+      "top5": [
+        "você",
+        "Você",
+        "Voce",
+        "voce",
+        "Vocês"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "port",
+      "committed": "português",
+      "category": "prefix_completion",
+      "top1": "porto",
+      "top5": [
+        "porto",
+        "por",
+        "Porto",
+        "Porto",
+        "Porto"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "ofuscsdor",
+      "committed": "ofuscado",
+      "category": "adjacency_or_short_edit",
+      "top1": "usador",
+      "top5": [
+        "ofuscar",
+        "ofuspador",
+        "usador",
+        "ofusador",
+        "fossfordo"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "cafe",
+      "committed": "café",
+      "category": "accent_only",
+      "top1": "face",
+      "top5": [
+        "face",
+        "cafe",
+        "cefe",
+        "café",
+        "ceve"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "oublicada",
+      "committed": "publicada",
+      "category": "adjacency_or_short_edit",
+      "top1": "publicada",
+      "top5": [
+        "publicada",
+        "utilizada",
+        "divulgada",
+        "utilizadas",
+        "aplicada"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "Heheheheh",
+      "committed": "Bebê jeje",
+      "category": "adjacency_or_short_edit",
+      "top1": "hlhei",
+      "top5": [
+        "hhlhei",
+        "hlheie",
+        "Hhherhei",
+        "hhlheie",
+        "Hhlheie"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "realmdnre",
+      "committed": "realmente",
+      "category": "adjacency_or_short_edit",
+      "top1": "Renderfeier",
+      "top5": [
+        "Renreal",
+        "Renderman",
+        "Renderberg",
+        "Renderarm",
+        "Renderlarm"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "atend",
+      "committed": "atendimento",
+      "category": "prefix_completion",
+      "top1": "Apese",
+      "top5": [
+        "antes",
+        "atedon",
+        "aténe",
+        "ADème",
+        "Apese"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "audio",
+      "committed": "áudio",
+      "category": "accent_only",
+      "top1": "áudio",
+      "top5": [
+        "áudio",
+        "Aúdio",
+        "ácido",
+        "auxílio",
+        "Aurélio"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "daqueke",
+      "committed": "daquele",
+      "category": "adjacency_or_short_edit",
+      "top1": "daquele",
+      "top5": [
+        "daquele",
+        "daque",
+        "daquque",
+        "daqueste",
+        "dadaque"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "awuela",
+      "committed": "aquela",
+      "category": "adjacency_or_short_edit",
+      "top1": "aquela",
+      "top5": [
+        "aquela",
+        "Aelale",
+        "Aelala",
+        "Aella",
+        "Aquema"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "diretorios",
+      "committed": "diretórios",
+      "category": "accent_only",
+      "top1": "diretório",
+      "top5": [
+        "diretório",
+        "diretórios",
+        "diretórios",
+        "directores",
+        "direitos"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "typed": "pais",
+    "committed": "país",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A etnia dos habitantes da América Latina é muito variável de país a país."
+  },
+  {
+    "typed": "arvore",
+    "committed": "árvore",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "O Ceibo é designado como a flor/árvore nacional do país, enquanto o Pato, uma prática a cavalo, é o esporte nacional."
+  },
+  {
+    "typed": "comecou",
+    "committed": "começou",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Volta do Talibã Desde 2016, o Talibã lentamente começou a se reconstruir, ao ponto que em 2020, eles já estavam mais fortes do que qualquer período na década anterior."
+  },
+  {
+    "typed": "esforcos",
+    "committed": "esforços",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A FAO lidera os esforços internacionais para derrotar a fome e fornece um fórum para a negociação de regulamentos e acordos agrícolas globais."
+  },
+  {
+    "typed": "referencia",
+    "committed": "referência",
+    "category_hint": "accent_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "A média obtida é então comparada com a referência para o período de 1961-1990, obtendo-se o valor da anomalia para cada mês."
+  }
+]

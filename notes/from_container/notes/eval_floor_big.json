@@ -1,0 +1,553 @@
+{
+  "checkpoint": "pretrain_big/base",
+  "autocorrect": {
+    "top1": 0,
+    "top5": 0,
+    "n": 30,
+    "rows": [
+      {
+        "typo": "vc",
+        "correct": "você",
+        "top1": ", o o o o o o o o o o o",
+        "top5": [
+          ", do o o o o o o o o o o",
+          ", a a a a a a a a a a a",
+          ". a a a a a a a a a a a",
+          ", o o o o o o o o o o o",
+          ", a a a a a a a a a o o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tb",
+        "correct": "também",
+        "top1": "a a a a a a a a peca a a",
+        "top5": [
+          "a o o o o o o o o o o o",
+          "a a o o o o o o o o o o",
+          "a a a a a o o o o o o o",
+          ", o o o o o o o o o o o",
+          "a o o o o o o o o o o a"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "hj",
+        "correct": "hoje",
+        "top1": ", o o o o o o o o o o o",
+        "top5": [
+          ", do o o o o o o o o o o",
+          "de o o o o o o o o o o o",
+          ", o o o o o o o o o o o",
+          ", a a a a a a a a a a a",
+          ", a a a a a a a a a o o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "pq",
+        "correct": "porque",
+        "top1": "a a a a a a a a a a a a",
+        "top5": [
+          "a o o o o o o o o o o o",
+          "e o o o o o o o o o o o",
+          ", o o o o o o o o o o o",
+          ". o o o o o o o o o o o",
+          "a o o o o o o o o o o e"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "obg",
+        "correct": "obrigado",
+        "top1": ", o o o o o o o o o o o",
+        "top5": [
+          "a o o o o o o o o o o o",
+          ", a a a a o o o o o o o",
+          ", o o o o o o o o o o o",
+          ", a a a a a a a a a a a",
+          ". o o o o o o o o o o o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "vlw",
+        "correct": "valeu",
+        "top1": "a o o o o o o o o o o o",
+        "top5": [
+          "a o o o o o o o o o o o",
+          ", o o o o o o o o o o o",
+          "a o o o o o o do o o o o",
+          "a o o o o o o o o do o o",
+          "a o o o o o o o o o do o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "blz",
+        "correct": "beleza",
+        "top1": "explta o o o o o o o o o",
+        "top5": [
+          "explta o o o o o o o o o",
+          "explt. o o o o o o o o o",
+          "explta a a a a a a a a a",
+          "explto o o o o o o o o o",
+          "direo o o o o o o o o o o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "mt",
+        "correct": "muito",
+        "top1": "de a a a a a a a a a a a",
+        "top5": [
+          "a o o o o o o o o o o o",
+          "de o o o o o o o o o o o",
+          ", o o o o o o o o o o o",
+          "a o o o o o o o o o o a",
+          "a o o o o o o o o o o ."
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "voce",
+        "correct": "você",
+        "top1": "o o o o o o o o o o o o",
+        "top5": [
+          ", a a a o o o o o o o o",
+          "o a a a a a o o o o o o",
+          "o a a a a a a a a a a a",
+          ", o o o o o o o o o o o",
+          ", a a a a a a a a a a a"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tambem",
+        "correct": "também",
+        "top1": ", o o o o o o o o o o o",
+        "top5": [
+          ", o o o o o o o o o o o",
+          ". a a a a a a a a a a a",
+          ". o o o o o o o o o o o",
+          "que a a a a a a a a a a a",
+          ", a a a a a a a a a a a"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "nao",
+        "correct": "não",
+        "top1": "------------",
+        "top5": [
+          "------------",
+          "------------",
+          "-----------,",
+          "-----------e",
+          "-----------o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "esta",
+        "correct": "está",
+        "top1": "fome a a a a a a a a a a",
+        "top5": [
+          "faltar o o o o o o o o o o o",
+          "faltar o o o do o o o o o o o",
+          "faltar o o o o do o o o o o o",
+          "explt, o o o o o o o o o",
+          "faltar o o o o o o o o o o e"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "portugues",
+        "correct": "português",
+        "top1": "a a a a a a a a a a a a",
+        "top5": [
+          "a o o o o o o o o o o o",
+          "um o o o o o o o o o o o",
+          "o o o o o o o o o o o o",
+          "a a a a a a a a a a a a",
+          "uma a a a a a a a a a a a"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "estao",
+        "correct": "estão",
+        "top1": "a a a a a a a a a a a a",
+        "top5": [
+          "a o o o o o o o o o o o",
+          "e o o o o o o o o o o o",
+          "o o o o o o o o o o o o",
+          "a o o o o o o o o o o e",
+          "a o o o o o o o o o o do"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "orgao",
+        "correct": "órgão",
+        "top1": "de a a a a a a a a a a a",
+        "top5": [
+          "de o o o o o o o o o o o",
+          ". a a a a a a a a a a a",
+          ", o o o o o o o o o o o",
+          ". o o o o o o o o o o o",
+          "de a a a a a a a a a a a"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "avo",
+        "correct": "avó",
+        "top1": "de a a a a a a a a a a a",
+        "top5": [
+          ", do o o o o o o o o o o",
+          "de o o o o o o o o o o o",
+          ", o o o o o o o o o o o",
+          "de a a a a a a a a a a a",
+          ", do o o o o o o o o o e"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "coracao",
+        "correct": "coração",
+        "top1": "de a a a a a a a a a a a",
+        "top5": [
+          "de a o o o o o o o o o o",
+          "de a a o o o o o o o o o",
+          "de um o o o o o o o o o o",
+          "de a a a a a a a a a a a",
+          "de a o o o o o o o o o a"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "acao",
+        "correct": "ação",
+        "top1": "de a a a a a a a a a a a",
+        "top5": [
+          ", o o o o o o o o o o o",
+          ". a a a a a a a a a a a",
+          "de a a a a a a a a a a a",
+          ", a a a a a a a a a a a",
+          ". o o o o o o o o o o o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "relacao",
+        "correct": "relação",
+        "top1": "de o o o o o o o o o o o",
+        "top5": [
+          "de a o o o o o o o o o o",
+          "de o o o o o o o o o o o",
+          "de a a o o o o o o o o o",
+          "de a a a a a a a a a a a",
+          "a o o o o o o o o o o o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "estacao",
+        "correct": "estação",
+        "top1": "em o o o o o o o o o o o",
+        "top5": [
+          "no o o o o o o o o o o o",
+          "no do o o o o o o o o o o",
+          "na a o o o o o o o o o o",
+          "no o o o o o o o o do o o",
+          "no o o o o o o o o o o e"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "merrcado",
+        "correct": "mercado",
+        "top1": "de o o o o o o o o o o o",
+        "top5": [
+          "de o o o o o o o o o o o",
+          "de a o o o o o o o o o o",
+          "o do o o o o o o o o o o",
+          "de o o o o o o o o o o a",
+          "de o o o o o o o o o o e"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "tdabalho",
+        "correct": "trabalho",
+        "top1": "expla o o o o o o o o o o",
+        "top5": [
+          "expla o o o o o o o o o o",
+          "bas, o o o o o o o o o o",
+          "dire, o o o o o o o o o o",
+          "direo o o o o o o o o o o",
+          "expla o o o o o o o o o e"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "compitador",
+        "correct": "computador",
+        "top1": "a a a a a a a a a a a a",
+        "top5": [
+          "a um o o o o o o o o o o",
+          "a o o o o o o o o o o o",
+          "de o o o o o o o o o o o",
+          "a a a a a a a a a a a a",
+          ", o o o o o o o o o o o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "aamnha",
+        "correct": "amanhã",
+        "top1": "de a a a a a a a a a a a",
+        "top5": [
+          "de o o o o o o o o o o o",
+          "e o o o o o o o o o o o",
+          ", o o o o o o o o o o o",
+          "de o o o o o o o o o o e",
+          "de o o o o o o o o o o do"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "cidaade",
+        "correct": "cidade",
+        "top1": "a a a a a a a a a a a a",
+        "top5": [
+          "a o o o o o o o o o o o",
+          "um o o o o o o o o o o o",
+          "uma a a a a a a a a a a a",
+          "uma a a a a a a a a a o o",
+          "uma a a a a a a a a a a o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "commer",
+        "correct": "comer",
+        "top1": "de a a a a a a a a a a a",
+        "top5": [
+          ", do o o o o o o o o o o",
+          ", o o o o o o o o o o o",
+          "de o o o o o o o o do o o",
+          ", do o o o o o o o o o a",
+          ", o o o o o o o o o o a"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "livvro",
+        "correct": "livro",
+        "top1": "a a a a a a a a a a a a",
+        "top5": [
+          "a o o o o o o o o o o o",
+          "e a a a a a a a o o o o",
+          "e a a a a a a a a a a a",
+          ", o o o o o o o o o o o",
+          ", a a a a a a a a a a a"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "execelente",
+        "correct": "excelente",
+        "top1": "a a a a a a a a a a a a",
+        "top5": [
+          "a a a a a a a a a a a a",
+          "a a a o o o o o o o o o",
+          "a a o o o o o o o o o o",
+          "a a a a o o o o o o o o",
+          "a a a a a a a a a a a o"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "rezolver",
+        "correct": "resolver",
+        "top1": "a a a a a a a a a a a a",
+        "top5": [
+          "a o o o o o o o o o o o",
+          "o a a a a a o o o o o o",
+          "a o o o o o do o o o o o",
+          "o a a a a a a a a a a a",
+          "a o o o o o o o o o o e"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "agradeso",
+        "correct": "agradeço",
+        "top1": ", o o o o o o o o o o o",
+        "top5": [
+          "de o o o o o o o o o o o",
+          "a o o o o o o o o o o o",
+          "a a a a a o o o o o o o",
+          ", o o o o o o o o o o o",
+          "de o o o o o o o o o o do"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      }
+    ]
+  },
+  "next_word": {
+    "top1": 0,
+    "topk": 0,
+    "n": 7,
+    "rows": [
+      {
+        "prefix": "Bom dia, como você",
+        "plausible": [
+          "está",
+          "vai",
+          "passou",
+          "tem"
+        ],
+        "top1": "a",
+        "topk": [
+          "a",
+          "de"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Os meninos foram para a",
+        "plausible": [
+          "escola",
+          "casa",
+          "praia",
+          "rua"
+        ],
+        "top1": "a",
+        "topk": [
+          "a"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Eu queria um café com",
+        "plausible": [
+          "leite",
+          "açúcar",
+          "creme",
+          "bolo"
+        ],
+        "top1": "a",
+        "topk": [
+          "",
+          "a",
+          "as",
+          "e",
+          "o",
+          "os"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "A capital do Brasil é",
+        "plausible": [
+          "Brasília"
+        ],
+        "top1": "cidade",
+        "topk": [
+          "a",
+          "da",
+          "o"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Hoje está fazendo muito",
+        "plausible": [
+          "calor",
+          "frio",
+          "sol",
+          "vento"
+        ],
+        "top1": "o",
+        "topk": [
+          "",
+          "do",
+          "o"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "Eu não estou",
+        "plausible": [
+          "bem",
+          "feliz",
+          "indo",
+          "conseguindo",
+          "sabendo",
+          "entendendo"
+        ],
+        "top1": "do",
+        "topk": [
+          "do"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "O jogo do Brasil contra a",
+        "plausible": [
+          "Argentina",
+          "Alemanha",
+          "França",
+          "Itália",
+          "Espanha"
+        ],
+        "top1": "a",
+        "topk": [
+          "a",
+          "na"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      }
+    ]
+  }
+}

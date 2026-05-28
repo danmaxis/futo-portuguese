@@ -1,0 +1,37 @@
+[
+  {
+    "typed": "aviacao",
+    "committed": "aviação",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "No setor de aviação, o o Brasil tem a Embraer, a terceira maior fabricante de aeronaves do mundo, atrás apenas da Boeing e Airbus."
+  },
+  {
+    "typed": "patricia",
+    "committed": "Patrícia",
+    "category_hint": "adjacency",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Patrícia) Fialho d'Almeida – a sua vida e obra (Col."
+  },
+  {
+    "typed": "previsoes",
+    "committed": "previsões",
+    "category_hint": "cedilla_only",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Para provar sua confiabilidade os modelos que estabelecem previsões futuras precisam reproduzir as observações reais registradas historicamente."
+  },
+  {
+    "typed": "diarrio",
+    "committed": "diário",
+    "category_hint": "hybrid_multi",
+    "source": "claude_synth_v3",
+    "seed_sentence": "As anotações de seu diário ilustram bem suas percepções quanto à natureza tropical do local."
+  },
+  {
+    "typed": "potanto",
+    "committed": "portanto",
+    "category_hint": "doubled_or_dropped",
+    "source": "claude_synth_v3",
+    "seed_sentence": "Odisseu teria argumentado que a lança de Aquiles causou a ferida e, portanto, ela deveria poder curá-la."
+  }
+]

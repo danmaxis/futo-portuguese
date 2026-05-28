@@ -1,0 +1,31 @@
+{
+  "real_total": 534,
+  "real_unique": 393,
+  "eval_size": 50,
+  "train_pool_real": 343,
+  "synth_total": 200000,
+  "real_categories": {
+    "accent_only": 172,
+    "prefix_completion": 83,
+    "adjacency_typo": 180,
+    "other": 63,
+    "cedilla_only": 17,
+    "capitalization": 19
+  },
+  "synth_categories": {
+    "adjacency_typo": 70031,
+    "accent_only": 66090,
+    "prefix_completion": 32063,
+    "capitalization": 7351,
+    "hybrid": 17894,
+    "cedilla_only": 6571
+  },
+  "distribution": {
+    "adjacency_typo": 0.33707865168539325,
+    "accent_only": 0.32209737827715357,
+    "prefix_completion": 0.15543071161048688,
+    "hybrid": 0.11797752808988764,
+    "capitalization": 0.035580524344569285,
+    "cedilla_only": 0.031835205992509365
+  }
+}

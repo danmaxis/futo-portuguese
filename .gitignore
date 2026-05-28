@@ -1,0 +1,55 @@
+# --- Heavy training artifacts (reproducible from scripts/) ---
+checkpoints/
+finetune_big_v3/
+finetune_big_v8_1/
+finetune_big_v8_2/
+pretrain_big/
+pretrain/
+finetune/
+finetune_v3/
+corpora/
+
+# --- Historical GGUF experiments (only release assets ship) ---
+gguf/
+GGUF/
+models/
+# (models/ is ignored so the GGUFs stay on disk for upload to GitHub Releases
+#  without being tracked in git.)
+
+# --- Upstream clones (referenced via URL in README) ---
+futo-src/
+llama.cpp/
+reference_model/
+
+# --- Personal real-typo data (user's own typing — never publish) ---
+notes/typo_log.jsonl
+notes/real_typos_pool.json
+notes/real_typos_eval.json
+notes/v8_1/real_typos_pool.json
+notes/v8_1/real_typos_eval.json
+notes/v8_1/real_typo_stats.json
+
+# --- Machine-specific config / scratch ---
+env/
+docker/local/
+*.log
+*.status
+*.bootstrap.log
+*.done
+
+# --- Python / build ---
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.python-version
+
+# --- Editor ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# --- Misc leftovers from working directory ---
+/GGUF
+tokenizer/

@@ -1,0 +1,19 @@
+--- a/java/src/org/futo/inputmethod/latin/LatinIME.kt
++++ b/java/src/org/futo/inputmethod/latin/LatinIME.kt
+@@ -1,5 +1,6 @@
+ package org.futo.inputmethod.latin
+
++import org.futo.inputmethod.latin.utils.TypoLogger
+ import android.content.BroadcastReceiver
+ import android.content.Context
+ import android.content.Intent
+@@ -141,6 +142,9 @@
+     override fun onCreate() {
+         super.onCreate()
+
++        // TypoLogger: lazy-init for local typo capture. Per-app sandbox file.
++        TypoLogger.init(this)
++
+         mLifecycleRegistry = LifecycleRegistry(this)
+         mLifecycleRegistry.currentState = Lifecycle.State.INITIALIZED
+

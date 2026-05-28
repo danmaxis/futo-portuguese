@@ -1,0 +1,242 @@
+[
+  {
+    "typed": "aipik",
+    "committed": "aipim",
+    "category": "adjacency_typo"
+  },
+  {
+    "typed": "xvox",
+    "committed": "xbox",
+    "category": "adjacency_typo"
+  },
+  {
+    "typed": "runcionais",
+    "committed": "funcionais",
+    "category": "adjacency_typo"
+  },
+  {
+    "typed": "rilda",
+    "committed": "tilda",
+    "category": "adjacency_typo"
+  },
+  {
+    "typed": "espartzna",
+    "committed": "espartana",
+    "category": "adjacency_typo"
+  },
+  {
+    "typed": "frajklin",
+    "committed": "franklin",
+    "category": "adjacency_typo"
+  },
+  {
+    "typed": "phillipr",
+    "committed": "phillipe",
+    "category": "adjacency_typo"
+  },
+  {
+    "typed": "çromulgar",
+    "committed": "promulgar",
+    "category": "adjacency_typo"
+  },
+  {
+    "typed": "afluencia",
+    "committed": "afluência",
+    "category": "accent_only"
+  },
+  {
+    "typed": "provisoes",
+    "committed": "provisões",
+    "category": "accent_only"
+  },
+  {
+    "typed": "toxicodependencia",
+    "committed": "toxicodependência",
+    "category": "accent_only"
+  },
+  {
+    "typed": "verificacao",
+    "committed": "verificação",
+    "category": "accent_only"
+  },
+  {
+    "typed": "astrofisico",
+    "committed": "astrofísico",
+    "category": "accent_only"
+  },
+  {
+    "typed": "telefonica",
+    "committed": "telefônica",
+    "category": "accent_only"
+  },
+  {
+    "typed": "certificacao",
+    "committed": "certificação",
+    "category": "accent_only"
+  },
+  {
+    "typed": "macedonio",
+    "committed": "macedônio",
+    "category": "accent_only"
+  },
+  {
+    "typed": "tri",
+    "committed": "tripoli",
+    "category": "prefix_completion"
+  },
+  {
+    "typed": "bl",
+    "committed": "bloch",
+    "category": "prefix_completion"
+  },
+  {
+    "typed": "faça",
+    "committed": "façanha",
+    "category": "prefix_completion"
+  },
+  {
+    "typed": "paul",
+    "committed": "paulino",
+    "category": "prefix_completion"
+  },
+  {
+    "typed": "cavalh",
+    "committed": "cavalheiros",
+    "category": "prefix_completion"
+  },
+  {
+    "typed": "be",
+    "committed": "benignos",
+    "category": "prefix_completion"
+  },
+  {
+    "typed": "alt",
+    "committed": "alterará",
+    "category": "prefix_completion"
+  },
+  {
+    "typed": "polipro",
+    "committed": "polipropileno",
+    "category": "prefix_completion"
+  },
+  {
+    "typed": "google",
+    "committed": "Google",
+    "category": "capitalization"
+  },
+  {
+    "typed": "tv",
+    "committed": "TV",
+    "category": "capitalization"
+  },
+  {
+    "typed": "maria",
+    "committed": "Maria",
+    "category": "capitalization"
+  },
+  {
+    "typed": "goiás",
+    "committed": "Goiás",
+    "category": "capitalization"
+  },
+  {
+    "typed": "cd",
+    "committed": "CD",
+    "category": "capitalization"
+  },
+  {
+    "typed": "pedro",
+    "committed": "Pedro",
+    "category": "capitalization"
+  },
+  {
+    "typed": "gabriela",
+    "committed": "Gabriela",
+    "category": "capitalization"
+  },
+  {
+    "typed": "pedro",
+    "committed": "Pedro",
+    "category": "capitalization"
+  },
+  {
+    "typed": "ac",
+    "committed": "acima",
+    "category": "hybrid"
+  },
+  {
+    "typed": "rega",
+    "committed": "regato",
+    "category": "hybrid"
+  },
+  {
+    "typed": "na",
+    "committed": "napster",
+    "category": "hybrid"
+  },
+  {
+    "typed": "adv",
+    "committed": "advém",
+    "category": "hybrid"
+  },
+  {
+    "typed": "djistância",
+    "committed": "distância",
+    "category": "hybrid"
+  },
+  {
+    "typed": "reorreu",
+    "committed": "recorreu",
+    "category": "hybrid"
+  },
+  {
+    "typed": "enngarrafamento",
+    "committed": "engarrafamento",
+    "category": "hybrid"
+  },
+  {
+    "typed": "qchsster",
+    "committed": "chester",
+    "category": "hybrid"
+  },
+  {
+    "typed": "balancas",
+    "committed": "balanças",
+    "category": "cedilla_only"
+  },
+  {
+    "typed": "premiacões",
+    "committed": "premiações",
+    "category": "cedilla_only"
+  },
+  {
+    "typed": "cacada",
+    "committed": "caçada",
+    "category": "cedilla_only"
+  },
+  {
+    "typed": "eleicoes",
+    "committed": "eleiçoes",
+    "category": "cedilla_only"
+  },
+  {
+    "typed": "comecaram",
+    "committed": "começaram",
+    "category": "cedilla_only"
+  },
+  {
+    "typed": "inovacão",
+    "committed": "inovação",
+    "category": "cedilla_only"
+  },
+  {
+    "typed": "impeca",
+    "committed": "impeça",
+    "category": "cedilla_only"
+  },
+  {
+    "typed": "evolucão",
+    "committed": "evolução",
+    "category": "cedilla_only"
+  }
+]

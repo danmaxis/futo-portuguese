@@ -1,0 +1,487 @@
+{
+  "model": "reference_model/ml4_1_f16_meta_fixed.gguf",
+  "autocorrect": {
+    "n": 27,
+    "top1": 20,
+    "top5": 24,
+    "by_category": {
+      "shortcut": {
+        "top1": 8,
+        "top5": 8,
+        "n": 8
+      },
+      "adjacency": {
+        "top1": 4,
+        "top5": 5,
+        "n": 6
+      },
+      "transpose": {
+        "top1": 1,
+        "top5": 3,
+        "n": 3
+      },
+      "doubled": {
+        "top1": 1,
+        "top5": 1,
+        "n": 2
+      },
+      "misspell": {
+        "top1": 3,
+        "top5": 4,
+        "n": 5
+      },
+      "trivial": {
+        "top1": 3,
+        "top5": 3,
+        "n": 3
+      }
+    },
+    "rows": [
+      {
+        "typo": "youre",
+        "correct": "you're",
+        "category": "shortcut",
+        "top1": "You're",
+        "top5": [
+          "You're"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "im",
+        "correct": "I'm",
+        "category": "shortcut",
+        "top1": "I'm",
+        "top5": [
+          "I'm"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "dont",
+        "correct": "don't",
+        "category": "shortcut",
+        "top1": "Don't",
+        "top5": [
+          "Don't"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "cant",
+        "correct": "can't",
+        "category": "shortcut",
+        "top1": "Can't",
+        "top5": [
+          "Can't"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "wont",
+        "correct": "won't",
+        "category": "shortcut",
+        "top1": "Won't",
+        "top5": [
+          "Won't"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "isnt",
+        "correct": "isn't",
+        "category": "shortcut",
+        "top1": "Isn't",
+        "top5": [
+          "Isn't"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "its",
+        "correct": "it's",
+        "category": "shortcut",
+        "top1": "It's",
+        "top5": [
+          "It's"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "hes",
+        "correct": "he's",
+        "category": "shortcut",
+        "top1": "He's",
+        "top5": [
+          "He's"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "teh",
+        "correct": "the",
+        "category": "adjacency",
+        "top1": "The",
+        "top5": [
+          "The",
+          "Yeah"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "recieve",
+        "correct": "receive",
+        "category": "adjacency",
+        "top1": "Recieve",
+        "top5": [
+          "Recieve",
+          "Recovery",
+          "Recursive",
+          "Recurring"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "seperate",
+        "correct": "separate",
+        "category": "adjacency",
+        "top1": "Separate",
+        "top5": [
+          "Separate",
+          "Seperate",
+          "Sepprate"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "definately",
+        "correct": "definitely",
+        "category": "adjacency",
+        "top1": "Definitely",
+        "top5": [
+          "Definator",
+          "Definitely",
+          "Definetely",
+          "Definetly"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "hapen",
+        "correct": "happen",
+        "category": "adjacency",
+        "top1": "Happened",
+        "top5": [
+          "Happened",
+          "Happens",
+          "Happen"
+        ],
+        "top1_hit": false,
+        "top5_hit": true
+      },
+      {
+        "typo": "merrcado",
+        "correct": "mercado",
+        "category": "adjacency",
+        "top1": "Mercado",
+        "top5": [
+          "MerckAdo",
+          "Mercadonnis",
+          "Mercadis",
+          "Mercado",
+          "Mercadonna"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "freind",
+        "correct": "friend",
+        "category": "transpose",
+        "top1": "Feelings",
+        "top5": [
+          "Feelings",
+          "Friend",
+          "Find",
+          "Feels",
+          "Feeding"
+        ],
+        "top1_hit": false,
+        "top5_hit": true
+      },
+      {
+        "typo": "wierd",
+        "correct": "weird",
+        "category": "transpose",
+        "top1": "Wired",
+        "top5": [
+          "Weird",
+          "Worst",
+          "Worse",
+          "Wire",
+          "Wired"
+        ],
+        "top1_hit": false,
+        "top5_hit": true
+      },
+      {
+        "typo": "becuase",
+        "correct": "because",
+        "category": "transpose",
+        "top1": "Because",
+        "top5": [
+          "Because"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "commitee",
+        "correct": "committee",
+        "category": "doubled",
+        "top1": "Committee",
+        "top5": [
+          "Commute",
+          "Committee",
+          "Commutes",
+          "Committees"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "acommodate",
+        "correct": "accommodate",
+        "category": "doubled",
+        "top1": "Accommodation",
+        "top5": [
+          "Avoid-mode",
+          "Accommodating",
+          "Accommodation",
+          "Aconomies",
+          "Accommodated"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "alot",
+        "correct": "a lot",
+        "category": "misspell",
+        "top1": "Allow",
+        "top5": [
+          "Alot",
+          "Allocate",
+          "Alto",
+          "Another",
+          "Allow"
+        ],
+        "top1_hit": false,
+        "top5_hit": false
+      },
+      {
+        "typo": "untill",
+        "correct": "until",
+        "category": "misspell",
+        "top1": "Until",
+        "top5": [
+          "Until"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "occured",
+        "correct": "occurred",
+        "category": "misspell",
+        "top1": "Occured",
+        "top5": [
+          "Occured",
+          "Occuled",
+          "occurred",
+          "Occure"
+        ],
+        "top1_hit": false,
+        "top5_hit": true
+      },
+      {
+        "typo": "tomorow",
+        "correct": "tomorrow",
+        "category": "misspell",
+        "top1": "Tomorrow",
+        "top5": [
+          "Timothy",
+          "Tomorrow",
+          "Tinker",
+          "Tomorrow's",
+          "Tinita"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "begining",
+        "correct": "beginning",
+        "category": "misspell",
+        "top1": "Beginning",
+        "top5": [
+          "Beginning"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "hte",
+        "correct": "the",
+        "category": "trivial",
+        "top1": "The",
+        "top5": [
+          "Great",
+          "The"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "adn",
+        "correct": "and",
+        "category": "trivial",
+        "top1": "And",
+        "top5": [
+          "And"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      },
+      {
+        "typo": "yuo",
+        "correct": "you",
+        "category": "trivial",
+        "top1": "You",
+        "top5": [
+          "You",
+          "This"
+        ],
+        "top1_hit": true,
+        "top5_hit": true
+      }
+    ]
+  },
+  "next_word": {
+    "n": 7,
+    "top1": 0,
+    "topk": 0,
+    "rows": [
+      {
+        "prefix": "Good morning, how are",
+        "plausible": [
+          "you"
+        ],
+        "top1": "",
+        "topk": [],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "The boys went to the",
+        "plausible": [
+          "store",
+          "park",
+          "school",
+          "beach",
+          "house",
+          "game"
+        ],
+        "top1": "ir",
+        "topk": [
+          "e",
+          "ir",
+          "ology"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "I would like a coffee with",
+        "plausible": [
+          "milk",
+          "sugar",
+          "cream"
+        ],
+        "top1": "",
+        "topk": [],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "The capital of France is",
+        "plausible": [
+          "Paris"
+        ],
+        "top1": "",
+        "topk": [],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "It is very",
+        "plausible": [
+          "hot",
+          "cold",
+          "nice",
+          "good",
+          "bad",
+          "important"
+        ],
+        "top1": "",
+        "topk": [],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "I'm not feeling",
+        "plausible": [
+          "well",
+          "good",
+          "great",
+          "right"
+        ],
+        "top1": "",
+        "topk": [],
+        "top1_hit": false,
+        "topk_hit": false
+      },
+      {
+        "prefix": "She said she would",
+        "plausible": [
+          "come",
+          "go",
+          "be",
+          "do",
+          "meet",
+          "see",
+          "leave",
+          "try"
+        ],
+        "top1": "",
+        "topk": [
+          "n't"
+        ],
+        "top1_hit": false,
+        "topk_hit": false
+      }
+    ]
+  }
+}

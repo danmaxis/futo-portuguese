@@ -1,0 +1,781 @@
+{
+  "checkpoint": "finetune_big_v2/stage_a/final",
+  "eval_jsonl": "notes/real_typos_eval.json",
+  "n": 50,
+  "top1": 1,
+  "top5": 6,
+  "by_category": {
+    "adjacency_or_short_edit": {
+      "n": 21,
+      "top1": 0,
+      "top5": 5
+    },
+    "hybrid": {
+      "n": 5,
+      "top1": 0,
+      "top5": 0
+    },
+    "accent_only": {
+      "n": 17,
+      "top1": 1,
+      "top5": 1
+    },
+    "prefix_completion": {
+      "n": 7,
+      "top1": 0,
+      "top5": 0
+    }
+  },
+  "rows": [
+    {
+      "typed": "passoy",
+      "committed": "passou",
+      "category": "adjacency_or_short_edit",
+      "top1": "pasposus",
+      "top5": [
+        "pasposus",
+        "assaltos",
+        "pasposons",
+        "pasposos",
+        "paspos"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "horriv",
+      "committed": "horrível",
+      "category": "hybrid",
+      "top1": "hirurch",
+      "top5": [
+        "hirurch",
+        "hirurchi",
+        "hirouthiler",
+        "hirochi",
+        "hirocch"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "tambem",
+      "committed": "também",
+      "category": "accent_only",
+      "top1": "<XBC><XBC><XBC>",
+      "top5": [
+        "<XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>",
+        "<XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>",
+        "<XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>hjj <XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>",
+        "<XBC><XBC><XBC><XBC><XBC><XBC><XBC>hjj <XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>",
+        "<XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>hjj <XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "carvao",
+      "committed": "carvão",
+      "category": "accent_only",
+      "top1": "caçava",
+      "top5": [
+        "caçavava",
+        "caçava",
+        "caçavava",
+        "cavalvarão",
+        "cavalvação"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "esta",
+      "committed": "está",
+      "category": "accent_only",
+      "top1": "estasane",
+      "top5": [
+        "esteja",
+        "estana",
+        "estejas",
+        "estejam",
+        "estauna"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "estao",
+      "committed": "estão",
+      "category": "accent_only",
+      "top1": "estora",
+      "top5": [
+        "estasão",
+        "estorão",
+        "estória",
+        "estenha",
+        "estora"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "pergintas",
+      "committed": "perguntas",
+      "category": "adjacency_or_short_edit",
+      "top1": "egeganginas",
+      "top5": [
+        "egeganginas",
+        "egegininas",
+        "egiganginas",
+        "egentinginas",
+        "egigretinas"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "mindse",
+      "committed": "mímese",
+      "category": "adjacency_or_short_edit",
+      "top1": "imensidade",
+      "top5": [
+        "imensidade",
+        "manifeste",
+        "imensdade",
+        "imensdemente",
+        "minders"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "pensnaod",
+      "committed": "pensando",
+      "category": "adjacency_or_short_edit",
+      "top1": "ensonans",
+      "top5": [
+        "pensando",
+        "ensinando",
+        "pensansonus",
+        "ensonans",
+        "pensanonuse"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "monsgro",
+      "committed": "monstro",
+      "category": "adjacency_or_short_edit",
+      "top1": "magnomonro",
+      "top5": [
+        "monogramo",
+        "magnomongo",
+        "magnonômetro",
+        "magnomorgo",
+        "magnomonro"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "alisnc",
+      "committed": "aliança",
+      "category": "adjacency_or_short_edit",
+      "top1": "alucinante",
+      "top5": [
+        "alucinante",
+        "analicamente",
+        "analical",
+        "alucinas",
+        "alternalmente"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "olhafa",
+      "committed": "olhada",
+      "category": "adjacency_or_short_edit",
+      "top1": "olhalhada",
+      "top5": [
+        "olhalhada",
+        "olhada",
+        "olhadura",
+        "fichhaha",
+        "chutada"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "Opc",
+      "committed": "Opção",
+      "category": "hybrid",
+      "top1": "socioambiental",
+      "top5": [
+        "psicopatas",
+        "socioecológicas",
+        "psicopogênico",
+        "psicopogênica",
+        "socioecológicos"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "nascermls",
+      "committed": "nascermos",
+      "category": "adjacency_or_short_edit",
+      "top1": "nasnardes",
+      "top5": [
+        "nasmardes",
+        "nasmaclace",
+        "nasnardes",
+        "ancanuras",
+        "nasmaclaces"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "quentao",
+      "committed": "quentão",
+      "category": "accent_only",
+      "top1": "quentantes",
+      "top5": [
+        "quentantes",
+        "quarenue",
+        "quentona",
+        "quentante",
+        "quentena"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "nao",
+      "committed": "não",
+      "category": "accent_only",
+      "top1": "nanão",
+      "top5": [
+        "nâo",
+        "nana",
+        "nanão",
+        "nanã",
+        "nanio"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "especificos",
+      "committed": "específicos",
+      "category": "accent_only",
+      "top1": "específicos",
+      "top5": [
+        "específicos",
+        "ecossistemicos",
+        "fisiológicos",
+        "específicos",
+        "eclesiicos"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "complez",
+      "committed": "complexa",
+      "category": "adjacency_or_short_edit",
+      "top1": "complicações",
+      "top5": [
+        "complicações",
+        "complexa",
+        "complexicamente",
+        "competia",
+        "complicam"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "variabel",
+      "committed": "variável",
+      "category": "adjacency_or_short_edit",
+      "top1": "vibracional",
+      "top5": [
+        "vibracional",
+        "habiliciável",
+        "valiável",
+        "viabilidade",
+        "variável"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "colta",
+      "committed": "volta",
+      "category": "adjacency_or_short_edit",
+      "top1": "octalba",
+      "top5": [
+        "octalba",
+        "octalta",
+        "locatária",
+        "octalha",
+        "octalana"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "fre",
+      "committed": "frente",
+      "category": "prefix_completion",
+      "top1": "fêfe",
+      "top5": [
+        "effém",
+        "effe",
+        "feffe",
+        "ferve",
+        "fêfe"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "reub",
+      "committed": "reunião",
+      "category": "hybrid",
+      "top1": "beburu",
+      "top5": [
+        "beburu",
+        "beburbe",
+        "beburi",
+        "bebueira",
+        "bebureu"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "despendimento",
+      "committed": "desprendimento",
+      "category": "adjacency_or_short_edit",
+      "top1": "desentendimento",
+      "top5": [
+        "desentendimento",
+        "denominando",
+        "denominendo",
+        "desdigenciamento",
+        "designendo"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "qualw",
+      "committed": "qualquer",
+      "category": "hybrid",
+      "top1": "aquilela",
+      "top5": [
+        "aquilela",
+        "aquesa",
+        "aaquilela",
+        "aquela",
+        "aqueela"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "arquit",
+      "committed": "arquitetura",
+      "category": "prefix_completion",
+      "top1": "aquarti",
+      "top5": [
+        "aqüífero",
+        "aquilômetro",
+        "aquartique",
+        "aqüíferos",
+        "aqüífera"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "as",
+      "committed": "às",
+      "category": "accent_only",
+      "top1": "assar",
+      "top5": [
+        "assar",
+        "assares",
+        "asas",
+        "assaí",
+        "assú"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "minimo",
+      "committed": "mínimo",
+      "category": "accent_only",
+      "top1": "<XBC>mínimíssimo",
+      "top5": [
+        "<XBC>mínimíssimo",
+        "<XBC>mínimo",
+        "<XBC>mínimíssima",
+        "<XBC><XBC>minmin",
+        "<XBC>mínimo"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "ativi",
+      "committed": "atividades",
+      "category": "prefix_completion",
+      "top1": "<XBC>ativis",
+      "top5": [
+        "<XBC>atribuível",
+        "<XBC>ativista",
+        "<XBC>ativis",
+        "atmositorial",
+        "atribuíi"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "senao",
+      "committed": "senão",
+      "category": "accent_only",
+      "top1": "sensanões",
+      "top5": [
+        "sensanões",
+        "sensores",
+        "sensões",
+        "sensensão",
+        "sensans"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "portu",
+      "committed": "portuguesa",
+      "category": "prefix_completion",
+      "top1": "poluorpir",
+      "top5": [
+        "frutiitum",
+        "automobilista",
+        "poluente",
+        "frutiitau",
+        "polutorente"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Entao",
+      "committed": "Então",
+      "category": "accent_only",
+      "top1": "entendão",
+      "top5": [
+        "entendão",
+        "enteânio",
+        "entonão",
+        "entonação",
+        "entretina"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "combinac",
+      "committed": "combinação",
+      "category": "hybrid",
+      "top1": "comumbnica",
+      "top5": [
+        "comumbnica",
+        "ômica",
+        "comumbnicamente",
+        "computacionais",
+        "comumbnical"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Ai",
+      "committed": "Aí",
+      "category": "accent_only",
+      "top1": "aai",
+      "top5": [
+        "aí",
+        "aai",
+        "aará",
+        "aia",
+        "aau"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "sdntido",
+      "committed": "sentido",
+      "category": "adjacency_or_short_edit",
+      "top1": "desvinculado",
+      "top5": [
+        "descendindo",
+        "desligindo",
+        "atendido",
+        "entendido",
+        "desvinculado"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "jma",
+      "committed": "uma",
+      "category": "adjacency_or_short_edit",
+      "top1": "jamhmin",
+      "top5": [
+        "hum<XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>",
+        "hum<XBC><XBC><XBC><XBC><XBC><XBC>hjj <XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>",
+        "hum<XBC><XBC><XBC><XBC><XBC>8<XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>",
+        "hum<XBC><XBC><XBC><XBC><XBC><XBC>8<XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>",
+        "hum<XBC><XBC><XBC><XBC><XBC><XBC><XBC>hjj <XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC><XBC>"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "so",
+      "committed": "só",
+      "category": "accent_only",
+      "top1": "soa",
+      "top5": [
+        "sos",
+        "soa",
+        "sós",
+        "ósseo",
+        "oss"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "produizu",
+      "committed": "produziu",
+      "category": "adjacency_or_short_edit",
+      "top1": "produziram",
+      "top5": [
+        "produziu",
+        "proporcionou",
+        "produziram",
+        "diminuição",
+        "constituíu"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "intere",
+      "committed": "interesse",
+      "category": "prefix_completion",
+      "top1": "intérprete",
+      "top5": [
+        "intérème",
+        "intempérie",
+        "intérprete",
+        "intérpretese",
+        "intérfenas"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "voce",
+      "committed": "você",
+      "category": "accent_only",
+      "top1": "vocovac",
+      "top5": [
+        "vocoven",
+        "vocice",
+        "vocová",
+        "vocacons",
+        "vocove"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "port",
+      "committed": "português",
+      "category": "prefix_completion",
+      "top1": "cnice <XBC>portilhas",
+      "top5": [
+        "cnice <XBC>ptörble",
+        "cnice <XBC>HTTP",
+        "cnice <XBC>ptèr",
+        "cnice <XBC>ptörgen",
+        "cnice <XBC>ptèrs"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "ofuscsdor",
+      "committed": "ofuscado",
+      "category": "adjacency_or_short_edit",
+      "top1": "ofURSSSS",
+      "top5": [
+        "ressurcido",
+        "SSSSSSSS",
+        "SSSSVGS",
+        "SSSSSSGS",
+        "SSSSSSGC"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "cafe",
+      "committed": "café",
+      "category": "accent_only",
+      "top1": "cafetes",
+      "top5": [
+        "cafetes",
+        "carências",
+        "cafetês",
+        "cafeté",
+        "cafetés"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "oublicada",
+      "committed": "publicada",
+      "category": "adjacency_or_short_edit",
+      "top1": "abiligilada",
+      "top5": [
+        "abiligilada",
+        "habilabilização",
+        "elixilda",
+        "abililila",
+        "habilabilidade"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Heheheheh",
+      "committed": "Bebê jeje",
+      "category": "adjacency_or_short_edit",
+      "top1": "<XBC>heheheheh",
+      "top5": [
+        "<XBC>hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha",
+        "<XBC>hahahhahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha",
+        "<XBC>hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahakkkk",
+        "<XBC>hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahakkkkkkkk",
+        "<XBC>hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "realmdnre",
+      "committed": "realmente",
+      "category": "adjacency_or_short_edit",
+      "top1": "ânimamente",
+      "top5": [
+        "generalmente",
+        "extremalmente",
+        "dimensionalmente",
+        "dernellamente",
+        "ânimamente"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "atend",
+      "committed": "atendimento",
+      "category": "prefix_completion",
+      "top1": "atendentes",
+      "top5": [
+        "atendentes",
+        "atendente",
+        "atrasado",
+        "antecedente",
+        "atende"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "audio",
+      "committed": "áudio",
+      "category": "accent_only",
+      "top1": "ariado",
+      "top5": [
+        "aludido",
+        "audídio",
+        "adquirido",
+        "audácio",
+        "audácido"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "daqueke",
+      "committed": "daquele",
+      "category": "adjacency_or_short_edit",
+      "top1": "zeleiu",
+      "top5": [
+        "raciuque",
+        "zeleiou",
+        "racieque",
+        "zeleiquei",
+        "aquerieu"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "awuela",
+      "committed": "aquela",
+      "category": "adjacency_or_short_edit",
+      "top1": "azeleia",
+      "top5": [
+        "azáernea",
+        "azáerna",
+        "azèrea",
+        "azeleia",
+        "azñima"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "diretorios",
+      "committed": "diretórios",
+      "category": "accent_only",
+      "top1": "dirdeititiis",
+      "top5": [
+        "dirprimórios",
+        "dirdeitiitos",
+        "dirdeititiis",
+        "dirdeitiitis",
+        "dirdeitiícios"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    }
+  ]
+}

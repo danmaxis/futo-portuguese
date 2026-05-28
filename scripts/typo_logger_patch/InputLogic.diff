@@ -1,0 +1,32 @@
+--- a/java/src/org/futo/inputmethod/latin/inputlogic/InputLogic.java
++++ b/java/src/org/futo/inputmethod/latin/inputlogic/InputLogic.java
+@@ -45,6 +45,7 @@ import org.futo.inputmethod.latin.suggestions.SuggestionStripViewAccessor;
+ import org.futo.inputmethod.latin.utils.AsyncResultHolder;
+ import org.futo.inputmethod.latin.utils.InputTypeUtils;
+ import org.futo.inputmethod.latin.utils.RecapitalizeStatus;
++import org.futo.inputmethod.latin.utils.TypoLogger;
+ import org.futo.inputmethod.latin.utils.StatsUtils;
+ import org.futo.inputmethod.latin.utils.TextRange;
+
+@@ -414,6 +415,11 @@ public final class InputLogic {
+             return inputTransaction;
+         }
+
++        // TypoLogger: capture (typed, picked) when user taps a suggestion that differs from typed.
++        final String typedForLog_manual = mWordComposer.getTypedWord();
++        TypoLogger.log(typedForLog_manual, suggestion,
++                getDictionaryFacilitatorLocale().toString(), "manual_pick");
++
+         commitChosenWord(settingsValues, suggestion, LastComposedWord.COMMIT_TYPE_MANUAL_PICK,
+                 LastComposedWord.NOT_A_SEPARATOR, suggestionInfo.isKindOf(SuggestedWordInfo.KIND_TYPED) ? 3 : 1);
+         mConnection.endBatchEdit();
+@@ -2619,6 +2625,9 @@ public final class InputLogic {
+                 String prevWordsContext = (autoCorrectionOrNull != null)
+                         ? autoCorrectionOrNull.mPrevWordsContext
+                         : "";
++                // TypoLogger: capture (typed, auto-corrected) pairs.
++                TypoLogger.log(typedWord, stringToCommit,
++                        getDictionaryFacilitatorLocale().toString(), "auto_correct");
+                 StatsUtils.onAutoCorrection(typedWord, stringToCommit, isBatchMode,
+                         mDictionaryFacilitator, prevWordsContext);
+                 StatsUtils.onWordCommitAutoCorrect(stringToCommit, isBatchMode);

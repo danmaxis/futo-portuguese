@@ -1,0 +1,906 @@
+{
+  "checkpoint": "finetune_big_v8_2/stage_c/checkpoint-2000",
+  "eval_jsonl": "notes/v8_1/real_typos_eval.json",
+  "n": 58,
+  "top1": 23,
+  "top5": 37,
+  "by_category": {
+    "adjacency_or_short_edit": {
+      "n": 19,
+      "top1": 7,
+      "top5": 11
+    },
+    "accent_only": {
+      "n": 21,
+      "top1": 12,
+      "top5": 17
+    },
+    "prefix_completion": {
+      "n": 10,
+      "top1": 1,
+      "top5": 3
+    },
+    "hybrid": {
+      "n": 5,
+      "top1": 2,
+      "top5": 4
+    },
+    "cedilla_only": {
+      "n": 3,
+      "top1": 1,
+      "top5": 2
+    }
+  },
+  "rows": [
+    {
+      "typed": "arwuivos",
+      "committed": "arquivos",
+      "category": "adjacency_or_short_edit",
+      "top1": "recursos",
+      "top5": [
+        "edifícios",
+        "arquivos",
+        "ruídos",
+        "resultados",
+        "recursos"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "adicioba",
+      "committed": "adiciona",
+      "category": "adjacency_or_short_edit",
+      "top1": "adiciona",
+      "top5": [
+        "adiciona",
+        "adicionada",
+        "adição",
+        "adicionado",
+        "Diíbicas"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "ussdo",
+      "committed": "usado",
+      "category": "adjacency_or_short_edit",
+      "top1": "usado",
+      "top5": [
+        "usado",
+        "usando",
+        "uso",
+        "usados",
+        "Usado"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "possivrl",
+      "committed": "possível",
+      "category": "adjacency_or_short_edit",
+      "top1": "possível",
+      "top5": [
+        "possível",
+        "possivel",
+        "posivel",
+        "positivo",
+        "possível"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "Mentir",
+      "committed": "Mentor",
+      "category": "adjacency_or_short_edit",
+      "top1": "mentir",
+      "top5": [
+        "mentir",
+        "mencionar",
+        "meditir",
+        "mentir",
+        "mertir"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "ko",
+      "committed": "no",
+      "category": "adjacency_or_short_edit",
+      "top1": "no",
+      "top5": [
+        "no",
+        "No",
+        "nos",
+        "o",
+        "to"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "obrigafo",
+      "committed": "obrigado",
+      "category": "adjacency_or_short_edit",
+      "top1": "obrigado",
+      "top5": [
+        "obrigado",
+        "obrigatório",
+        "Obrigado",
+        "obrigatorio",
+        "obriga"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "veil",
+      "committed": "veio",
+      "category": "adjacency_or_short_edit",
+      "top1": "vel",
+      "top5": [
+        "veio",
+        "vei",
+        "vel",
+        "veil",
+        "vejo"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "dabificar",
+      "committed": "danificar",
+      "category": "adjacency_or_short_edit",
+      "top1": "abdificar",
+      "top5": [
+        "fabricar",
+        "fabricar",
+        "abdificar",
+        "alfabetizar",
+        "habilitar"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Tecnic",
+      "committed": "Técnica",
+      "category": "adjacency_or_short_edit",
+      "top1": "técnico",
+      "top5": [
+        "técnico",
+        "técnica",
+        "Técnico",
+        "tecnic",
+        "tecnice"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "horsrio",
+      "committed": "horário",
+      "category": "adjacency_or_short_edit",
+      "top1": "horrório",
+      "top5": [
+        "Hórrio",
+        "horrório",
+        "horriro",
+        "Hórria",
+        "Horrário"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "alteracles",
+      "committed": "alterações",
+      "category": "adjacency_or_short_edit",
+      "top1": "alterações",
+      "top5": [
+        "alterações",
+        "alteráveis",
+        "alternações",
+        "Localidades",
+        "alternares"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "especifici",
+      "committed": "específico",
+      "category": "adjacency_or_short_edit",
+      "top1": "específico",
+      "top5": [
+        "específico",
+        "específico",
+        "específico",
+        "especifico",
+        "específicos"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "texlado",
+      "committed": "teclado",
+      "category": "adjacency_or_short_edit",
+      "top1": "tessoado",
+      "top5": [
+        "tessoado",
+        "tessado",
+        "têlado",
+        "testado",
+        "êxlado"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "vaporne",
+      "committed": "vapor e",
+      "category": "adjacency_or_short_edit",
+      "top1": "Valorne",
+      "top5": [
+        "Aporñe",
+        "Vaporé",
+        "Apraver",
+        "Vaporère",
+        "Valorne"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "bpm",
+      "committed": "bom",
+      "category": "adjacency_or_short_edit",
+      "top1": "BPM",
+      "top5": [
+        "BPM",
+        "bom",
+        "bem",
+        "BP",
+        "Bom"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "fem",
+      "committed": "tem",
+      "category": "adjacency_or_short_edit",
+      "top1": "em",
+      "top5": [
+        "em",
+        "tem",
+        "têm",
+        "bem",
+        "sem"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "Masnpra",
+      "committed": "Mas pra",
+      "category": "adjacency_or_short_edit",
+      "top1": "mansra",
+      "top5": [
+        "nascerá",
+        "nasbra",
+        "massar",
+        "manbra",
+        "nascura"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Candida",
+      "committed": "Cândida",
+      "category": "accent_only",
+      "top1": "candidato",
+      "top5": [
+        "Cândida",
+        "cantida",
+        "candidata",
+        "candidato",
+        "Candia"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "sensiveis",
+      "committed": "sensíveis",
+      "category": "accent_only",
+      "top1": "sensíveis",
+      "top5": [
+        "sensíveis",
+        "sensáveis",
+        "essíveis",
+        "sentíveis",
+        "sensíveis"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "Pokemon",
+      "committed": "Pokémon",
+      "category": "accent_only",
+      "top1": "poemon",
+      "top5": [
+        "polemon",
+        "Poemon",
+        "poemon",
+        "Powemon",
+        "podemon"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "proxima",
+      "committed": "próxima",
+      "category": "accent_only",
+      "top1": "próxima",
+      "top5": [
+        "próxima",
+        "próximas",
+        "próximo",
+        "próximo",
+        "próximamente"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "fa",
+      "committed": "fã",
+      "category": "accent_only",
+      "top1": "da",
+      "top5": [
+        "da",
+        "dá",
+        "fá",
+        "faz",
+        "fora"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "vinilico",
+      "committed": "vinílico",
+      "category": "accent_only",
+      "top1": "vinilico",
+      "top5": [
+        "Virgílio",
+        "vinílio",
+        "vinilico",
+        "vinilço",
+        "Vínico"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "varios",
+      "committed": "vários",
+      "category": "accent_only",
+      "top1": "vários",
+      "top5": [
+        "vários",
+        "vários",
+        "Vários",
+        "varios",
+        "várias"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "vao",
+      "committed": "vão",
+      "category": "accent_only",
+      "top1": "vão",
+      "top5": [
+        "vão",
+        "vão",
+        "Vão",
+        "vão",
+        "ao"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "lingua",
+      "committed": "língua",
+      "category": "accent_only",
+      "top1": "língua",
+      "top5": [
+        "língua",
+        "Língua",
+        "lingua",
+        "linguas",
+        "línguas"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "numeros",
+      "committed": "números",
+      "category": "accent_only",
+      "top1": "números",
+      "top5": [
+        "números",
+        "numeros",
+        "numérios",
+        "Numérios",
+        "numerosos"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "diarios",
+      "committed": "diários",
+      "category": "accent_only",
+      "top1": "ários",
+      "top5": [
+        "ários",
+        "diários",
+        "Diários",
+        "dirigidos",
+        "indivíduos"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "mae",
+      "committed": "mãe",
+      "category": "accent_only",
+      "top1": "mãe",
+      "top5": [
+        "mãe",
+        "mãe",
+        "Mãe",
+        "materna",
+        "mães"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "expoe",
+      "committed": "expõe",
+      "category": "accent_only",
+      "top1": "expõe",
+      "top5": [
+        "expõe",
+        "expoe",
+        "Expe",
+        "expôr",
+        "Exppe"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "confiavel",
+      "committed": "confiável",
+      "category": "accent_only",
+      "top1": "confiável",
+      "top5": [
+        "confiável",
+        "confiável",
+        "confirmável",
+        "conforme",
+        "confível"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "Theo",
+      "committed": "Théo",
+      "category": "accent_only",
+      "top1": "the",
+      "top5": [
+        "the",
+        "tho",
+        "têm",
+        "Thoe",
+        "tenho"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "da",
+      "committed": "dá",
+      "category": "accent_only",
+      "top1": "da",
+      "top5": [
+        "da",
+        "dá",
+        "das",
+        "às",
+        "dos"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "mes",
+      "committed": "mês",
+      "category": "accent_only",
+      "top1": "me",
+      "top5": [
+        "me",
+        "nos",
+        "mês",
+        "meses",
+        "sem"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "conteudo",
+      "committed": "conteúdo",
+      "category": "accent_only",
+      "top1": "conteúdo",
+      "top5": [
+        "conteúdo",
+        "conteudo",
+        "contido",
+        "contudo",
+        "continuo"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "pequ",
+      "committed": "pequeno",
+      "category": "prefix_completion",
+      "top1": "peque",
+      "top5": [
+        "peque",
+        "pequê",
+        "Perque",
+        "porque",
+        "pequei"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Mui",
+      "committed": "Muito",
+      "category": "prefix_completion",
+      "top1": "meu",
+      "top5": [
+        "meu",
+        "mim",
+        "mui",
+        "muito",
+        "muii"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "Xadr",
+      "committed": "Xadrez",
+      "category": "prefix_completion",
+      "top1": "Dar",
+      "top5": [
+        "dar",
+        "Dar",
+        "dar",
+        "cadar",
+        "dará"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "pok",
+      "committed": "pokémon",
+      "category": "prefix_completion",
+      "top1": "por",
+      "top5": [
+        "por",
+        "pô",
+        "pox",
+        "polo",
+        "pok"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "man",
+      "committed": "manual",
+      "category": "prefix_completion",
+      "top1": "man",
+      "top5": [
+        "man",
+        "Man",
+        "não",
+        "mant",
+        "MAN"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "ent",
+      "committed": "então",
+      "category": "prefix_completion",
+      "top1": "então",
+      "top5": [
+        "então",
+        "ent",
+        "ente",
+        "net",
+        "tent"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "tud",
+      "committed": "tudo",
+      "category": "prefix_completion",
+      "top1": "tu",
+      "top5": [
+        "tu",
+        "tudo",
+        "tus",
+        "tua",
+        "teu"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "metabol",
+      "committed": "metabolismo",
+      "category": "prefix_completion",
+      "top1": "metáboo",
+      "top5": [
+        "metáboo",
+        "metábolo",
+        "metábal",
+        "Metábolo",
+        "Metábol"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "post",
+      "committed": "posto",
+      "category": "prefix_completion",
+      "top1": "pos",
+      "top5": [
+        "post",
+        "poste",
+        "posto",
+        "post",
+        "pos"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "Ben",
+      "committed": "Benjamin",
+      "category": "prefix_completion",
+      "top1": "bem",
+      "top5": [
+        "bem",
+        "ben",
+        "Ben",
+        "ben",
+        "Ben"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "colocac",
+      "committed": "colocação",
+      "category": "hybrid",
+      "top1": "colção",
+      "top5": [
+        "colção",
+        "colocação",
+        "colocação",
+        "colocação",
+        "colocação"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "especifi",
+      "committed": "específico",
+      "category": "hybrid",
+      "top1": "específico",
+      "top5": [
+        "específico",
+        "especial",
+        "específico",
+        "especificou",
+        "específico"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "reposito",
+      "committed": "repositório",
+      "category": "hybrid",
+      "top1": "repositto",
+      "top5": [
+        "propósito",
+        "repositto",
+        "reconhecimento",
+        "reposito",
+        "repositório"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "acusac",
+      "committed": "acusações",
+      "category": "hybrid",
+      "top1": "causação",
+      "top5": [
+        "causação",
+        "causas",
+        "causada",
+        "causar",
+        "acusação"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "possiv",
+      "committed": "possível",
+      "category": "hybrid",
+      "top1": "possível",
+      "top5": [
+        "possível",
+        "possível",
+        "posivel",
+        "posível",
+        "posíveis"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "unsnoutros",
+      "committed": "uma outros",
+      "category": "adjacency_or_short_edit",
+      "top1": "unsustos",
+      "top5": [
+        "números",
+        "universos",
+        "instrumentos",
+        "conjuntos",
+        "itários"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "informacao",
+      "committed": "informação",
+      "category": "cedilla_only",
+      "top1": "informação",
+      "top5": [
+        "informação",
+        "informação",
+        "Informação",
+        "informações",
+        "afirmação"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "Opcao",
+      "committed": "Opção",
+      "category": "cedilla_only",
+      "top1": "opção",
+      "top5": [
+        "opção",
+        "Opção",
+        "poção",
+        "Oção",
+        "opção"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "almoco",
+      "committed": "almoço",
+      "category": "cedilla_only",
+      "top1": "Mômico",
+      "top5": [
+        "Almoço",
+        "moço",
+        "Mômico",
+        "meloço",
+        "meloco"
+      ],
+      "top1_hit": false,
+      "top5_hit": false
+    },
+    {
+      "typed": "cli",
+      "committed": "CLI",
+      "category": "accent_only",
+      "top1": "Clis",
+      "top5": [
+        "cli",
+        "Clis",
+        "Cli",
+        "clí",
+        "CLI"
+      ],
+      "top1_hit": false,
+      "top5_hit": true
+    },
+    {
+      "typed": "jones",
+      "committed": "Jones",
+      "category": "accent_only",
+      "top1": "Jones",
+      "top5": [
+        "Jones",
+        "homens",
+        "jones",
+        "Jons",
+        "ones"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    },
+    {
+      "typed": "pdf",
+      "committed": "PDF",
+      "category": "accent_only",
+      "top1": "PDF",
+      "top5": [
+        "PDF",
+        "PPD",
+        "pd",
+        "pPD",
+        "PDC"
+      ],
+      "top1_hit": true,
+      "top5_hit": true
+    }
+  ]
+}

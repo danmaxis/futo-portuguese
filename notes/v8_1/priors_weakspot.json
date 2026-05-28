@@ -1,0 +1,9 @@
+{
+  "accent_only": 0.10,
+  "cedilla_only": 0.05,
+  "adjacency": 0.10,
+  "letter_swap": 0.05,
+  "prefix_completion": 0.40,
+  "doubled_or_dropped": 0.05,
+  "hybrid_multi": 0.25
+}
