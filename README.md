@@ -69,6 +69,27 @@ Four rounds of literature ([SwiftKey/Gboard/Apple papers](notes/v3_research_synt
 
 Stop-go criterion (≥30% top-5) passed. The 200K-pair hand-rolled synth pool was right-sized; the Claude-API generation we'd planned was deferred. **Time to ship a real v8.**
 
+### v4–v7 — the packaging gauntlet and the false ship (Apr 29 → May 3, 2026)
+
+Between the first pipeline working end-to-end and the diagnosis on May 12, the model was repackaged half a dozen times and shipped to a real phone once. Each iteration closed one gap in the GGUF format spec — and exactly one of them turned out to be the model itself, not the format. (The "v3" label here is the early *packaging* tag, distinct from the May 12 *research* "v3 (the diagnosis)" above — the label got reused once the recipe story took over.)
+
+| Tag | When | What it actually was |
+|---|---|---|
+| `v3` (packaging) | Apr 29 11:35 | third packaging fix for the mini-corpus run — got the [tokenizer slot layout](GUIDE.md#32-the-tokenizer-300-user-defined-symbols-at-fixed-slots) right |
+| `v4` | Apr 29 11:49 | fourth packaging fix — got the [GGUF metadata fields](GUIDE.md#34-gguf-metadata-fields) FUTO actually reads |
+| `v5` | Apr 29 12:24 | fifth fix + a casual-corpus variant — survived [Q6_K output quantization](GUIDE.md#12-the-five-gotchas-in-one-place) without `SIGSEGV` on the second keystroke |
+| `v6` | May 3 19:58 | first big-corpus model packaged correctly enough to load on a real phone. **Real-typo eval: 0/50 top-5.** Predictions looked like noise. |
+| `v7` | (planned, never shipped) | the `finetune_big_v2/` retrain — same broken Phase 4 recipe, fresh weights. `scripts/run_phase4_v2.sh:171` still carries the comment: *"Next: pull finetune_big_v2/stage_c/final/ → build GGUF v7 → side-load"*. `eval_real_v2_stage_c.json` (also 0/50 top-5) is what v7 would have shipped with. |
+
+**The jump from v6 directly to v8** (skipping v7) marks the moment we stopped iterating on packaging and started questioning the recipe. v7 was almost shipped before the brake got pulled in favor of [the v3 research synthesis](notes/v3_research_synthesis.md).
+
+**Lessons** (these are the source of [GUIDE.md §11](GUIDE.md#11-side-loading-and-reproducing-a-crash) and [§12 the five gotchas](GUIDE.md#12-the-five-gotchas-in-one-place)):
+
+- **Packaging bugs and training bugs look identical on a phone** — both produce noise. Smoke-test your packaging pipeline against a model you *know* works (the English reference GGUF) before trusting it to evaluate yours.
+- **Format gotchas are sequential.** Fixing one unmasks the next: we didn't discover the Q6_K-output `SIGSEGV` until *after* the metadata fields were right, because before that the model wouldn't even load. Plan for at least three packaging passes when adapting to a new format.
+- **Never ship a model that hasn't passed a real-typo holdout in Python first.** v6 went to a real phone with only synthetic-typo eval. The on-device 0% was the wake-up call, and it took **9 days** to figure out the recipe was the cause, not the bytes.
+- **When you've repackaged three times and the model still doesn't predict, the problem is upstream of packaging.** Stop iterating on the wrong layer and go look at the loss formulation.
+
 ### v8 — the first ship (~4h on 3090, 2026-05-12)
 
 Full Phase 4 (a + b + c) with PLW=0.05, off-by-one fix, no SAM. Real-typo mix 25%, 200K synth + 343 real pairs. Packaged as Q6_K-`output.weight` + F16 GGUF v2 (matches the English reference exactly).

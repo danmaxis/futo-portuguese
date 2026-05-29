@@ -69,6 +69,27 @@ Quatro rodadas de pesquisa bibliográfica ([artigos da SwiftKey/Gboard/Apple](no
 
 Critério de stop-go (≥30% top-5) aprovado. O pool de 200K pares sintéticos feitos à mão estava dimensionado certo; a geração via Claude-API que tínhamos planejado ficou pra depois. **Hora de soltar um v8 de verdade.**
 
+### v4–v7 — o gauntlet de empacotamento e o ship falso (29/04 → 03/05/2026)
+
+Entre a primeira pipeline rodando de ponta a ponta e o diagnóstico de 12/05, o modelo foi reempacotado meia dúzia de vezes e foi shipado pra um celular real uma vez. Cada iteração fechou uma lacuna na spec do formato GGUF — e exatamente uma delas acabou sendo o modelo em si, não o formato. (O rótulo "v3" aqui é a tag de *empacotamento* da época, distinta do "v3 (o diagnóstico)" de 12/05 lá em cima — o número foi reaproveitado quando a história da receita assumiu o palco.)
+
+| Tag | Quando | O que foi de fato |
+|---|---|---|
+| `v3` (empacotamento) | 29/04 11:35 | terceira correção de empacotamento do mini-corpus — acertou o [layout dos slots do tokenizer](GUIDE.md#32-the-tokenizer-300-user-defined-symbols-at-fixed-slots) |
+| `v4` | 29/04 11:49 | quarta correção — acertou os [campos de metadado do GGUF](GUIDE.md#34-gguf-metadata-fields) que o FUTO realmente lê |
+| `v5` | 29/04 12:24 | quinta correção + variante de corpus casual — sobreviveu à [quantização Q6_K do `output.weight`](GUIDE.md#12-the-five-gotchas-in-one-place) sem `SIGSEGV` no segundo toque |
+| `v6` | 03/05 19:58 | primeiro modelo de big-corpus empacotado certo o bastante pra carregar num celular real. **Eval de typos reais: 0/50 top-5.** As previsões pareciam ruído. |
+| `v7` | (planejado, nunca shipado) | o retreino `finetune_big_v2/` — mesma receita quebrada na Phase 4, pesos novos. `scripts/run_phase4_v2.sh:171` ainda carrega o comentário: *"Next: pull finetune_big_v2/stage_c/final/ → build GGUF v7 → side-load"*. `eval_real_v2_stage_c.json` (também 0/50 top-5) é o que o v7 teria shipado. |
+
+**O salto de v6 direto pra v8** (pulando o v7) marca o momento em que paramos de iterar no empacotamento e começamos a questionar a receita. O v7 quase foi shipado antes do freio ser puxado em favor da [síntese de pesquisa do v3](notes/v3_research_synthesis.md).
+
+**Lições** (essas são a origem do [GUIDE.md §11](GUIDE.md#11-side-loading-and-reproducing-a-crash) e do [§12 — as cinco armadilhas](GUIDE.md#12-the-five-gotchas-in-one-place)):
+
+- **Bugs de empacotamento e bugs de treino parecem idênticos no celular** — os dois produzem ruído. Faz um smoke test da sua pipeline de empacotamento contra um modelo que você *sabe* que funciona (o GGUF de referência em inglês) antes de confiar nele pra avaliar o seu.
+- **As armadilhas de formato são sequenciais.** Consertar uma desmascara a próxima: a gente só descobriu o `SIGSEGV` do output em Q6_K *depois* que os campos de metadado estavam certos, porque antes disso o modelo nem carregava. Planeja pelo menos três passadas de empacotamento ao adaptar pra um formato novo.
+- **Nunca shipa um modelo que não passou primeiro num holdout de typos reais em Python.** O v6 foi pra um celular real só com eval de typos sintéticos. O 0% on-device foi o tapa pra acordar, e levou **9 dias** pra descobrir que a causa era a receita, não os bytes.
+- **Quando você reempacotou três vezes e o modelo ainda não prevê, o problema está acima do empacotamento.** Para de iterar na camada errada e vai olhar a formulação da loss.
+
 ### v8 — o primeiro ship (~4h na 3090, 12/05/2026)
 
 Phase 4 completa (a + b + c) com PLW=0.05, correção do off-by-one, sem SAM. Mix de typos reais 25%, 200K sintéticos + 343 reais. Empacotado como GGUF v2 com `output.weight` Q6_K + resto F16 (idêntico à referência em inglês).
